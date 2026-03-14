@@ -1,7 +1,7 @@
 # A First Look at Multimodal Mobile Application Performance on XR and AI Glasses
 
 <p align="center">
-  <img src="generic_diagram.pdf" alt="Communication pipeline of smart glasses" width="700"/>
+  <img src="generic_diagram.png" alt="Communication pipeline of smart glasses" width="700"/>
 </p>
 
 <p align="center">
