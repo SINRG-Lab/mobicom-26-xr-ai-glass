@@ -1,0 +1,69 @@
+<resources>
+    <string name="glasses_name"> </string>
+
+    <string name="glasses_connected">Connected</string>
+    <string name="glasses_disconnected">Disconnected</string>
+
+    <string name="app_name">OSSIAN</string>
+    <string name="app_subtitle">Control your smart glasses</string>
+    <string name="connect_subtitle">Smart Glasses Experience</string>
+
+    <!-- Main Buttons -->
+    <string name="text_take_photo">Take Photo</string>
+    <string name="text_take_photo_sub">Capture image</string>
+
+    <string name="text_record_video">Record Video</string>
+    <string name="text_record_video_sub">Start recording</string>
+
+    <string name="text_ai_voice">AI Voice</string>
+    <string name="text_ai_voice_sub">Voice assistant</string>
+
+    <string name="text_ai_vision">AI Vision</string>
+    <string name="text_ai_vision_sub">Describe scene</string>
+
+    <!-- Secondary -->
+    <string name="text_gallery">Gallery</string>
+    <string name="text_download">Import</string>
+    <string name="text_settings">Settings</string>
+
+    <!-- Recent -->
+    <string name="text_recent_activity">Recent Activity</string>
+    <string name="text_recent_photo">Photo captured · 2 minutes ago · Synced</string>
+
+    <!-- Gallery -->
+    <string name="text_gallery_title">Gallery</string>
+    <string name="text_gallery_description">View your media</string>
+
+    <!-- Settings -->
+    <string name="text_settings_title">Settings</string>
+    <string name="text_settings_subtitle1">About</string>
+    <string name="text_settings_description1">Welcome to the Smart Glasses Companion App — your all-in-one hub for connecting, controlling, and enhancing your smart glasses experience. With this app, you can:</string>
+    <string name="text_settings_description1.1">Connect &amp; Manage</string>
+    <string name="text_settings_description1.1.1">Seamlessly pair your smart glasses via Bluetooth and Wi-Fi.</string>
+    <string name="text_settings_description1.1.2">Monitor connection status in real time.</string>
+    <string name="text_settings_description1.1.3">View and manage battery level and charging state.</string>
+    <string name="text_settings_description1.2">Capture &amp; Record</string>
+    <string name="text_settings_description1.2.1">Take photos directly through your glasses.</string>
+    <string name="text_settings_description1.2.2">Record and manage videos with start/stop controls.</string>
+    <string name="text_settings_description1.2.3">Record audio and stream it for transcription or playback.</string>
+    <string name="text_settings_description1.3">AI &amp; Voice Features</string>
+    <string name="text_settings_description1.3.1">Use real-time voice transcription powered by AI.</string>
+    <string name="text_settings_description1.3.2">Get spoken responses with built-in text-to-speech.</string>
+    <string name="text_settings_description1.3.3">Enable image recognition: capture what you see and receive descriptions.</string>
+    <string name="text_settings_description1.4">Media Sync &amp; Gallery</string>
+    <string name="text_settings_description1.4.1">Download images, audio, and video files from your glasses.</string>
+    <string name="text_settings_description1.4.2">Access your synced media in the in-app Gallery.</string>
+    <string name="text_settings_description1.4.3">View, organize, and revisit your captured memories anytime.</string>
+    <string name="text_settings_description1.5">Health &amp; Activity Integration</string>
+    <string name="text_settings_description1.5.1">Sync with Google Fit to track heart rate, steps, and sleep.</string>
+    <string name="text_settings_description1.5.2">Get health insights alongside your glasses usage.</string>
+    <string name="text_settings_description1.6">Smart Integrations</string>
+    <string name="text_settings_description1.6.1">Link with external services (like Uber) directly from your glasses.</string>
+    <string name="text_settings_description1.6.2">Streamline everyday tasks through app-integrated AI tools.</string>
+    <string name="text_settings_description1.7">Customization &amp; Settings</string>
+    <string name="text_settings_description1.7.1">Adjust app and device settings to personalize your experience.</string>
+    <string name="text_settings_description1.7.2">Stay informed with device notifications and firmware updates.</string>
+    <string name="text_settings_description1.8">For more information, please go to: https://sinrg.org.</string>
+    <string name="text_settings_subtitle2">Account</string>
+    <string name="text_settings_subtitle3">Preferences</string>
+</resources>

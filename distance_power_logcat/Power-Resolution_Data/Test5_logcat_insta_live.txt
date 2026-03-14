@@ -1,0 +1,1140 @@
+10-15 16:14:17.889  1897  6374 I Telecom : TelecomServiceImpl$1: registerPhoneAccount: account=[[ ] PhoneAccount: ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon}, ***, UserHandle{0} Capabilities: SelfManaged SuppVideo Video TransactOps  Audio Routes: BESW Schemes: tel  Extras: Bundle[{isCoreTelecomAccount=true}] GroupId: *** SC Restrictions: [NONE]]: TSI.rPA(cgaat)@Bec
+10-15 16:14:17.908  1897  6374 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon}, ***, UserHandle{0} Capabilities: SelfManaged SuppVideo Video TransactOps  Audio Routes: BESW Schemes: tel  Extras: Bundle[{isCoreTelecomAccount=true}] GroupId: *** SC Restrictions: [NONE]]: TSI.rPA(cgaat)@Bec
+10-15 16:51:50.768  1897  3352 I Telecom : TelecomServiceImpl$1: registerPhoneAccount: account=[[ ] PhoneAccount: ComponentInfo{com.google.android.gm/com.google.android.gm}, ***, UserHandle{0} Capabilities: SelfManaged SuppVideo Video TransactOps  Audio Routes: BESW Schemes: tel  Extras: Bundle[{isCoreTelecomAccount=true}] GroupId: *** SC Restrictions: [NONE]]: TSI.rPA(cgag)@BiU
+10-15 16:51:50.775  1897  3352 I Telecom : CallsManager: handlePhoneAccountChanged: phoneAccount=[[X] PhoneAccount: ComponentInfo{com.google.android.gm/com.google.android.gm}, ***, UserHandle{0} Capabilities: SelfManaged SuppVideo Video TransactOps  Audio Routes: BESW Schemes: tel  Extras: Bundle[{isCoreTelecomAccount=true}] GroupId: *** SC Restrictions: [NONE]]: TSI.rPA(cgag)@BiU
+10-15 17:18:17.748  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:17.778  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:18.745  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:18:18.745  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:18:23.454  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:23.478  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:23.492  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:29.848  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:18:29.849  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:18:33.467  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:33.495  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:33.520  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:33.642  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:33.669  3179 20161 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:40.955  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:18:40.955  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:18:52.056  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:18:52.056  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:18:53.499  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:53.521  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:18:53.528  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:03.182  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:19:03.182  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:19:04.882  9430  9430 E VideoPlayerImpl: IgBaseVideoPlayer Warning: AV1_INSTANTIATION AV1_INSTANTIATION AV1 decoding using HardwareDecoder;c2.google.av1.decoder
+10-15 17:19:04.891  9430 21133 D CCodec  : allocate(c2.google.av1.decoder)
+10-15 17:19:04.892  9430 21133 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:04.896  9430 21133 I CCodec  : Created component [c2.google.av1.decoder] for [c2.google.av1.decoder]
+10-15 17:19:04.896  9430 21133 D CCodecConfig: read media type: video/av01
+10-15 17:19:04.901  9430 21133 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+10-15 17:19:04.901  9430 21133 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+10-15 17:19:04.901  9430 21133 D CCodecConfig: ignoring local param raw.hdr-static-info (0xd200180a) as it is already supported
+10-15 17:19:04.902  9430 21133 I CCodecConfig: query failed after returning 18 values (BAD_INDEX)
+10-15 17:19:04.902  9430 21133 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 algo.delay.value = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::i32 algo.priority.value = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::float algo.rate.value = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.pl.level = 36865
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.pl.profile = 36864
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 default.color.matrix = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 default.color.primaries = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 default.color.range = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 default.color.transfer = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 13271040
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   Buffer input.hdr10-plus-info.value = {
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   }
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   string input.media-type.value = "video/av01"
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 output.delay.value = 12
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   Buffer output.hdr10-plus-info.value = {
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   }
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   string output.media-type.value = "video/raw"
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 raw.color.range = 2
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.x = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.y = 0
+10-15 17:19:04.902  9430 21133 D CCodecConfig:   
+10-15 17:19:04.902  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:04.903  9430 21129 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:04.904  9430 21132 I MediaCodec: [c2.google.av1.decoder] setting surface generation to 9656324
+10-15 17:19:04.904  9430 21133 D CCodec  : [c2.google.av1.decoder] buffers are bound to CCodec for this session
+10-15 17:19:04.904  9430 21133 D CCodecConfig: no c2 equivalents for color-standard
+10-15 17:19:04.904  9430 21133 D CCodecConfig: no c2 equivalents for native-window
+10-15 17:19:04.904  9430 21133 D CCodecConfig: no c2 equivalents for native-window-generation
+10-15 17:19:04.904  9430 21133 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:04.905  9430 21133 D CCodecConfig: c2 config diff is   c2::u32 default.color.matrix = 1
+10-15 17:19:04.905  9430 21133 D CCodecConfig:   c2::u32 default.color.primaries = 1
+10-15 17:19:04.905  9430 21133 D CCodecConfig:   c2::u32 default.color.range = 2
+10-15 17:19:04.905  9430 21133 D CCodecConfig:   c2::u32 default.color.transfer = 3
+10-15 17:19:04.905  9430 21133 D CCodecConfig:   c2::u32 raw.size.height = 1920
+10-15 17:19:04.905  9430 21133 D CCodecConfig:   c2::u32 raw.size.width = 1080
+10-15 17:19:04.906  9430 21133 D CCodec  : encoding statistics level = 0
+10-15 17:19:04.906  9430 21133 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t height = 1920
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t level = 2
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t max-input-size = 13271040
+10-15 17:19:04.906  9430 21133 D CCodec  :   string mime = "video/av01"
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t priority = 0
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t profile = 1
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t width = 1080
+10-15 17:19:04.906  9430 21133 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:04.906  9430 21133 D CCodec  : }
+10-15 17:19:04.906  9430 21133 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t android._color-format = 2130708361
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t android._video-scaling = 1
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t android._dataspace = 260
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t color-standard = 1
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t color-range = 2
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t color-transfer = 3
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t sar-height = 1
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t rotation-degrees = 0
+10-15 17:19:04.906  9430 21133 D CCodec  :   Buffer hdr-static-info = {
+10-15 17:19:04.906  9430 21133 D CCodec  :     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+10-15 17:19:04.906  9430 21133 D CCodec  :     00000010:  00 00 00 00 00 00 00 00  00                       .........
+10-15 17:19:04.906  9430 21133 D CCodec  :   }
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t sar-width = 1
+10-15 17:19:04.906  9430 21133 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t width = 1080
+10-15 17:19:04.906  9430 21133 D CCodec  :   Buffer hdr10-plus-info = {
+10-15 17:19:04.906  9430 21133 D CCodec  :   }
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t height = 1920
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t max-height = 2160
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t max-width = 4096
+10-15 17:19:04.906  9430 21133 D CCodec  :   string mime = "video/raw"
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t priority = 0
+10-15 17:19:04.906  9430 21133 D CCodec  :   int32_t color-format = 2130708361
+10-15 17:19:04.906  9430 21133 D CCodec  : }
+10-15 17:19:04.906  9430 21133 I CCodecConfig: query failed after returning 18 values (BAD_INDEX)
+10-15 17:19:04.906  9430 21133 D CCodecConfig: c2 config diff is   c2::u32 raw.color.matrix = 1
+10-15 17:19:04.906  9430 21133 D CCodecConfig:   c2::u32 raw.color.primaries = 1
+10-15 17:19:04.906  9430 21133 D CCodecConfig:   c2::u32 raw.color.transfer = 3
+10-15 17:19:04.908  9430 21133 D CCodecBufferChannel: [c2.google.av1.decoder#649] Created input block pool with allocatorID 16 => poolID 22 - OK (0)
+10-15 17:19:04.909  9430 21133 D Codec2Client: GraphicBufferAllocator created
+10-15 17:19:04.909  9430 21133 I CCodecBufferChannel: [c2.google.av1.decoder#649] Created output block pool with allocatorID 18 => poolID 118 - OK
+10-15 17:19:04.909  9430 21133 D CCodecBufferChannel: [c2.google.av1.decoder#649] Configured output block pool ids 118 => OK
+10-15 17:19:04.910  9430 21133 D Codec2Client: setOutputSurface -- generation=9656324 consumer usage=0x900
+10-15 17:19:04.920  9430 21142 D CCodec  : allocate(c2.android.aac.decoder)
+10-15 17:19:04.921  9430 21142 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:04.923  9430 21142 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+10-15 17:19:04.924  9430 21142 D CCodecConfig: read media type: audio/mp4a-latm
+10-15 17:19:04.928  9430 21142 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:04.929  9430 21142 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 output.delay.value = 2
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+10-15 17:19:04.929  9430 21142 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-15 17:19:04.929  9430 21142 D CCodecConfig: }
+10-15 17:19:04.930  9430 21129 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:04.930  9430 21142 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+10-15 17:19:04.930  9430 21142 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:04.931  9430 21142 D CCodecConfig: c2 config diff is   c2::float coding.drc.reference-level.value = -14
+10-15 17:19:04.931  9430 21142 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+10-15 17:19:04.931  9430 21142 D CCodec  : encoding statistics level = 0
+10-15 17:19:04.932  9430 21142 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-target-ref-level = 56
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t bitrate = 64000
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t channel-count = 2
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t channel-mask = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t level = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t max-input-size = 8192
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t max-output-channel-count = 8
+10-15 17:19:04.932  9430 21142 D CCodec  :   string mime = "audio/mp4a-latm"
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t profile = 2
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:04.932  9430 21142 D CCodec  : }
+10-15 17:19:04.932  9430 21142 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-drc-output-loudness = -1
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t aac-target-ref-level = 56
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t channel-count = 2
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t channel-mask = 0
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t max-output-channel-count = 8
+10-15 17:19:04.932  9430 21142 D CCodec  :   string mime = "audio/raw"
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:04.932  9430 21142 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-15 17:19:04.932  9430 21142 D CCodec  : }
+10-15 17:19:04.932  9430 21142 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:04.936  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:04.939  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] Created input block pool with allocatorID 16 => poolID 23 - OK (0)
+10-15 17:19:04.941  9430 21142 I CCodecBufferChannel: [c2.android.aac.decoder#595] Created output block pool with allocatorID 16 => poolID 245 - OK
+10-15 17:19:04.941  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] Configured output block pool ids 245 => OK
+10-15 17:19:04.941  1664  2624 E Codec2-ComponentInterface: We have a failed config
+10-15 17:19:04.942  9430 21133 D CCodecConfig: c2 config diff is   c2::u32 raw.crop.height = 1920
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::u32 raw.crop.left = 0
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::u32 raw.crop.top = 0
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::u32 raw.crop.width = 1080
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.x = 0.131
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.y = 0.046
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.green.x = 0.17
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.green.y = 0.797
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.max-luminance = 1000
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.min-luminance = 0.1
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.red.x = 0.708
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.red.y = 0.292
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.white.x = 0.3127
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.white.y = 0.329
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.max-cll = 1000
+10-15 17:19:04.942  9430 21133 D CCodecConfig:   c2::float raw.hdr-static-info.max-fall = 120
+10-15 17:19:04.942  9430 21133 D CCodecBuffers: [c2.google.av1.decoder#649:2D-Output] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t android._color-format = 2130708361
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t android._video-scaling = 1
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t android._dataspace = 260
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t color-standard = 1
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t color-range = 2
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t color-transfer = 3
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t sar-height = 1
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t rotation-degrees = 0
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   Buffer hdr-static-info = {
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:     00000000:  00 48 8a 08 39 34 21 aa  9b 96 19 fc 08 13 3d 42  .H..94!.......=B
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:     00000010:  40 e8 03 e8 03 e8 03 78  00                       @......x.
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   }
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t sar-width = 1
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t width = 1080
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   Buffer hdr10-plus-info = {
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   }
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t height = 1920
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t max-height = 2160
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t max-width = 4096
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   string mime = "video/raw"
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t priority = 0
+10-15 17:19:04.942  9430 21133 D CCodecBuffers:   int32_t color-format = 2130708361
+10-15 17:19:04.942  9430 21133 D CCodecBuffers: }
+10-15 17:19:04.962  1664 21143 W mediaswcodec: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+10-15 17:19:04.963  9430 21142 D CCodecConfig: c2 config diff is   c2::float output.drc.output-loudness.value = -14
+10-15 17:19:04.963  9430 21142 D CCodecConfig:   c2::u32 raw.channel-mask.value = 12
+10-15 17:19:04.963  9430 21142 D CCodecBuffers: [c2.android.aac.decoder#595:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-drc-album-mode = 0
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-drc-boost-level = 127
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-drc-cut-level = 127
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-drc-effect-type = 3
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-drc-output-loudness = 56
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-encoded-target-level = -1
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-max-output-channel_count = 8
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t aac-target-ref-level = 56
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t buffer-batch-max-output-size = 0
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t buffer-batch-threshold-output-size = 0
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t channel-count = 2
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t channel-mask = 12
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t max-output-channel-count = 8
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   string mime = "audio/raw"
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t sample-rate = 44100
+10-15 17:19:04.963  9430 21142 D CCodecBuffers:   int32_t android._config-pcm-encoding = 2
+10-15 17:19:04.963  9430 21142 D CCodecBuffers: }
+10-15 17:19:04.999 19581 21459 I PowerSavingModeHandler: shouldSwitchCodecToLowPower, isPowerSaveMode=false
+10-15 17:19:05.000 19581 21459 I PowerSavingModeHandler: maybeSwitchCodecForLeavingLowPower, no configured device
+10-15 17:19:05.000 19581 21459 I PowerSavingModeHandler: maybeSwitchCodec completed
+10-15 17:19:05.030  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.031  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.031  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.031  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.031  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.031  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.032  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.032  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.032  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.032  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.032  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.033  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.033  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.033  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.033  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.034  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.035  9430 20827 D CCodecBufferChannel: [c2.google.av1.decoder#620] MediaCodec discarded an unknown buffer
+10-15 17:19:05.059  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:05.065  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:05.070  9430 20828 W Codec2-GraphicBufferAllocator: deallocate() 40501541605035 was not successful 1
+10-15 17:19:05.070  9430  9430 E VideoPlayerImpl: IgBaseVideoPlayer Warning: AV1_INSTANTIATION AV1_INSTANTIATION AV1 decoding using HardwareDecoder;c2.google.av1.decoder
+10-15 17:19:05.075  9430 21147 D MediaCodec: MediaCodec::reclaim(0xb400007cf9883650) c2.google.av1.decoder
+10-15 17:19:05.078  9430 21147 D MediaCodec: MediaCodec looper is gone, skip reclaim
+10-15 17:19:05.083  9430 21154 D CCodec  : allocate(c2.google.av1.decoder)
+10-15 17:19:05.083  9430 20814 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:05.084  9430 21154 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:05.087  9430 21154 I CCodec  : Created component [c2.google.av1.decoder] for [c2.google.av1.decoder]
+10-15 17:19:05.087  9430 21154 D CCodecConfig: read media type: video/av01
+10-15 17:19:05.088  9430 20814 D CCodecBufferChannel: [c2.android.aac.decoder#229] MediaCodec discarded an unknown buffer
+10-15 17:19:05.088  9430 20814 D CCodecBufferChannel: [c2.android.aac.decoder#229] MediaCodec discarded an unknown buffer
+10-15 17:19:05.088  9430 20814 D CCodecBufferChannel: [c2.android.aac.decoder#229] MediaCodec discarded an unknown buffer
+10-15 17:19:05.088  9430 20814 D CCodecBufferChannel: [c2.android.aac.decoder#229] MediaCodec discarded an unknown buffer
+10-15 17:19:05.094  9430 21154 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+10-15 17:19:05.094  9430 21154 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+10-15 17:19:05.094  9430 21154 D CCodecConfig: ignoring local param raw.hdr-static-info (0xd200180a) as it is already supported
+10-15 17:19:05.095  9430 21154 I CCodecConfig: query failed after returning 18 values (BAD_INDEX)
+10-15 17:19:05.095  9430 21154 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 algo.delay.value = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::i32 algo.priority.value = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::float algo.rate.value = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.pl.level = 36865
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.pl.profile = 36864
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 default.color.matrix = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 default.color.primaries = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 default.color.range = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 default.color.transfer = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 13271040
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   Buffer input.hdr10-plus-info.value = {
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   }
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   string input.media-type.value = "video/av01"
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 output.delay.value = 12
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   Buffer output.hdr10-plus-info.value = {
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   }
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   string output.media-type.value = "video/raw"
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 raw.color.range = 2
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.x = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.y = 0
+10-15 17:19:05.095  9430 21154 D CCodecConfig:   
+10-15 17:19:05.097  9430 21147 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:05.098  9430 21153 I MediaCodec: [c2.google.av1.decoder] setting surface generation to 9656325
+10-15 17:19:05.098  9430 21154 D CCodec  : [c2.google.av1.decoder] buffers are bound to CCodec for this session
+10-15 17:19:05.098  9430 21154 D CCodecConfig: no c2 equivalents for color-standard
+10-15 17:19:05.098  9430 21154 D CCodecConfig: no c2 equivalents for native-window
+10-15 17:19:05.098  9430 21154 D CCodecConfig: no c2 equivalents for native-window-generation
+10-15 17:19:05.098  9430 21154 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:05.101  9430 21154 D CCodecConfig: c2 config diff is   c2::u32 default.color.matrix = 5
+10-15 17:19:05.101  9430 21154 D CCodecConfig:   c2::u32 default.color.primaries = 6
+10-15 17:19:05.101  9430 21154 D CCodecConfig:   c2::u32 default.color.range = 2
+10-15 17:19:05.101  9430 21154 D CCodecConfig:   c2::u32 default.color.transfer = 7
+10-15 17:19:05.101  9430 21154 D CCodecConfig:   c2::u32 raw.size.height = 1920
+10-15 17:19:05.101  9430 21154 D CCodecConfig:   c2::u32 raw.size.width = 1080
+10-15 17:19:05.101  9430 21154 D CCodec  : encoding statistics level = 0
+10-15 17:19:05.101  9430 21154 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t height = 1920
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t level = 2
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t max-input-size = 13271040
+10-15 17:19:05.101  9430 21154 D CCodec  :   string mime = "video/av01"
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t priority = 0
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t profile = 1
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t width = 1080
+10-15 17:19:05.101  9430 21154 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:05.101  9430 21154 D CCodec  : }
+10-15 17:19:05.101  9430 21154 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t android._color-format = 2130708361
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t android._video-scaling = 1
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t android._dataspace = 260
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t color-standard = 1
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t color-range = 2
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t color-transfer = 3
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t sar-height = 1
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t rotation-degrees = 0
+10-15 17:19:05.101  9430 21154 D CCodec  :   Buffer hdr-static-info = {
+10-15 17:19:05.101  9430 21154 D CCodec  :     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+10-15 17:19:05.101  9430 21154 D CCodec  :     00000010:  00 00 00 00 00 00 00 00  00                       .........
+10-15 17:19:05.101  9430 21154 D CCodec  :   }
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t sar-width = 1
+10-15 17:19:05.101  9430 21154 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t width = 1080
+10-15 17:19:05.101  9430 21154 D CCodec  :   Buffer hdr10-plus-info = {
+10-15 17:19:05.101  9430 21154 D CCodec  :   }
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t height = 1920
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t max-height = 2160
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t max-width = 4096
+10-15 17:19:05.101  9430 21154 D CCodec  :   string mime = "video/raw"
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t priority = 0
+10-15 17:19:05.101  9430 21154 D CCodec  :   int32_t color-format = 2130708361
+10-15 17:19:05.101  9430 21154 D CCodec  : }
+10-15 17:19:05.102  9430 21154 I CCodecConfig: query failed after returning 18 values (BAD_INDEX)
+10-15 17:19:05.102  9430 21154 D CCodecConfig: c2 config diff is   c2::u32 raw.color.matrix = 5
+10-15 17:19:05.102  9430 21154 D CCodecConfig:   c2::u32 raw.color.primaries = 6
+10-15 17:19:05.102  9430 21154 D CCodecConfig:   c2::u32 raw.color.transfer = 7
+10-15 17:19:05.104  9430 21154 D CCodecBufferChannel: [c2.google.av1.decoder#838] Created input block pool with allocatorID 16 => poolID 24 - OK (0)
+10-15 17:19:05.105  9430 21154 D Codec2Client: GraphicBufferAllocator created
+10-15 17:19:05.105  9430 21154 I CCodecBufferChannel: [c2.google.av1.decoder#838] Created output block pool with allocatorID 18 => poolID 119 - OK
+10-15 17:19:05.105  9430 21154 D CCodecBufferChannel: [c2.google.av1.decoder#838] Configured output block pool ids 119 => OK
+10-15 17:19:05.106  9430 21154 D Codec2Client: setOutputSurface -- generation=9656325 consumer usage=0x900
+10-15 17:19:05.119  9430 21163 D CCodec  : allocate(c2.android.aac.decoder)
+10-15 17:19:05.121  9430 21163 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:05.123  9430 21163 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+10-15 17:19:05.124  9430 21163 D CCodecConfig: read media type: audio/mp4a-latm
+10-15 17:19:05.128  9430 21163 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:05.129  9430 21163 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 output.delay.value = 2
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+10-15 17:19:05.129  9430 21163 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-15 17:19:05.129  9430 21163 D CCodecConfig: }
+10-15 17:19:05.130  9430 21147 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:05.130  9430 21163 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+10-15 17:19:05.130  9430 21163 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:05.131  9430 21163 D CCodecConfig: c2 config diff is   c2::float coding.drc.reference-level.value = -14
+10-15 17:19:05.131  9430 21163 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+10-15 17:19:05.131  9430 21163 D CCodec  : encoding statistics level = 0
+10-15 17:19:05.131  9430 21163 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-target-ref-level = 56
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t bitrate = 64000
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t channel-count = 2
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t channel-mask = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t level = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t max-input-size = 8192
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t max-output-channel-count = 8
+10-15 17:19:05.131  9430 21163 D CCodec  :   string mime = "audio/mp4a-latm"
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t profile = 2
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:05.131  9430 21163 D CCodec  : }
+10-15 17:19:05.131  9430 21163 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-drc-output-loudness = -1
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t aac-target-ref-level = 56
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t channel-count = 2
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t channel-mask = 0
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t max-output-channel-count = 8
+10-15 17:19:05.131  9430 21163 D CCodec  :   string mime = "audio/raw"
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:05.131  9430 21163 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-15 17:19:05.131  9430 21163 D CCodec  : }
+10-15 17:19:05.131  9430 21163 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:05.133  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] Created input block pool with allocatorID 16 => poolID 25 - OK (0)
+10-15 17:19:05.134  9430 21163 I CCodecBufferChannel: [c2.android.aac.decoder#936] Created output block pool with allocatorID 16 => poolID 247 - OK
+10-15 17:19:05.134  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] Configured output block pool ids 247 => OK
+10-15 17:19:05.134  1664  6794 E Codec2-ComponentInterface: We have a failed config
+10-15 17:19:05.135  9430 21154 D CCodecConfig: c2 config diff is   Buffer output.hdr10-plus-info.value = 0xb400007c197f4c90
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::u32 raw.crop.height = 1920
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::u32 raw.crop.left = 0
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::u32 raw.crop.top = 0
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::u32 raw.crop.width = 1080
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.x = 0.131
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.y = 0.046
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.green.x = 0.17
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.green.y = 0.797
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.max-luminance = 1000
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.min-luminance = 0.1
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.red.x = 0.708
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.red.y = 0.292
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.white.x = 0.3127
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.white.y = 0.329
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.max-cll = 1000
+10-15 17:19:05.135  9430 21154 D CCodecConfig:   c2::float raw.hdr-static-info.max-fall = 120
+10-15 17:19:05.135  9430 21154 D CCodecBuffers: [c2.google.av1.decoder#838:2D-Output] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t android._color-format = 2130708361
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t android._video-scaling = 1
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t android._dataspace = 302383104
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t color-standard = 6
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t color-range = 2
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t color-transfer = 7
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t sar-height = 1
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t rotation-degrees = 0
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   Buffer hdr-static-info = {
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:     00000000:  00 48 8a 08 39 34 21 aa  9b 96 19 fc 08 13 3d 42  .H..94!.......=B
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:     00000010:  40 e8 03 e8 03 e8 03 78  00                       @......x.
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   }
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t sar-width = 1
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   Rect crop(0, 0, 1079, 1919)
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t width = 1080
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   Buffer *hdr10-plus-info = 0xb400007c197f4c90
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t height = 1920
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t max-height = 2160
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t max-width = 4096
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   string mime = "video/raw"
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t priority = 0
+10-15 17:19:05.135  9430 21154 D CCodecBuffers:   int32_t color-format = 2130708361
+10-15 17:19:05.135  9430 21154 D CCodecBuffers: }
+10-15 17:19:05.153  1664 21164 W mediaswcodec: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+10-15 17:19:05.154  9430 21163 D CCodecConfig: c2 config diff is   c2::float output.drc.output-loudness.value = -14
+10-15 17:19:05.154  9430 21163 D CCodecConfig:   c2::u32 raw.channel-mask.value = 12
+10-15 17:19:05.154  9430 21163 D CCodecBuffers: [c2.android.aac.decoder#936:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-drc-album-mode = 0
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-drc-boost-level = 127
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-drc-cut-level = 127
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-drc-effect-type = 3
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-drc-output-loudness = 56
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-encoded-target-level = -1
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-max-output-channel_count = 8
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t aac-target-ref-level = 56
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t buffer-batch-max-output-size = 0
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t buffer-batch-threshold-output-size = 0
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t channel-count = 2
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t channel-mask = 12
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t max-output-channel-count = 8
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   string mime = "audio/raw"
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t sample-rate = 44100
+10-15 17:19:05.154  9430 21163 D CCodecBuffers:   int32_t android._config-pcm-encoding = 2
+10-15 17:19:05.154  9430 21163 D CCodecBuffers: }
+10-15 17:19:05.169  9430 21154 D CCodecConfig: c2 config diff is   Buffer output.hdr10-plus-info.value = 0xb400007c1973c730
+10-15 17:19:05.169  9430 21154 W Codec2-GraphicBufferAllocator: deallocate() 40501541605061 was not successful 1
+10-15 17:19:05.170  9430 21154 W Codec2-GraphicBufferAllocator: deallocate() 40501541605060 was not successful 1
+10-15 17:19:05.204  9430 21163 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:05.207  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] MediaCodec discarded an unknown buffer
+10-15 17:19:05.207  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] MediaCodec discarded an unknown buffer
+10-15 17:19:05.207  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] MediaCodec discarded an unknown buffer
+10-15 17:19:05.207  9430 21163 D CCodecBufferChannel: [c2.android.aac.decoder#936] MediaCodec discarded an unknown buffer
+10-15 17:19:05.575  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:11.487  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:11.517 19581 21459 I PowerSavingModeHandler: shouldSwitchCodecToLowPower, isPowerSaveMode=false
+10-15 17:19:11.518 19581 21459 I PowerSavingModeHandler: maybeSwitchCodecForLeavingLowPower, no configured device
+10-15 17:19:11.519 19581 21459 I PowerSavingModeHandler: maybeSwitchCodec completed
+10-15 17:19:11.576  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:11.911  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.912  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.913  9430 21132 D CCodecBufferChannel: [c2.google.av1.decoder#649] MediaCodec discarded an unknown buffer
+10-15 17:19:11.973  9430 10211 W Codec2-GraphicBufferAllocator: deallocate() 40501541605252 was not successful 2
+10-15 17:19:11.974  9430 21133 W Codec2-GraphicBufferAllocator: deallocate() 40501541605253 was not successful 1
+10-15 17:19:11.978  9430 21142 D CCodecBuffers: [c2.android.aac.decoder#595:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+10-15 17:19:11.978  9430 21142 D CCodecBuffers: [c2.android.aac.decoder#595:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+10-15 17:19:11.979  9430 21142 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:11.983  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] MediaCodec discarded an unknown buffer
+10-15 17:19:11.983  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] MediaCodec discarded an unknown buffer
+10-15 17:19:11.983  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] MediaCodec discarded an unknown buffer
+10-15 17:19:11.983  9430 21142 D CCodecBufferChannel: [c2.android.aac.decoder#595] MediaCodec discarded an unknown buffer
+10-15 17:19:12.431  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:12.479  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:12.499  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:12.571  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:12.576  6739  7927 E fb4a.msys: E[C mem.context]_LogConnectFailure(4983)=>[Happy Eyeball] Connect failed with source=1, winner stream ip=157.240.245.38, port=5222, dnsResolutionMethod=1, combined_ip_addresses=157.240.245.38
+10-15 17:19:13.279  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:13.388  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:13.479  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.483  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.486  9430  9875 W HeroManager: 	Codec: vp09.00.21.08.00.01.01.01.00
+10-15 17:19:13.486  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.488  9430  9875 W HeroManager: 	Codec: avc1.64001f
+10-15 17:19:13.488  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.489  9430  9875 W HeroManager: 	Codec: avc1.64001f
+10-15 17:19:13.489  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.499  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:13.516  9430  9875 W HeroManager: 	Codec: avc1.64001f
+10-15 17:19:13.516  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.516  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:13.516  9430  9875 W HeroManager: 	Codec: avc1.64001f
+10-15 17:19:13.516  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.530  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:13.535  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:13.636  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:13.636  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:13.650  9430  9875 W HeroManager: 	Codec: vp09.00.21.08.00.01.01.01.00
+10-15 17:19:13.650  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:13.676  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:14.287  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [PCM Source] = 1, expects 1
+10-15 17:19:14.287  1441  2056 D AHal::Cs35l41Codec: CheckAllSpeakers: get ctl [R PCM Source] = 1, expects 1
+10-15 17:19:14.518  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:14.536  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:14.644  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.644  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:14.644  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:14.644  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.645  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:14.645  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:14.645  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.645  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.645  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.645  9430  9430 W PrefetchScheduler: shouldEnableVideoSchedulerByPass = true & skipVideoPrefetch = false
+10-15 17:19:14.645  9430  9430 W PrefetchScheduler: Video prefetch request is NOT moved to background thread
+10-15 17:19:14.645  9430  9430 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:14.662  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:19:15.211  9430 20558 W VideoPrefetchScheduler: start prefetching bypassed
+10-15 17:19:15.216  9430  9875 W HeroManager: 	Codec: av01.0.05M.08.0.111.01.01.01.0
+10-15 17:19:15.216  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:15.217  9430  9875 W HeroManager: 	Codec: av01.0.04M.08.0.111.01.01.01.0
+10-15 17:19:15.217  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:15.314  9430 19332 W UnifiedPrefetchManager: Manifest for videoId 3743425058590295746_28204630440 is missing prefetch segment range
+10-15 17:19:15.433  9430  9430 W BasicVideoCaptureStateManager: Current video capture coordinator state changed from Uninitialized to Initializing
+10-15 17:19:15.434  9430  9430 W BasicVideoCaptureStateManager: Current video capture coordinator state changed from Initializing to Initialized
+10-15 17:19:15.545  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:15.567  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:15.571  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:15.700  1447  1906 I GCH_ZslSnapshotCaptureSession: Initialize: video sw denoise is enabled in GCH
+10-15 17:19:15.736  1447  9588 W Lyric   : stream_info_parser.cc:372: Camera Rear unknown stream: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:15.736  1447  9588 I Lyric   : stream_info_parser.cc:364: Camera Rear Preview stream: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.747  1447  9588 I Lyric   : stream_info_parser.cc:364: Camera RearWide Preview stream: {type: Streaminfo, stream_id: 32770, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.747  1447  9588 W Lyric   : stream_info_parser.cc:372: Camera RearWide unknown stream: {type: Streaminfo, stream_id: 32776, camera_id: RearWide, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:15.748  1447  9588 W Lyric   : stream_info_parser.cc:372: Camera RearVirtual unknown stream: {type: Streaminfo, stream_id: 32775, camera_id: RearVirtual, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:15.748  1447  9588 I Lyric   : stream_info_parser.cc:364: Camera RearVirtual Preview stream: {type: Streaminfo, stream_id: 32769, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.759  1447  2484 I Lyric   : sensor_generic_driver.cc:1959: SANDWORM GetModeIndex requirement {size = {width: 4032, height: 2268}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = false, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:15.762  1447  9580 I Lyric   : sensor_generic_driver.cc:1959: BOITATA GetModeIndex requirement {size = {width: 4032, height: 2268}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 1 require exact size 0
+10-15 17:19:15.762  1447  2491 I Lyric   : sensor_generic_driver.cc:1959: BOITATARM GetModeIndex requirement {size = {width: 4032, height: 2268}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:15.764  1447  2484 I Lyric   : eaf_node.cc:80: cam3_eaf: stream_id 32770, res 1920x1080, pipeline_id 0, is_video_stream false
+10-15 17:19:15.765  1447  2491 I Lyric   : eaf_node.cc:80: cam4_eaf: stream_id 32769, res 1920x1080, pipeline_id 0, is_video_stream false
+10-15 17:19:15.774  1447  9580 I Lyric   : eaf_node.cc:80: cam2_eaf: stream_id 32768, res 1920x1080, pipeline_id 0, is_video_stream false
+10-15 17:19:15.802  1447  2491 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6555), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  2491 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 6559), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  2491 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6560), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  9580 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6520), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  2484 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6538), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  2491 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 6564), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  2491 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6565), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  2484 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 6541), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  2484 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6542), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  9580 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 6523), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  9580 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6524), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  2484 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 6546), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  9580 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 6528), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:15.802  1447  2484 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6547), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.802  1447  9580 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 6529), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:15.817  1447  2491 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearVirtual
+10-15 17:19:15.817  1447  9580 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for Rear
+10-15 17:19:15.817  1447  2484 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearWide
+10-15 17:19:15.826  1447  2484 I Lyric   : generic_subgraph.cc:3459: camera_id = 3; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:15.826  1447  2491 I Lyric   : generic_subgraph.cc:3459: camera_id = 4; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:15.830  1447  9580 I Lyric   : generic_subgraph.cc:3459: camera_id = 2; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:15.846  1447  9588 I Lyric   : multicam_graph.cc:1366: number of video bokeh nodes connected to multicam routing node = 0
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32770, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32773, camera_id: RearWide, format: BLOB, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32776, camera_id: RearWide, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32769, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32772, camera_id: RearVirtual, format: BLOB, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32775, camera_id: RearVirtual, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32771, camera_id: Rear, format: BLOB, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.858  1447  9588 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 4032, height: 2268, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:15.888  1447  1906 I native  : I0000 00:00:1760563155.886636    1906 node_export.cc:193] CatNodeCreate(EspVideoNode) took 8.74227 ms
+10-15 17:19:15.911  1447 21289 I native  : I0000 00:00:1760563155.911287   21289 llv_manager.cc:193] LLV DIMENSION: 1920x1080
+10-15 17:19:15.928  1447  1909 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:15.937  1447 21276 I native  : I0000 00:00:1760563155.937140   21276 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:15.946  1447  1909 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:15.951  1447 21289 I native  : I0000 00:00:1760563155.951362   21289 noise_model.cc:372] Profile resolution 120 x 68
+10-15 17:19:15.971  1447 21276 I native  : I0000 00:00:1760563155.971063   21276 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:16.030  1447  1911 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4032, height:2272]
+10-15 17:19:16.107  1447 12524 I GCH_Utils: IsSessionParameterCompatible: Ignore fps (15, 30) to (15, 30). video_60_to_30fps_thermal_throttle: 0. video_fps_throttle: 0.
+10-15 17:19:16.175  1447  9583 I Lyric   : scaler_node.cc:1017: The 0th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 1920x1080
+10-15 17:19:16.175  1447  9583 I Lyric   : scaler_node.cc:1017: The 1th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 4032x2268
+10-15 17:19:16.199  1447  9584 E native  : E0000 00:00:1760563156.199758    9584 llv_node.cc:1311] Dimension is not expected! width = 1920, height = 1080, stride_pixels = 1920, stride_bytes = 1920, width_uv = 960, height_uv = 540, stride_uv_pixels = 960, stride_uv_bytes = 1920
+10-15 17:19:16.464  9430  9875 W HeroManager: 	Codec: av01.0.05M.08.0.111.01.01.01.0
+10-15 17:19:16.464  9430  9875 W HeroManager: 	renderMode: AUDIO_VIDEO
+10-15 17:19:16.935  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:16.956  3179 21113 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:20.739  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:20.750  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:23.501  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:23.523  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:23.526  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:33.511  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:33.539  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:33.554  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:38.917  1447  1906 I Lyric   : camera_powerhal_impl.cc:202: CancelPowerBoost CAMERA_VIDEO_RECORDING
+10-15 17:19:38.966  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:38.970  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:38.972  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:39.072  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:39.073  1447  1906 I GCH_ZslSnapshotCaptureSession: Initialize: video sw denoise is enabled in GCH
+10-15 17:19:39.076  1447  9587 W Lyric   : stream_info_parser.cc:372: Camera Rear unknown stream: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:39.076  1447  9587 I Lyric   : stream_info_parser.cc:364: Camera Rear Preview stream: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.076  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:39.076  1447  9587 W Lyric   : stream_info_parser.cc:372: Camera RearWide unknown stream: {type: Streaminfo, stream_id: 32776, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:39.076  1447  9587 I Lyric   : stream_info_parser.cc:364: Camera RearWide Preview stream: {type: Streaminfo, stream_id: 32770, camera_id: RearWide, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.077  1447  9587 W Lyric   : stream_info_parser.cc:372: Camera RearVirtual unknown stream: {type: Streaminfo, stream_id: 32775, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:39.077  1447  9587 I Lyric   : stream_info_parser.cc:364: Camera RearVirtual Preview stream: {type: Streaminfo, stream_id: 32769, camera_id: RearVirtual, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.078  1447  9579 I Lyric   : sensor_generic_driver.cc:1959: SANDWORM GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = false, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:39.078  1447  9586 I Lyric   : sensor_generic_driver.cc:1959: BOITATA GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 1 require exact size 0
+10-15 17:19:39.078  1447  9579 I Lyric   : eaf_node.cc:80: cam3_eaf: stream_id 32770, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:39.078  1447  9579 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9964), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.078  1447  9579 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 9967), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.078  1447  9579 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9968), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.079  1447  9579 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 9972), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.079  1447  9586 I Lyric   : eaf_node.cc:80: cam2_eaf: stream_id 32768, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:39.079  1447  9579 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9973), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.079  1447  9586 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9982), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.079  1447  9586 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 9985), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.079  1447  9586 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9986), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.079  1447  9586 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 9990), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.079  1447  9586 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 9991), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.079  1447  9583 I Lyric   : sensor_generic_driver.cc:1959: BOITATARM GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:39.079  1447  9579 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearWide
+10-15 17:19:39.079  1447  9586 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for Rear
+10-15 17:19:39.079  1447  9583 I Lyric   : eaf_node.cc:80: cam4_eaf: stream_id 32769, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:39.080  1447  9579 I Lyric   : generic_subgraph.cc:3459: camera_id = 3; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:39.080  1447  9583 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10002), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.080  1447  9583 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 10005), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.080  1447  9583 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10006), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.080  1447  9583 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 10010), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:39.080  1447  9583 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10011), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:39.080  1447  9586 I Lyric   : generic_subgraph.cc:3459: camera_id = 2; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:39.081  1447  9583 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearVirtual
+10-15 17:19:39.081  1447  9583 I Lyric   : generic_subgraph.cc:3459: camera_id = 4; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:39.088  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:39.089  1447  9587 I Lyric   : multicam_graph.cc:1366: number of video bokeh nodes connected to multicam routing node = 0
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32770, camera_id: RearWide, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32773, camera_id: RearWide, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32776, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32769, camera_id: RearVirtual, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32772, camera_id: RearVirtual, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32775, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.091  1447  9587 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32771, camera_id: Rear, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:39.093  1447  1906 I native  : I0000 00:00:1760563179.093959    1906 node_export.cc:193] CatNodeCreate(EspVideoNode) took 0.059774 ms
+10-15 17:19:39.096  1447 21388 I native  : I0000 00:00:1760563179.096885   21388 llv_manager.cc:193] LLV DIMENSION: 1280x720
+10-15 17:19:39.102  1447 21388 I native  : I0000 00:00:1760563179.102570   21388 noise_model.cc:372] Profile resolution 80 x 45
+10-15 17:19:39.105  1447 21387 I native  : I0000 00:00:1760563179.105498   21387 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:39.108  1447 21387 I native  : I0000 00:00:1760563179.108544   21387 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:39.116  1447  1909 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:39.123  1447  1911 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:39.134  1447  1911 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4032, height:2272]
+10-15 17:19:39.272  1447  2484 I Lyric   : scaler_node.cc:1017: The 0th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 1280x720
+10-15 17:19:39.272  1447  2484 I Lyric   : scaler_node.cc:1017: The 1th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 1920x1080
+10-15 17:19:39.276  1447  9585 E native  : E0000 00:00:1760563179.275984    9585 llv_node.cc:1311] Dimension is not expected! width = 1280, height = 720, stride_pixels = 1280, stride_bytes = 1280, width_uv = 640, height_uv = 360, stride_uv_pixels = 640, stride_uv_bytes = 1280
+10-15 17:19:39.316  1447  9590 I G3ACoordinator: af_state_machine.cc:231: camera_name=RearNormal: af_mode=ContinuousVideo, event=ModeChange, af_state=PassiveScan->Inactive
+10-15 17:19:39.317  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=Inactive->PassiveScan
+10-15 17:19:39.650  1447  2487 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:39.750  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:40.084  1447  2487 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:40.586  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:41.036  9430  9430 W SoLoader: Loading mediastreaming-videoqualityquery on the main thread
+10-15 17:19:41.050  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:41.056  9430 21451 W VideoProtocolFactoryWarehouse.cpp: VideoProtocol ProxyEnabled=0
+10-15 17:19:41.293  9430 21450 W VideoProtocolClientImpl.cpp: VideoProtocol transport connected
+10-15 17:19:41.317  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:41.652  1447  2492 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:41.786  1447  2487 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:41.886  1447  2492 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:42.284  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:42.589  1447  2487 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanSuccess, af_state=PassiveScan->PassiveFocused
+10-15 17:19:43.540  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:43.578  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:43.591  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.497  9430 21451 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+10-15 17:19:44.498  1513 30624 D Hal2AidlMapper: [default] prepareToOpenStream: handle 0, mixPortHalId 0, device AudioDevice{type: AudioDeviceDescription{type: IN_DEFAULT, connection: }, address: AudioDeviceAddress{id: }}, flags AudioIoFlags{input: 0}, source DEFAULT, config AudioConfig{base: AudioConfigBase{sampleRate: 44100, channelMask: AudioChannelLayout{layoutMask: 1}, format: AudioFormatDescription{type: PCM, pcm: INT_16_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: VOICE_CALL, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: UNKNOWN, encapsulationMode: NONE, contentId: 0, syncId: 0}, frameCount: 0}, mixport config AudioPortConfig{id: 0, portId: 0, sampleRate: (null), channelMask: (null), format: (null), gain: (null), flags: (null), ext: AudioPortExt{unspecified: false}}
+10-15 17:19:44.498  9430 21451 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+10-15 17:19:44.504  9430 21484 D CCodec  : allocate(c2.exynos.h264.encoder)
+10-15 17:19:44.508  9430 21484 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:44.514  1513 30624 E Hal2AidlMapper: [default] findOrCreateMixPortConfig: mix port for config AudioConfig{base: AudioConfigBase{sampleRate: 44100, channelMask: AudioChannelLayout{layoutMask: 1}, format: AudioFormatDescription{type: PCM, pcm: INT_16_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: VOICE_CALL, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: UNKNOWN, encapsulationMode: NONE, contentId: 0, syncId: 0}, frameCount: 0}, flags AudioIoFlags{input: 0} is not found
+10-15 17:19:44.516  1513 30624 D Hal2AidlMapper: [default] prepareToOpenStreamHelper: returning suggested config for the stream: AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 1}, format: AudioFormatDescription{type: PCM, pcm: INT_16_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: VOICE_CALL, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: UNKNOWN, encapsulationMode: NONE, contentId: 0, syncId: 0}, frameCount: 0}
+10-15 17:19:44.517  1513 30624 D Hal2AidlMapper: [default] prepareToOpenStream: handle 0, mixPortHalId 0, device AudioDevice{type: AudioDeviceDescription{type: IN_DEFAULT, connection: }, address: AudioDeviceAddress{id: }}, flags AudioIoFlags{input: 0}, source DEFAULT, config AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 1}, format: AudioFormatDescription{type: PCM, pcm: INT_16_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: VOICE_CALL, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: UNKNOWN, encapsulationMode: NONE, contentId: 0, syncId: 0}, frameCount: 0}, mixport config AudioPortConfig{id: 0, portId: 0, sampleRate: (null), channelMask: (null), format: (null), gain: (null), flags: (null), ext: AudioPortExt{unspecified: false}}
+10-15 17:19:44.540  1513 30624 D Hal2AidlMapper: [default] prepareToOpenStream: handle 142, mixPortHalId 1001, device AudioDevice{type: AudioDeviceDescription{type: IN_MICROPHONE_BACK, connection: }, address: AudioDeviceAddress{id: back}}, flags AudioIoFlags{input: 0}, source CAMCORDER, config AudioConfig{base: AudioConfigBase{sampleRate: 48000, channelMask: AudioChannelLayout{layoutMask: 1}, format: AudioFormatDescription{type: PCM, pcm: INT_16_BIT, encoding: }}, offloadInfo: AudioOffloadInfo{base: AudioConfigBase{sampleRate: 0, channelMask: AudioChannelLayout{none: 0}, format: AudioFormatDescription{type: DEFAULT, pcm: DEFAULT, encoding: }}, streamType: VOICE_CALL, bitRatePerSecond: 0, durationUs: 0, hasVideo: false, isStreaming: false, bitWidth: 16, offloadBufferSize: 0, usage: UNKNOWN, encapsulationMode: NONE, contentId: 0, syncId: 0}, frameCount: 0}, mixport config AudioPortConfig{id: 0, portId: 0, sampleRate: (null), channelMask: (null), format: (null), gain: (null), flags: (null), ext: AudioPortExt{unspecified: false}}
+10-15 17:19:44.545  9430 21484 I CCodec  : Created component [c2.exynos.h264.encoder] for [c2.exynos.h264.encoder]
+10-15 17:19:44.545  9430 21484 D CCodecConfig: read media type: video/avc
+10-15 17:19:44.551  1447  9590 I G3ACoordinator: af_state_machine.cc:256: camera_name=RearNormal: af_mode=ContinuousVideo, event=ScanStart, af_state=PassiveFocused->PassiveScan
+10-15 17:19:44.567  9430 21484 D CCodecConfig: ignoring local param raw.color (0xc2001809) as it is already supported
+10-15 17:19:44.570  9430 21484 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-15 17:19:44.570  9430 21484 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 algo.bitrate-mode.value = 3
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 algo.encoding-quality-level.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::i32 algo.priority.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::float algo.rate.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::i32 coded.average-qp.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.bitrate-mode.value = 1
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::float coded.frame-rate.value = 15
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.hdr-format.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.picture-type.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.pl.level = 20480
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coded.pl.profile = 20484
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coding.intra-refresh.mode = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::float coding.intra-refresh.period = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 coding.request-sync-frame.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 1000000
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   Buffer coding.temporal-layering = {
+10-15 17:19:44.570  9430 21484 D CCodecConfig:     00000000:  10 00 00 00 07 20 01 52  00 00 00 00 00 00 00 00  ..... .R........
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   }
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   string input.media-type.value = "video/raw"
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 output.buffers.prepend-header.value = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   string output.media-type.value = "video/avc"
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+10-15 17:19:44.570  9430 21484 D CCodecConfig:  
+10-15 17:19:44.575  9430 21451 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:44.577  1441  1441 I ASvc::StreamIn: setMicrophoneFieldDimension (primary-capture) : zoom = 0
+10-15 17:19:44.596  1441 21501 I AHal::GsCapture: UpdateMicrophoneFieldDimension: with zoom 0
+10-15 17:19:44.596  1441 21501 I AHal::AocRecordTuning: WriteMicrophoneFieldDimension: 0 to value 0
+10-15 17:19:44.609  9430 21451 D CodecSeeding: Seed: codec c2.exynos.h264.encoder, mediatype video/avc, overrideable 1
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp,0)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp-1080p,1.90)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp-720p,2.25)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp-540p,2.65)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp-480p,3.00)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-bpp-320x240,0)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-qpmax,-1)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-qpmax-1080p,45)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-qpmax-720p,43)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-qpmax-540p,42)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-target-qpmax-480p,38)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-bitrate-phaseout,1.75)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setTuningValue(vq-boost-missing-qp,0.20)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(can-swap-width-height,1)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(encoding-statistics,0)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(qp-bounds,0)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(vq-minimum-quality,0)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(_vq_eligible.device,1)
+10-15 17:19:44.609  9430 21451 D CodecProperties: setFeatureValue(_quality.target,1)
+10-15 17:19:44.609  9430 21451 D CodecSeeding: Seed: codec c2.exynos.h264.encoder, mediatype video/avc, overrideable 0
+10-15 17:19:44.609  9430 21451 D VQApply : minquality: codec claims to implement minquality=1
+10-15 17:19:44.609  9430 21451 D MediaCodec: shapeMediaFormat: deltas(1): AMessage(what = 0x00000000) = {
+10-15 17:19:44.609  9430 21451 D MediaCodec:     int32_t android._encoding-quality-level = 1
+10-15 17:19:44.609  9430 21451 D MediaCodec:   }
+10-15 17:19:44.610  9430 21484 D CCodec  : [c2.exynos.h264.encoder] buffers are bound to CCodec for this session
+10-15 17:19:44.610  9430 21484 D CCodecConfig: no c2 equivalents for max-fps-to-encoder
+10-15 17:19:44.610  9430 21484 D CCodecConfig: no c2 equivalents for color-format
+10-15 17:19:44.610  9430 21484 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:44.610  9430 21484 D CCodecConfig: no c2 equivalents for encoder
+10-15 17:19:44.611  9430 21484 D CCodecConfig: c2 config diff is   c2::u32 algo.encoding-quality-level.value = 1
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::u32 coded.bitrate.value = 1500000
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::float coded.frame-rate.value = 30
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::u32 coded.hdr-format.value = 1
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::u32 coded.pl.level = 20489
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::i64 coding.sync-frame-interval.value = 60000000
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::u32 raw.size.height = 896
+10-15 17:19:44.611  9430 21484 D CCodecConfig:   c2::u32 raw.size.width = 512
+10-15 17:19:44.615  9430 21484 D CCodec  : encoding statistics level = 0
+10-15 17:19:44.615  9430 21484 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t android._color-format = 2130708361
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t android._dataspace = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t bitrate-mode = 1
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t frame-rate = 30
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t height = 896
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t intra-refresh-period = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   string mime = "video/raw"
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t prepend-sps-pps-to-idr-frames = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t priority = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t video-qp-average = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t width = 512
+10-15 17:19:44.615  9430 21484 D CCodec  :   Rect crop(0, 0, 511, 895)
+10-15 17:19:44.615  9430 21484 D CCodec  :   int64_t android._C2MemoryUsage = 1125899906908160
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t color-format = 2130708361
+10-15 17:19:44.615  9430 21484 D CCodec  : }
+10-15 17:19:44.615  9430 21484 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t bitrate = 1500000
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t bitrate-mode = 1
+10-15 17:19:44.615  9430 21484 D CCodec  :   Rect crop(0, 0, 511, 895)
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t width = 512
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t color-standard = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t color-range = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t color-transfer = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t frame-rate = 30
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t height = 896
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t intra-refresh-period = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t level = 512
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t max-bitrate = 1500000
+10-15 17:19:44.615  9430 21484 D CCodec  :   string mime = "video/avc"
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t prepend-sps-pps-to-idr-frames = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t priority = 0
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t profile = 8
+10-15 17:19:44.615  9430 21484 D CCodec  :   int32_t video-qp-average = 0
+10-15 17:19:44.615  9430 21484 D CCodec  : }
+10-15 17:19:44.615  9430 21484 I CCodecConfig: query failed after returning 22 values (BAD_INDEX)
+10-15 17:19:44.617  9430 21484 D CCodec  : aidl based PersistentSurface created
+10-15 17:19:44.620  9430 21484 D CCodec  : input format changed to AMessage(what = 0x00000000) = {
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t android._color-format = 2130708361
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t android._dataspace = 260
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t bitrate-mode = 1
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t frame-rate = 30
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t height = 896
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t intra-refresh-period = 0
+10-15 17:19:44.620  9430 21484 D CCodec  :   string mime = "video/raw"
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t prepend-sps-pps-to-idr-frames = 0
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t priority = 0
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t video-qp-average = 0
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t width = 512
+10-15 17:19:44.620  9430 21484 D CCodec  :   Rect crop(0, 0, 511, 895)
+10-15 17:19:44.620  9430 21484 D CCodec  :   int64_t android._C2MemoryUsage = 1125899906908160
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t color-format = 2130708361
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t color-range = 2
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t color-standard = 1
+10-15 17:19:44.620  9430 21484 D CCodec  :   int32_t color-transfer = 3
+10-15 17:19:44.620  9430 21484 D CCodec  : }
+10-15 17:19:44.622  9430 21484 D CCodec  : ISConfig maxFps=30
+10-15 17:19:44.624  1484 21494 I ExynosC2H264EncComponent: Creating ECOServiceStatsProvider c2.exynos.h264.encoder video/avc
+10-15 17:19:44.629  1484 21498 D libexynosv4l2: try node: /dev/video6
+10-15 17:19:44.630  1484 21498 D libexynosv4l2: try node: /dev/video7
+10-15 17:19:44.630  1484 21498 I libexynosv4l2: node found for device s5p-mfc-enc: /dev/video7
+10-15 17:19:44.639  1484 21498 I libexynosv4l2: open video device /dev/video7
+10-15 17:19:44.644  9430 21484 D CCodecBufferChannel: [c2.exynos.h264.encoder#812] Created input block pool with allocatorID 17 => poolID 26 - OK (0)
+10-15 17:19:44.651  9430 21484 I CCodecBufferChannel: [c2.exynos.h264.encoder#812] Created output block pool with allocatorID 16 => poolID 27 - OK
+10-15 17:19:44.651  9430 21484 D CCodecBufferChannel: [c2.exynos.h264.encoder#812] Configured output block pool ids 27 => OK
+10-15 17:19:44.657  9430 21451 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+10-15 17:19:44.658  9430 21526 D CCodec  : allocate(c2.android.aac.encoder)
+10-15 17:19:44.659  9430 21526 I CCodec  : setting up 'default' as default (vendor) store
+10-15 17:19:44.673  9430 21526 I CCodec  : Created component [c2.android.aac.encoder] for [c2.android.aac.encoder]
+10-15 17:19:44.674  9430 21526 D CCodecConfig: read media type: audio/mp4a-latm
+10-15 17:19:44.680  9430 21526 I CCodecConfig: query failed after returning 10 values (BAD_INDEX)
+10-15 17:19:44.680  9430 21526 D CCodecConfig: c2 config diff is Dict {
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 coding.aac-sbr-mode.value = 3
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 2048
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   string input.media-type.value = "audio/raw"
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   string output.media-type.value = "audio/mp4a-latm"
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-15 17:19:44.680  9430 21526 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-15 17:19:44.680  9430 21526 D CCodecConfig: }
+10-15 17:19:44.682  9430 21451 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-15 17:19:44.682  9430 21451 D CodecSeeding: Seed: codec c2.android.aac.encoder, mediatype audio/mp4a-latm, overrideable 1
+10-15 17:19:44.682  9430 21451 D CodecProperties: setFeatureValue(multiple-frames,0)
+10-15 17:19:44.682  9430 21451 D CodecProperties: setFeatureValue(_vq_eligible.device,1)
+10-15 17:19:44.682  9430 21451 D CodecProperties: setFeatureValue(_quality.target,1)
+10-15 17:19:44.682  9430 21451 D CodecSeeding: Seed: codec c2.android.aac.encoder, mediatype audio/mp4a-latm, overrideable 0
+10-15 17:19:44.682  9430 21451 D MediaCodec: shapeMediaFormat: deltas(0): AMessage(what = 0x00000000) = {
+10-15 17:19:44.682  9430 21451 D MediaCodec:   }
+10-15 17:19:44.682  9430 21526 D CCodec  : [c2.android.aac.encoder] buffers are bound to CCodec for this session
+10-15 17:19:44.682  9430 21526 D CCodecConfig: no c2 equivalents for flags
+10-15 17:19:44.682  9430 21526 D CCodecConfig: no c2 equivalents for encoder
+10-15 17:19:44.683  9430 21526 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 48000
+10-15 17:19:44.683  9430 21526 D CCodecConfig:   c2::u32 coded.pl.profile = 8196
+10-15 17:19:44.683  9430 21526 D CCodec  : encoding statistics level = 0
+10-15 17:19:44.683  9430 21526 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t channel-count = 1
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t max-input-size = 2048
+10-15 17:19:44.683  9430 21526 D CCodec  :   string mime = "audio/raw"
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-15 17:19:44.683  9430 21526 D CCodec  : }
+10-15 17:19:44.683  9430 21526 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t sample-rate = 44100
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t bitrate = 48000
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t channel-count = 1
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t level = 0
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t max-bitrate = 48000
+10-15 17:19:44.683  9430 21526 D CCodec  :   string mime = "audio/mp4a-latm"
+10-15 17:19:44.683  9430 21526 D CCodec  :   int32_t profile = 5
+10-15 17:19:44.683  9430 21526 D CCodec  : }
+10-15 17:19:44.683  9430 21526 I CCodecConfig: query failed after returning 10 values (BAD_INDEX)
+10-15 17:19:44.695  9430 21526 D CCodecBufferChannel: [c2.android.aac.encoder#664] Created input block pool with allocatorID 16 => poolID 27 - OK (0)
+10-15 17:19:44.696  9430 21526 I CCodecBufferChannel: [c2.android.aac.encoder#664] Created output block pool with allocatorID 16 => poolID 249 - OK
+10-15 17:19:44.697  9430 21526 D CCodecBufferChannel: [c2.android.aac.encoder#664] Configured output block pool ids 249 => OK
+10-15 17:19:44.700  1664 20293 E Codec2-ComponentInterface: We have a failed config
+10-15 17:19:44.766  1664 21529 W mediaswcodec: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+10-15 17:19:44.832  1447 12524 I Lyric   : camera_powerhal_impl.cc:202: CancelPowerBoost CAMERA_VIDEO_RECORDING
+10-15 17:19:44.883  1447 12525 I GCH_ZslSnapshotCaptureSession: Initialize: video sw denoise is enabled in GCH
+10-15 17:19:44.889  1447  2487 I Lyric   : stream_info_parser.cc:364: Camera Rear Preview stream: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.889  1447  2487 W Lyric   : stream_info_parser.cc:372: Camera Rear unknown stream: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:44.890  1447  2487 I Lyric   : stream_info_parser.cc:364: Camera RearWide Preview stream: {type: Streaminfo, stream_id: 32769, camera_id: RearWide, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.890  1447  2487 W Lyric   : stream_info_parser.cc:372: Camera RearWide unknown stream: {type: Streaminfo, stream_id: 32775, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:44.890  1447  2487 I Lyric   : stream_info_parser.cc:364: Camera RearVirtual Preview stream: {type: Streaminfo, stream_id: 32770, camera_id: RearVirtual, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.890  1447  2487 W Lyric   : stream_info_parser.cc:372: Camera RearVirtual unknown stream: {type: Streaminfo, stream_id: 32776, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1} does not fall in any known use case
+10-15 17:19:44.891  1447  9590 I Lyric   : sensor_generic_driver.cc:1959: BOITATA GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 1 require exact size 0
+10-15 17:19:44.891  1447  9585 I Lyric   : sensor_generic_driver.cc:1959: BOITATARM GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = true, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:44.891  1447  2485 I Lyric   : sensor_generic_driver.cc:1959: SANDWORM GetModeIndex requirement {size = {width: 1920, height: 1080}, frame_rate_range = [15, 30], request_binning_mode = false, request_pd_stream = false, only_config_logical_cam_stream = true, camera_id = [<recursive>], require_full_fov = false, is_high_frame_rate = false, crop_margin = 0, is_sibling_camera_participating = false, sub_image_count = 1, is_face_auth = false, is_video_mode = false, is_high_resolution_mode = false, is_arkaroo_enabled = false, is_roshi_enabled = false, is_specific_aspect_ratio_video = false, require_exact_size = false, force_sensor_mode_index = -1, is_multi_cam_usecase = true, raw_stream_usecase = 0, is_high_resolution_standalone_mode = false} required aspect ratio 1.77778 pick_transition_mode 0 require exact size 0
+10-15 17:19:44.892  1447  9585 I Lyric   : eaf_node.cc:80: cam4_eaf: stream_id 32770, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:44.892  1447  9590 I Lyric   : eaf_node.cc:80: cam2_eaf: stream_id 32768, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:44.892  1447  2485 I Lyric   : eaf_node.cc:80: cam3_eaf: stream_id 32769, res 1280x720, pipeline_id 0, is_video_stream false
+10-15 17:19:44.892  1447  9590 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10853), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  9585 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10844), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  9590 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 10862), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  9585 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 10847), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  9590 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10864), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  9585 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10848), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  9590 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 10869), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  9585 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 10854), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  9590 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10870), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  9585 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10855), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  2485 I Lyric   : zuma_isp_subgraph.cc:532: raw_to_yuv_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10880), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  2485 I Lyric   : zuma_isp_subgraph.cc:539: video_mesh_warp: Pipeline (ID: (instance_id: 10883), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  2485 I Lyric   : zuma_isp_subgraph.cc:541: mesh_warp_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10884), IPs: [ MeshWarp ], Max Outputs: 1, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.892  1447  2485 I Lyric   : zuma_isp_subgraph.cc:551: video_scaler: Pipeline (ID: (instance_id: 10888), IPs: [ Scaler ], Max Outputs: 0, IPConnections: [ ], Usecase: Video)
+10-15 17:19:44.892  1447  2485 I Lyric   : zuma_isp_subgraph.cc:553: scaler_for_snapshot_exceeding_video: Pipeline (ID: (instance_id: 10889), IPs: [ Scaler ], Max Outputs: 2, IPConnections: [ ], Usecase: Snapshot)
+10-15 17:19:44.893  1447  2485 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearWide
+10-15 17:19:44.893  1447  9590 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for Rear
+10-15 17:19:44.893  1447  9585 I Lyric   : whi_like_isp_back_end_core_subgraph.cc:933: RawToYuvNode for snapshot exceeding video is configured to output consumer type 2 fmt: HalImageFormat{ pixel_format = YCBCR_420_SPN_10B, stride_alignment = 64, num_buffers = 1 } for RearVirtual
+10-15 17:19:44.894  1447  9590 I Lyric   : generic_subgraph.cc:3459: camera_id = 2; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:44.894  1447  9585 I Lyric   : generic_subgraph.cc:3459: camera_id = 4; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:44.894  1447  2485 I Lyric   : generic_subgraph.cc:3459: camera_id = 3; is_front_camera = 0; is_1p_camera_app = 0; video_call = 0
+10-15 17:19:44.905  1447  2487 I Lyric   : multicam_graph.cc:1366: number of video bokeh nodes connected to multicam routing node = 0
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32770, camera_id: RearVirtual, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32768, camera_id: Rear, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32775, camera_id: RearWide, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32769, camera_id: RearWide, format: YCBCR_420_888, width: 1280, height: 720, usage: [HwTexture], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT709, Transfer: RGB, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32772, camera_id: RearWide, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32771, camera_id: Rear, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32774, camera_id: Rear, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32773, camera_id: RearVirtual, format: BLOB, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Color)::(Standard: BT601_625, Transfer: SMPTE_170M, Range: Full), is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.908  1447  2487 I Lyric   : graph_configuration.cc:374: {type: Streaminfo, stream_id: 32776, camera_id: RearVirtual, format: YCBCR_420_888, width: 1920, height: 1080, usage: [], stream_type: Output, use_case: Default, data_space: DataSpace(Custom)::Arbitrary, is_framework_physical_stream: 0, dynamic_range_profile: Standard, intended_for_max_resolution_mode: 0, group_id: -1, is_tunable: 1}
+10-15 17:19:44.909  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.911  1447 12525 I native  : I0000 00:00:1760563184.911874   12525 node_export.cc:193] CatNodeCreate(EspVideoNode) took 0.076619 ms
+10-15 17:19:44.913  1447 21569 I native  : I0000 00:00:1760563184.913659   21569 llv_manager.cc:193] LLV DIMENSION: 1280x720
+10-15 17:19:44.918  1447 21569 I native  : I0000 00:00:1760563184.918217   21569 noise_model.cc:372] Profile resolution 80 x 45
+10-15 17:19:44.920  1447 21566 I native  : I0000 00:00:1760563184.920447   21566 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:44.921  1447 21566 I native  : I0000 00:00:1760563184.921844   21566 brute_force_feature_matching.cc:49] Number of bins each image dimension is divided into: 5
+10-15 17:19:44.924  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.930  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.940  1447  1911 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:44.942  1447  9588 W G3ACoordinator: af_engine.cc:559: camera_name=RearNormal: Retain last focus states. Overwriting af_mode ContinuousVideo->Auto af_state Inactive->Inactive
+10-15 17:19:44.947  1447  1909 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4080, height:3072]
+10-15 17:19:44.958  1447  1909 I G3ACoordinator: ae_session_config_parser_lyric.cc:201: ispfe_raw_input_resolution [width:4032, height:2272]
+10-15 17:19:44.977  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.988  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:44.993  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:45.083  1447  2489 I Lyric   : scaler_node.cc:1017: The 0th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 1280x720
+10-15 17:19:45.083  1447  2489 I Lyric   : scaler_node.cc:1017: The 1th output HalPixelFormat for cam2_preview_scaler YCBCR_420_888 resolution: 1920x1080
+10-15 17:19:45.090  1447  2489 E native  : E0000 00:00:1760563185.090330    2489 llv_node.cc:1311] Dimension is not expected! width = 1280, height = 720, stride_pixels = 1280, stride_bytes = 1280, width_uv = 640, height_uv = 360, stride_uv_pixels = 640, stride_uv_bytes = 1280
+10-15 17:19:45.106  1484 21498 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[0] range (5 / 50)
+10-15 17:19:45.106  1484 21498 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[1] range (5 / 50)
+10-15 17:19:45.106  1484 21498 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[2] range (5 / 50)
+10-15 17:19:45.106  1484 21508 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[0] range (5 / 50)
+10-15 17:19:45.106  1484 21508 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[1] range (5 / 50)
+10-15 17:19:45.106  1484 21508 V ExynosVideoOSAL: Codec_OSAL_SetControls: QP[2] range (5 / 50)
+10-15 17:19:45.117  9430 21484 D CCodecConfig: c2 config diff is   Buffer coded.init-data.value = {
+10-15 17:19:45.117  9430 21484 D CCodecConfig:     00000000:  00 00 00 01 67 64 00 1f  ac b4 04 00 e3 4d 40 40  ....gd.......M@@
+10-15 17:19:45.117  9430 21484 D CCodecConfig:     00000010:  40 41 e2 85 54 00 00 00  01 68 ee 0d 8b           @A..T....h...
+10-15 17:19:45.227  1447  9590 I G3ACoordinator: af_engine.cc:773: Cam[2], AF tuning filename: gaf_rear_normal_video_record
+10-15 17:19:47.156  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:48.001  1447  9582 I GAF     : gaf_core_impl.cc:874: 89 calls in 3 sec(s): RearNormalframework ReqId[91]: sensor_soe_timestamp_ns 82034592222022 cPos-->nextPos[290-->281] maxPos 324 vcm_dac  458 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 263 pd_conf  477.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 216 tof_confLvl 0.92 tof_isConf 1 tof_GD 0 gyro 0.98 roi_motion kLarge   ledAssist 0 aecSettled 0 luxI 374.78 expI 374.78 g 21.54 et 33.45 bv -1.35 light kGAfTLightNormal  exposureValue 0.09 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(1,0) 3a(1,0) fv(0,1) peer(0,1)] fv 7277.36 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:19:49.236  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:51.022  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[181]: sensor_soe_timestamp_ns 82037613820802 cPos-->nextPos[261-->261] maxPos 324 vcm_dac  765 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 260 pd_conf  656.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 251 tof_confLvl 0.77 tof_isConf 1 tof_GD 0 gyro 0.11 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 369.67 expI 369.67 g 25.29 et 33.53 bv -1.13 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 9400.96 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:19:51.319  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:53.402  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:53.578  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:53.603  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:53.619  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:19:54.012  1447  9588 I GAF     : gaf_core_impl.cc:874: 89 calls in 3 sec(s): RearNormalframework ReqId[270]: sensor_soe_timestamp_ns 82040603004680 cPos-->nextPos[276-->277] maxPos 324 vcm_dac  601 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 279 pd_conf  477.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 248 tof_confLvl 0.80 tof_isConf 1 tof_GD 0 gyro 0.38 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 366.17 expI 366.17 g 24.27 et 33.53 bv -0.98 light kGAfTLightNormal  exposureValue -0.07 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(1,0) 3a(0,0) fv(0,1) peer(0,1)] fv 4954.08 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:19:55.523  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:57.020  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[360]: sensor_soe_timestamp_ns 82043619905579 cPos-->nextPos[265-->265] maxPos 324 vcm_dac  711 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kTimeOfFlight pd_tPos 263 pd_conf   86.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 183 tof_confLvl 0.90 tof_isConf 1 tof_GD 0 gyro 1.94 roi_motion kLarge   ledAssist 0 aecSettled 0 luxI 309.51 expI 309.51 g 4.48 et 24.28 bv 1.44 light kGAfTLightNormal  exposureValue 0.08 TF 0 SC 0 ST 0 [roi(0,1) depth(1,1) motion(1,0) 3a(1,0) fv(0,1) peer(0,1)] fv 1932.56 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:19:57.568  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:19:59.641  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:00.019  1447  9588 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[450]: sensor_soe_timestamp_ns 82046613069503 cPos-->nextPos[273-->274] maxPos 324 vcm_dac  639 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 274 pd_conf  540.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 255 tof_confLvl 0.68 tof_isConf 1 tof_GD 0 gyro 0.25 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 348.92 expI 348.92 g 5.40 et 31.21 bv -0.24 light kGAfTLightNormal  exposureValue 0.29 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(1,0) 3a(0,0) fv(0,1) peer(0,1)] fv 2118.13 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:01.751  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:03.020  1447  9588 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[540]: sensor_soe_timestamp_ns 82049629307731 cPos-->nextPos[ 85--> 84] maxPos 324 vcm_dac 2639 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos  84 pd_conf  586.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 100 tof_confLvl 0.97 tof_isConf 1 tof_GD 0 gyro 0.66 roi_motion kLarge   ledAssist 0 aecSettled 0 luxI 307.18 expI 307.18 g 6.81 et 15.03 bv 1.54 light kGAfTLightNormal  exposureValue -0.07 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(1,0) fv(0,1) peer(0,1)] fv 2901.95 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:03.579  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:03.616  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:03.633  3179 21329 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:03.843  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:05.992  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:06.019  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[630]: sensor_soe_timestamp_ns 82052627139998 cPos-->nextPos[126-->129] maxPos 324 vcm_dac 2188 status kScanning   state kCoarseScan   fMode kAutoActive        opMode kVideo        searchType kTimeOfFlight ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 290 pd_conf  415.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 132 tof_confLvl 0.92 tof_isConf 1 tof_GD 0 gyro 0.49 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 303.40 expI 303.40 g 6.52 et 17.34 bv 1.70 light kGAfTLightNormal  exposureValue 0.12 TF 0 SC 0 ST 0 [roi(0,1) depth(0,0) motion(0,0) 3a(1,1) fv(0,1) peer(0,1)] fv 8946.67 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 1 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:06.518  9430  9622 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+10-15 17:20:08.071  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:09.020  1447  9588 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[720]: sensor_soe_timestamp_ns 82055614900226 cPos-->nextPos[129-->129] maxPos 324 vcm_dac 2172 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kTimeOfFlight ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kTimeOfFlight pd_tPos 129 pd_conf  166.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 122 tof_confLvl 0.95 tof_isConf 1 tof_GD 0 gyro 0.11 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 299.71 expI 299.71 g 3.69 et 29.95 bv 1.85 light kGAfTLightNormal  exposureValue -0.04 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 6265.60 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:10.137  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:12.020  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[810]: sensor_soe_timestamp_ns 82058621907153 cPos-->nextPos[270-->270] maxPos 324 vcm_dac  671 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 269 pd_conf  577.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 254 tof_confLvl 0.71 tof_isConf 1 tof_GD 0 gyro 0.66 roi_motion kLarge   ledAssist 0 aecSettled 0 luxI 314.79 expI 314.79 g 5.46 et 21.89 bv 1.21 light kGAfTLightNormal  exposureValue -0.03 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(1,0) fv(0,1) peer(0,1)] fv 1914.08 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:12.086  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:12.115  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:12.255  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:13.582  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:13.633  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:13.642  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:14.340  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:15.025  1447  9582 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[900]: sensor_soe_timestamp_ns 82061615933792 cPos-->nextPos[277-->277] maxPos 324 vcm_dac  594 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 282 pd_conf  779.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 267 tof_confLvl 0.62 tof_isConf 1 tof_GD 0 gyro 0.03 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 311.47 expI 311.47 g 3.29 et 33.41 bv 1.35 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 5888.28 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:16.418  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:18.000  1447  9582 I GAF     : gaf_core_impl.cc:874: 89 calls in 3 sec(s): RearNormalframework ReqId[989]: sensor_soe_timestamp_ns 82064595160884 cPos-->nextPos[277-->277] maxPos 324 vcm_dac  592 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 279 pd_conf  715.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 256 tof_confLvl 0.66 tof_isConf 1 tof_GD 0 gyro 0.27 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 317.11 expI 317.11 g 4.35 et 26.50 bv 1.11 light kGAfTLightNormal  exposureValue 0.02 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(0,1) fv(0,1) peer(0,1)] fv 5412.38 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:18.493  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:20.584  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:21.000  1447  9582 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1079]: sensor_soe_timestamp_ns 82067596411399 cPos-->nextPos[283-->283] maxPos 324 vcm_dac  530 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 285 pd_conf  685.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 269 tof_confLvl 0.63 tof_isConf 1 tof_GD 0 gyro 0.18 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 311.97 expI 311.97 g 3.72 et 27.65 bv 1.33 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(0,1) fv(0,1) peer(0,1)] fv 3634.55 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:22.685  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:23.589  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:23.613  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:23.642  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:24.001  1447  9582 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1169]: sensor_soe_timestamp_ns 82070602265792 cPos-->nextPos[287-->287] maxPos 324 vcm_dac  488 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 285 pd_conf  639.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 289 tof_confLvl 0.00 tof_isConf 0 tof_GD 0 gyro 0.05 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 336.39 expI 336.39 g 4.47 et 23.04 bv 0.29 light kGAfTLightNormal  exposureValue 0.01 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(0,1) fv(0,1) peer(0,1)] fv 2981.47 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:24.800  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:26.866  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:27.001  1447  9582 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1259]: sensor_soe_timestamp_ns 82073592181795 cPos-->nextPos[280-->280] maxPos 324 vcm_dac  562 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 278 pd_conf  966.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 254 tof_confLvl 0.40 tof_isConf 1 tof_GD 0 gyro 0.08 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 326.49 expI 326.49 g 3.39 et 33.41 bv 0.71 light kGAfTLightNormal  exposureValue 0.01 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 3918.94 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:28.964  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:30.016  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1349]: sensor_soe_timestamp_ns 82076603318065 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  640 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 274 pd_conf  864.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 255 tof_confLvl 0.61 tof_isConf 1 tof_GD 0 gyro 0.04 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 335.84 expI 335.84 g 3.47 et 33.41 bv 0.31 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 4447.13 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:31.068  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:33.017  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1439]: sensor_soe_timestamp_ns 82079609096709 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  638 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 279 pd_conf  961.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 274 tof_confLvl 0.33 tof_isConf 1 tof_GD 0 gyro 0.03 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 322.73 expI 322.73 g 3.40 et 33.41 bv 0.87 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 4563.70 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:33.173  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:33.610  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:33.635  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:33.646  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:35.241  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:36.031  1447  9582 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1529]: sensor_soe_timestamp_ns 82082621664416 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  637 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 276 pd_conf  970.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 272 tof_confLvl 0.46 tof_isConf 1 tof_GD 0 gyro 0.02 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 326.75 expI 326.75 g 3.47 et 33.41 bv 0.70 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 4677.38 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:37.319  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:39.010  1447  9582 I GAF     : gaf_core_impl.cc:874: 89 calls in 3 sec(s): RearNormalframework ReqId[1618]: sensor_soe_timestamp_ns 82085598126695 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  638 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 274 pd_conf  938.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 257 tof_confLvl 0.56 tof_isConf 1 tof_GD 0 gyro 0.08 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 326.70 expI 326.70 g 3.45 et 33.41 bv 0.70 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(0,1) fv(0,1) peer(0,1)] fv 4551.06 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:39.393  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:40.283  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:40.315  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:41.464  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:42.020  1447  9588 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1708]: sensor_soe_timestamp_ns 82088610694403 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  637 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 274 pd_conf  979.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 257 tof_confLvl 0.57 tof_isConf 1 tof_GD 0 gyro 0.08 roi_motion kSmall   ledAssist 0 aecSettled 1 luxI 327.27 expI 327.27 g 3.45 et 33.41 bv 0.68 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 1 [roi(0,1) depth(0,1) motion(0,1) 3a(0,1) fv(0,1) peer(0,1)] fv 4615.09 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:43.569  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:43.611  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:43.635  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:43.645  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:45.028  1447  9590 I GAF     : gaf_core_impl.cc:874: 90 calls in 3 sec(s): RearNormalframework ReqId[1798]: sensor_soe_timestamp_ns 82091619798324 cPos-->nextPos[273-->273] maxPos 324 vcm_dac  637 status kFocused    state kMonitor      fMode kAutoActive        opMode kVideo        searchType kMain         ROI kDefault       | id[0](1714,1209, 652, 654), attribute: 0, is_boh:0 eye_roi 0 crop_window (   0,   0,4080,3072) inFaceCnt 0 ScType kGAfFocusTypeNormal    depth_metric_type kMainPd       pd_tPos 277 pd_conf  978.00 PdSourceType(pdIn,pdOut,cnt) (kLow ,kLow ,0) tof_tPos 254 tof_confLvl 0.52 tof_isConf 1 tof_GD 0 gyro 0.02 roi_motion kSmall   ledAssist 0 aecSettled 0 luxI 325.19 expI 325.19 g 3.45 et 33.41 bv 0.77 light kGAfTLightNormal  exposureValue 0.00 TF 0 SC 0 ST 0 [roi(0,1) depth(0,1) motion(0,0) 3a(0,1) fv(0,1) peer(0,1)] fv 4376.02 bUpRoi 1 bUpBAF 1 bUpPD 1 FVCmpEn 0 FVCmpRe 0 zPlusCropWin(   0,   0,4080,3072) zPlusRatios(1.00, 1.00)
+10-15 17:20:45.651  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:46.154  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:46.177  3179 21639 W AsyncOperation: OperationException[Status{statusCode=Operation failed with an execution exception!, resolution=null}]
+10-15 17:20:47.737  9430 21483 D CCodec  : ISConfig not changed
+10-15 17:20:48.005  1447  9590 I GAF     :

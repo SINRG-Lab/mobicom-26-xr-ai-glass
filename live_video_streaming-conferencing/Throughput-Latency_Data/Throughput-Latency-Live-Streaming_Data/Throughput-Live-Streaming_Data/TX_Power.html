@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TX Power Synthetic Data Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .control-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .control-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            color: #555;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        
+        input, select {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        button {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        .stats {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .data-preview {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            position: sticky;
+            top: 0;
+        }
+        
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .generating {
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BLE TX Power Synthetic Data Generator</h1>
+            <p class="subtitle">Generate realistic synthetic Bluetooth Low Energy transmission data based on empirical distributions</p>
+        </div>
+        
+        <div class="controls">
+            <h2 style="margin-bottom: 20px; color: #333;">Configuration</h2>
+            <div class="control-group">
+                <div class="control-item">
+                    <label>Number of Records</label>
+                    <input type="number" id="numRecords" min="10" max="10000" value="100">
+                </div>
+                <div class="control-item">
+                    <label>TX Power Distribution</label>
+                    <select id="txPowerDist">
+                        <option value="realistic">Realistic (Based on Dataset)</option>
+                        <option value="uniform">Uniform Distribution</option>
+                        <option value="weighted">Weighted (More Common Powers)</option>
+                    </select>
+                </div>
+                <div class="control-item">
+                    <label>Scenario Distribution</label>
+                    <select id="scenarioDist">
+                        <option value="realistic">Realistic (Based on Dataset)</option>
+                        <option value="uniform">Uniform Distribution</option>
+                    </select>
+                </div>
+                <div class="control-item">
+                    <label>Noise Level (%)</label>
+                    <input type="number" id="noiseLevel" min="0" max="50" value="10" step="5">
+                </div>
+            </div>
+            <div class="button-group">
+                <button class="btn-primary" onclick="generateData()">Generate Synthetic Data</button>
+                <button class="btn-secondary" onclick="downloadCSV()">Download CSV</button>
+                <button class="btn-secondary" onclick="loadOriginalData()">Load Original Data</button>
+            </div>
+        </div>
+        
+        <div class="stats" id="stats" style="display: none;">
+            <h2 style="margin-bottom: 20px; color: #333;">Dataset Statistics</h2>
+            <div class="stats-grid" id="statsGrid"></div>
+        </div>
+        
+        <div class="data-preview" id="dataPreview">
+            <div class="loading">Click "Generate Synthetic Data" to create new dataset</div>
+        </div>
+    </div>
+    
+    <script>
+        let syntheticData = [];
+        let originalData = null;
+        
+        // Statistical parameters derived from the original dataset
+        const txPowers = ['N12', 'N9', 'N6', 'N3', 'N0', 'P3', 'P6', 'p9'];
+        const scenarios = ['Wall', 'Lobby', 'Crowded', 'Workshop'];
+        
+        // Distribution parameters based on analysis
+        const rssiParams = {
+            mean: -70,
+            std: 15,
+            min: -100,
+            max: -34
+        };
+        
+        // BLE throughput parameters (in KB/s)
+        // BLE 5.0 max theoretical: ~2 Mbps = 250 KB/s
+        // Practical max: ~100-150 KB/s
+        // Your data shows max ~13.6 KB/s which is typical for BLE 4.x
+        const throughputParams = {
+            mean: 6.5,  // Average from your dataset
+            std: 3.5,
+            min: 0.7,   // Minimum viable BLE throughput
+            max: 13.7   // Maximum from your dataset (BLE 4.x practical limit)
+        };
+        
+        const powerConsumptionParams = {
+            N12: { current: 0.104, power: 0.344 },
+            N9: { current: 0.101, power: 0.334 },
+            N6: { current: 0.105, power: 0.347 },
+            N3: { current: 0.111, power: 0.367 },
+            N0: { current: 0.113, power: 0.374 },
+            P3: { current: 0.120, power: 0.397 },
+            P6: { current: 0.124, power: 0.410 },
+            p9: { current: 0.135, power: 0.447 }
+        };
+        
+        function gaussianRandom(mean, std) {
+            let u = 0, v = 0;
+            while(u === 0) u = Math.random();
+            while(v === 0) v = Math.random();
+            return mean + std * Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+        }
+        
+        function clamp(value, min, max) {
+            return Math.max(min, Math.min(max, value));
+        }
+        
+        function generateRSSI(distance, txPower, scenario, noise) {
+            // Path loss model with scenario-specific adjustments
+            const baseLoss = -40;
+            const pathLossExponent = scenario === 'Wall' ? 3.5 : scenario === 'Crowded' ? 3.0 : 2.5;
+            const txPowerIndex = txPowers.indexOf(txPower);
+            const txPowerAdjustment = (txPowerIndex - 4) * 3; // Adjustment based on TX power
+            
+            let rssi = baseLoss - 10 * pathLossExponent * Math.log10(Math.max(1, distance)) + txPowerAdjustment;
+            
+            // Add scenario-specific offset
+            if (scenario === 'Wall') rssi -= 10;
+            if (scenario === 'Crowded') rssi -= 5;
+            
+            // Add noise
+            rssi += gaussianRandom(0, noise);
+            
+            return clamp(Math.round(rssi), rssiParams.min, rssiParams.max);
+        }
+        
+        function generateThroughput(rssi, noise) {
+            // BLE throughput model based on RSSI
+            // BLE 4.x practical throughput ranges from ~0.7 to ~13.7 KB/s
+            const maxThroughput = throughputParams.max;
+            const minThroughput = throughputParams.min;
+            
+            // Map RSSI to throughput with realistic BLE characteristics
+            // Strong correlation between RSSI and throughput for BLE
+            if (rssi >= -40) {
+                // Excellent signal: 11-13.7 KB/s
+                throughput = maxThroughput - gaussianRandom(1, 0.5);
+            } else if (rssi >= -55) {
+                // Very good signal: 9-12 KB/s
+                throughput = 10.5 + gaussianRandom(0, 1.5);
+            } else if (rssi >= -65) {
+                // Good signal: 6-10 KB/s
+                throughput = 8 + gaussianRandom(0, 2);
+            } else if (rssi >= -75) {
+                // Fair signal: 3-8 KB/s
+                throughput = 5.5 + gaussianRandom(0, 2.5);
+            } else if (rssi >= -85) {
+                // Weak signal: 1.5-5 KB/s
+                throughput = 3 + gaussianRandom(0, 1.5);
+            } else {
+                // Very weak signal: 0.7-3 KB/s
+                throughput = 1.8 + gaussianRandom(0, 1);
+            }
+            
+            // Add environmental noise effect
+            throughput *= (1 - (noise / 100) * 0.3);
+            
+            // BLE retransmission effects at low RSSI
+            if (rssi < -80) {
+                throughput *= 0.7; // Packet loss and retransmission overhead
+            }
+            
+            return clamp(throughput, minThroughput, maxThroughput);
+        }
+        
+        function generateData() {
+            const numRecords = parseInt(document.getElementById('numRecords').value);
+            const txPowerDist = document.getElementById('txPowerDist').value;
+            const scenarioDist = document.getElementById('scenarioDist').value;
+            const noiseLevel = parseInt(document.getElementById('noiseLevel').value);
+            
+            syntheticData = [];
+            
+            document.getElementById('dataPreview').innerHTML = '<div class="loading generating">Generating synthetic data...</div>';
+            
+            setTimeout(() => {
+                for (let i = 0; i < numRecords; i++) {
+                    // Select TX Power
+                    let txPower;
+                    if (txPowerDist === 'uniform') {
+                        txPower = txPowers[Math.floor(Math.random() * txPowers.length)];
+                    } else if (txPowerDist === 'weighted') {
+                        // Weight towards middle powers
+                        const weights = [0.1, 0.15, 0.2, 0.2, 0.15, 0.1, 0.05, 0.05];
+                        const random = Math.random();
+                        let cumulative = 0;
+                        for (let j = 0; j < weights.length; j++) {
+                            cumulative += weights[j];
+                            if (random < cumulative) {
+                                txPower = txPowers[j];
+                                break;
+                            }
+                        }
+                    } else {
+                        // Realistic distribution from dataset
+                        const weights = [0.18, 0.14, 0.19, 0.16, 0.11, 0.12, 0.10, 0.10];
+                        const random = Math.random();
+                        let cumulative = 0;
+                        for (let j = 0; j < weights.length; j++) {
+                            cumulative += weights[j];
+                            if (random < cumulative) {
+                                txPower = txPowers[j];
+                                break;
+                            }
+                        }
+                    }
+                    
+                    // Select Scenario
+                    let scenario;
+                    if (scenarioDist === 'uniform') {
+                        scenario = scenarios[Math.floor(Math.random() * scenarios.length)];
+                    } else {
+                        // Realistic distribution
+                        const weights = [0.2, 0.35, 0.15, 0.30];
+                        const random = Math.random();
+                        let cumulative = 0;
+                        for (let j = 0; j < weights.length; j++) {
+                            cumulative += weights[j];
+                            if (random < cumulative) {
+                                scenario = scenarios[j];
+                                break;
+                            }
+                        }
+                    }
+                    
+                    // Generate distance with realistic distribution
+                    let distance;
+                    if (Math.random() < 0.4) {
+                        distance = Math.floor(Math.random() * 10) * 5; // 0, 5, 10, ..., 45
+                    } else {
+                        distance = Math.floor(Math.random() * 13) * 5; // Extended range
+                    }
+                    
+                    // Generate correlated values
+                    const rssi = generateRSSI(distance, txPower, scenario, noiseLevel);
+                    const throughputKBps = generateThroughput(rssi, noiseLevel);
+                    const throughputKbps = throughputKBps * 8; // Convert KB/s to Kbps
+                    
+                    // Get power consumption (BLE typical ranges)
+                    const powerParams = powerConsumptionParams[txPower] || powerConsumptionParams['N0'];
+                    const current = powerParams.current + gaussianRandom(0, 0.003);
+                    const power = powerParams.power + gaussianRandom(0, 0.008);
+                    
+                    syntheticData.push({
+                        Test: i + 1,
+                        'Tx Power': txPower,
+                        Distance: distance,
+                        Scenarios: scenario,
+                        'RSSI (dbm)': rssi,
+                        'Throughput (KB/S)': throughputKBps.toFixed(2),
+                        'Throughput (Kbps)': throughputKbps.toFixed(2),
+                        'Current (A)': current.toFixed(3),
+                        'Power (W)': power.toFixed(5)
+                    });
+                }
+                
+                displayData();
+                updateStats();
+            }, 100);
+        }
+        
+        function displayData() {
+            if (syntheticData.length === 0) return;
+            
+            let html = '<table><thead><tr>';
+            const headers = Object.keys(syntheticData[0]);
+            headers.forEach(header => {
+                html += `<th>${header}</th>`;
+            });
+            html += '</tr></thead><tbody>';
+            
+            syntheticData.slice(0, 100).forEach(row => {
+                html += '<tr>';
+                headers.forEach(header => {
+                    html += `<td>${row[header]}</td>`;
+                });
+                html += '</tr>';
+            });
+            
+            html += '</tbody></table>';
+            if (syntheticData.length > 100) {
+                html += `<p style="text-align: center; margin-top: 20px; color: #666;">Showing first 100 of ${syntheticData.length} records</p>`;
+            }
+            
+            document.getElementById('dataPreview').innerHTML = html;
+        }
+        
+        function updateStats() {
+            const stats = {
+                'Total Records': syntheticData.length,
+                'Unique TX Powers': [...new Set(syntheticData.map(d => d['Tx Power']))].length,
+                'Scenarios': [...new Set(syntheticData.map(d => d.Scenarios))].length,
+                'Avg RSSI': (syntheticData.reduce((sum, d) => sum + parseFloat(d['RSSI (dbm)']), 0) / syntheticData.length).toFixed(1),
+                'Avg Throughput': (syntheticData.reduce((sum, d) => sum + parseFloat(d['Throughput (KB/S)']), 0) / syntheticData.length).toFixed(1) + ' KB/s',
+                'Distance Range': `0-${Math.max(...syntheticData.map(d => d.Distance))}m`
+            };
+            
+            let html = '';
+            Object.entries(stats).forEach(([label, value]) => {
+                html += `
+                    <div class="stat-card">
+                        <div class="stat-value">${value}</div>
+                        <div class="stat-label">${label}</div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('statsGrid').innerHTML = html;
+            document.getElementById('stats').style.display = 'block';
+        }
+        
+        function downloadCSV() {
+            if (syntheticData.length === 0) {
+                alert('Please generate data first!');
+                return;
+            }
+            
+            const csv = Papa.unparse(syntheticData);
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `synthetic_tx_power_data_${new Date().getTime()}.csv`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        async function loadOriginalData() {
+            try {
+                const fileContent = await window.fs.readFile('TX_Power_Distances_Dataset.csv', { encoding: 'utf8' });
+                const result = Papa.parse(fileContent, {
+                    header: true,
+                    dynamicTyping: true,
+                    skipEmptyLines: true
+                });
+                
+                if (result.data && result.data.length > 0) {
+                    syntheticData = result.data.map((row, index) => ({
+                        Test: row.Test || index + 1,
+                        'Tx Power': row['Tx Power'] || '',
+                        Distance: row.Distance || 0,
+                        Scenarios: row.Senarios || row.Scenarios || '',
+                        'RSSI (dbm)': row['RSSI (dbm)'] || 0,
+                        'Throughput (KB/S)': row['Throughput (KB/S)'] || 0,
+                        'Throughput (Kbps)': row['Throughput (Kbps)'] || 0,
+                        'Current (A)': row['Current (A)'] || 0,
+                        'Power (W)': row['Power (W)'] || 0
+                    }));
+                    
+                    displayData();
+                    updateStats();
+                } else {
+                    alert('Failed to parse the CSV file');
+                }
+            } catch (error) {
+                alert('Could not load original data file. Please ensure the file is uploaded.');
+                console.error(error);
+            }
+        }
+        
+        // Generate initial data on load
+        window.addEventListener('load', () => {
+            generateData();
+        });
+    </script>
+</body>
+</html>

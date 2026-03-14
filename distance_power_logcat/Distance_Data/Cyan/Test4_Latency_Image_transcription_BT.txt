@@ -1,0 +1,1163 @@
+Nov 05 22:19:49.435  Config           0x0023  G300_C75B          Connected: 42:2F:35:A6:C7:5B - Handle: 0x23 - G300_C75B - Central - Codec: mSBC - PID/VID 0x000A/0x05D6 - Ver 0x240  
+Nov 05 22:19:49.436  Config           0x0056  G300_C75B          Connected: 42:2F:35:A6:C7:5B - Handle: 0x56 - G300_C75B - 3AB03E4A-249E-EE14-135B-E19ABED2AEDA  
+Nov 05 22:19:53.692  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC41 0500 7C6D 0201 0601 01  
+Nov 05 22:19:53.969  L2CAP Receive    0x0056  G300_C75B          Connection Parameter Update Request  
+Nov 05 22:19:53.969  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC41 0300 5192 0201 06  
+Nov 05 22:19:53.970  HCI Command      0x0056  G300_C75B          LE Connection Update - Handle: 0x0056 - Interval Min: 25 ms - Interval Max: 50 ms - Max Latency: 0 - Supervision Timeout: 5000 ms  
+Nov 05 22:19:53.970  L2CAP Send       0x0056  G300_C75B          Connection Parameter Update Response  
+Nov 05 22:19:54.087  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:54.087  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:54.727  HCI Event        0x0056  G300_C75B          LE - Connection Update Complete - Interval: 40 ms - Latency: 0 ms - Supervision Timeout: 5000 ms  
+Nov 05 22:19:55.729  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC73 0500 DD92 0200 0801 00  
+Nov 05 22:19:55.736  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 19C0 0100 0000 00  
+Nov 05 22:19:55.810  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 E3A3 0108 0000 00FF D8FF E000…  
+Nov 05 22:19:55.813  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 0211 0103 1101 FFC4 001F 0000 0105 0101…  
+Nov 05 22:19:55.813  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: B9BA C2C3 C4C5 C6C7 C8C9 CAD2 D3D4 D5D6…  
+Nov 05 22:19:55.828  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:55.851  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 797A 8283 8485 8687 8889 8A92 9394 9596…  
+Nov 05 22:19:55.891  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: B4F8 7307 9AD7 871D 0AFF 005A 00EA 2C6C…  
+Nov 05 22:19:55.891  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 84D0 5811 91D3 DE98 C68D C1A1 49A6 31C8…  
+Nov 05 22:19:55.902  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 19AC 0101 0001 00  
+Nov 05 22:19:55.969  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 C9D4 0108 0001 004F 3B79 3FA6…  
+Nov 05 22:19:55.971  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: EDFE D20F D0D7 018A F4BF 8491 EEB3 D40E…  
+Nov 05 22:19:55.973  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 8B80 056E 935C AF80 5D8E 9D29 1646 D216…  
+Nov 05 22:19:56.011  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 0040 2D20 CE5D 3CC3 EB21 2F8F A67A 54C7…  
+Nov 05 22:19:56.011  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 497E 27E9 9A2F 9C63 D3DA D9A4 6840 5F98…  
+Nov 05 22:19:56.013  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 648F C07F 8D4A 4D34 9A04 4461 76FF 005B…  
+Nov 05 22:19:56.014  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1918 0102 0002 00  
+Nov 05 22:19:56.018  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.089  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 71FD 0108 0002 00A3 5396 73FE…  
+Nov 05 22:19:56.091  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BAAF 0978 597E DBA6 EBD2 3BA4 E96E 6231…  
+Nov 05 22:19:56.093  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 9A04 389A 4269 A4D2 1340 85CF 3505 F736…  
+Nov 05 22:19:56.129  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: FE54 98CE F13B 5584 E955 D2A6 5E95 231E…  
+Nov 05 22:19:56.137  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.169  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: D1EE F45B 9BA8 6FFC 8592 44DC 238E 4DF8…  
+Nov 05 22:19:56.171  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: DF47 90FE F74C 8093 FDD2 EBFC 88AE E782…  
+Nov 05 22:19:56.172  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1974 0103 0003 00  
+Nov 05 22:19:56.249  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 6711 0108 0003 0039 00FA 11D4…  
+Nov 05 22:19:56.251  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 3403 4C26 8069 8C7C AD88 58E0 9C0C E077…  
+Nov 05 22:19:56.252  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 9A46 6001 24E0 7AD5 5FB2 459C 932B 7B34…  
+Nov 05 22:19:56.289  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BF10 93FE BA92 FF00 CF34 AB6D 045C C50C…  
+Nov 05 22:19:56.291  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 6927 647D A539 3945 392B 0E2D 49BF 1CF5…  
+Nov 05 22:19:56.293  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: F2E6 BC8F 4DD5 AF06 BF16 6EE5 5856 1595…  
+Nov 05 22:19:56.294  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1A30 0104 0004 00  
+Nov 05 22:19:56.298  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.369  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 63D6 0108 0004 001E 38D2 17D8…  
+Nov 05 22:19:56.371  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 1959 77B6 7AEE 2474 A4D0 F51D 2AF1 244D…  
+Nov 05 22:19:56.372  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 15FC EABC BB44 8761 CAF6 C54F BCFF 00CF…  
+Nov 05 22:19:56.409  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 726B CE7B 9DF1 D88B 5260 2DC7 3FC4 2B91…  
+Nov 05 22:19:56.410  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 5406 7DFC A365 72CD BB8E F5E9 131F DC49…  
+Nov 05 22:19:56.411  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 499A 043B 3499 A6E6 8CD0 03F3 4C7E 94B9…  
+Nov 05 22:19:56.413  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1A5C 0105 0005 00  
+Nov 05 22:19:56.416  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.489  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 2E85 0108 0005 0023 31FF 0038…  
+Nov 05 22:19:56.491  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: C048 DB93 F55A E654 1DF5 3775 D5BD D3B0…  
+Nov 05 22:19:56.493  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: AC92 B189 C344 EA36 9F43 FC8D 29B9 403E…  
+Nov 05 22:19:56.528  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: EB84 F991 E4D6 A3EC E562 4CF6 C73D 2977…  
+Nov 05 22:19:56.532  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: AB33 74CD 3574 E8A0 8430 7732 64BE DC7A…  
+Nov 05 22:19:56.532  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 4E31 F8D5 D27E 46FA 5713 E1FF 0019 5E5F…  
+Nov 05 22:19:56.533  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1AE8 0106 0006 00  
+Nov 05 22:19:56.537  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.609  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD FA03 8A36 0108 0006 005D 39CF 19FF…  
+Nov 05 22:19:56.611  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 776E C7E5 9E23 F471 4F66 0572 0822 9AE1…  
+Nov 05 22:19:56.613  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 39AA CC4B 31F5 3585 5774 8ECC 346C D8D2…  
+Nov 05 22:19:56.649  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 3B26 0B01 F31E 3BD6 779E 0F5C D741 68D9…  
+Nov 05 22:19:56.651  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: 4FFE B565 1B6D 1AE7 5337 4BA8 C62E 55C3…  
+Nov 05 22:19:56.652  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: F4A8 ADBF 8FFD DFEA 29E3 A8AC 2676 5256…  
+Nov 05 22:19:56.654  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BCFD 0500 1A84 0107 0007 00  
+Nov 05 22:19:56.657  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.729  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BCFD 3D01 98D9 0108 0007 0026 DE68 A453…  
+Nov 05 22:19:56.738  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:56.768  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: DA92 81DE 802B 7D92 0992 3678 C16C 039E…  
+Nov 05 22:19:58.491  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 C110 0201  
+Nov 05 22:19:58.568  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 C110 0201  
+Nov 05 22:19:58.754  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:19:59.024  L2CAP Send       0x0023  G300_C75B          Channel ID: 0x0144  Length: 0x000E (14) [ A0 11 0E 00 48 00 00 19 58 50 00 00 01 54 ]  
+Nov 05 22:19:59.036  HCI Command      0x0023  G300_C75B          Read Clock - Connection Handle: 0x0023  
+Nov 05 22:19:59.039  HCI Event        0x0023  G300_C75B          Command Complete [1407] - Read Clock  
+Nov 05 22:19:59.039  HCI Command      0x0023  G300_C75B          Exit Sniff Mode - Connection Handle: 0x0023  
+Nov 05 22:19:59.337  HCI Event        0x0023  G300_C75B          Mode Change - Active Mode - Handle: 0x0023  
+Nov 05 22:19:59.337  PFC Send         0x0023  G300_C75B          Start: Signal  
+Nov 05 22:19:59.340  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.374  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.410  L2CAP Receive    0x0023  G300_C75B          Channel ID: 0x0E0C  Length: 0x000E (14) [ A2 11 0E 09 48 00 00 19 58 50 00 00 01 54 ]  
+Nov 05 22:19:59.410  PFC Receive      0x0023  G300_C75B          Start: Accept-Response  
+Nov 05 22:19:59.436  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 1 - Length ~ 32  
+Nov 05 22:19:59.459  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 2 - Length ~ 32  
+Nov 05 22:19:59.462  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.482  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 3 - Length ~ 32  
+Nov 05 22:19:59.484  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.505  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 4 - Length ~ 32  
+Nov 05 22:19:59.508  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.518  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.528  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 5 - Length ~ 32  
+Nov 05 22:19:59.551  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 6 - Length ~ 32  
+Nov 05 22:19:59.555  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.561  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.574  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 7 - Length ~ 32  
+Nov 05 22:19:59.598  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 8 - Length ~ 32  
+Nov 05 22:19:59.601  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.621  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 9 - Length ~ 32  
+Nov 05 22:19:59.624  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.644  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 10 - Length ~ 32  
+Nov 05 22:19:59.647  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.668  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 11 - Length ~ 32  
+Nov 05 22:19:59.670  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.682  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.691  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 12 - Length ~ 32  
+Nov 05 22:19:59.714  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 13 - Length ~ 346  
+Nov 05 22:19:59.717  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.738  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 14 - Length ~ 372  
+Nov 05 22:19:59.741  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.761  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 15 - Length ~ 364  
+Nov 05 22:19:59.763  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.784  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 16 - Length ~ 373  
+Nov 05 22:19:59.786  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.802  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.807  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 17 - Length ~ 350  
+Nov 05 22:19:59.830  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 18 - Length ~ 362  
+Nov 05 22:19:59.833  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.853  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 19 - Length ~ 366  
+Nov 05 22:19:59.857  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.877  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 20 - Length ~ 354  
+Nov 05 22:19:59.880  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.900  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 21 - Length ~ 354  
+Nov 05 22:19:59.903  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.921  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.923  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 22 - Length ~ 370  
+Nov 05 22:19:59.947  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 23 - Length ~ 347  
+Nov 05 22:19:59.949  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.966  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:19:59.970  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 24 - Length ~ 363  
+Nov 05 22:19:59.993  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 25 - Length ~ 361  
+Nov 05 22:19:59.996  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.016  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 26 - Length ~ 345  
+Nov 05 22:20:00.019  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.039  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 27 - Length ~ 345  
+Nov 05 22:20:00.042  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.055  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.063  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 28 - Length ~ 346  
+Nov 05 22:20:00.082  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.086  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 29 - Length ~ 359  
+Nov 05 22:20:00.109  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 30 - Length ~ 380  
+Nov 05 22:20:00.113  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.132  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 31 - Length ~ 375  
+Nov 05 22:20:00.135  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.155  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 32 - Length ~ 371  
+Nov 05 22:20:00.158  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.176  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.179  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 33 - Length ~ 351  
+Nov 05 22:20:00.191  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.202  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 34 - Length ~ 364  
+Nov 05 22:20:00.225  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 35 - Length ~ 372  
+Nov 05 22:20:00.228  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.248  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 36 - Length ~ 372  
+Nov 05 22:20:00.251  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.261  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.272  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 37 - Length ~ 378  
+Nov 05 22:20:00.295  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 38 - Length ~ 359  
+Nov 05 22:20:00.298  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.318  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 39 - Length ~ 344  
+Nov 05 22:20:00.321  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.334  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.341  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 40 - Length ~ 364  
+Nov 05 22:20:00.353  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.364  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 41 - Length ~ 362  
+Nov 05 22:20:00.388  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 42 - Length ~ 352  
+Nov 05 22:20:00.390  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.411  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 43 - Length ~ 370  
+Nov 05 22:20:00.414  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.423  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.434  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 44 - Length ~ 359  
+Nov 05 22:20:00.457  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 45 - Length ~ 347  
+Nov 05 22:20:00.460  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.481  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 46 - Length ~ 347  
+Nov 05 22:20:00.483  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:00.504  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 47 - Length ~ 371  
+Nov 05 22:20:00.506  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.527  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 48 - Length ~ 349  
+Nov 05 22:20:00.536  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.536  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.550  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 49 - Length ~ 354  
+Nov 05 22:20:00.569  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:00.573  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 50 - Length ~ 344  
+Nov 05 22:20:00.576  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.590  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:00.590  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.596  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 51 - Length ~ 367  
+Nov 05 22:20:00.620  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 52 - Length ~ 346  
+Nov 05 22:20:00.623  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.643  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 53 - Length ~ 356  
+Nov 05 22:20:00.646  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.666  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 54 - Length ~ 358  
+Nov 05 22:20:00.669  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.690  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 55 - Length ~ 373  
+Nov 05 22:20:00.693  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.713  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 56 - Length ~ 359  
+Nov 05 22:20:00.715  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.730  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.736  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 57 - Length ~ 357  
+Nov 05 22:20:00.759  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 58 - Length ~ 355  
+Nov 05 22:20:00.762  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.782  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 59 - Length ~ 350  
+Nov 05 22:20:00.785  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.806  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 60 - Length ~ 346  
+Nov 05 22:20:00.809  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.821  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.829  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 61 - Length ~ 363  
+Nov 05 22:20:00.852  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 62 - Length ~ 349  
+Nov 05 22:20:00.855  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.875  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 63 - Length ~ 363  
+Nov 05 22:20:00.878  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.899  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 64 - Length ~ 354  
+Nov 05 22:20:00.901  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.909  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.922  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 65 - Length ~ 348  
+Nov 05 22:20:00.945  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 66 - Length ~ 364  
+Nov 05 22:20:00.948  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.968  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 67 - Length ~ 350  
+Nov 05 22:20:00.971  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:00.991  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 68 - Length ~ 346  
+Nov 05 22:20:00.994  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.001  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.015  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 69 - Length ~ 345  
+Nov 05 22:20:01.038  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 70 - Length ~ 349  
+Nov 05 22:20:01.041  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.061  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 71 - Length ~ 369  
+Nov 05 22:20:01.061  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.084  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 72 - Length ~ 354  
+Nov 05 22:20:01.088  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.107  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 73 - Length ~ 364  
+Nov 05 22:20:01.110  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.131  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 74 - Length ~ 369  
+Nov 05 22:20:01.133  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.154  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 75 - Length ~ 375  
+Nov 05 22:20:01.157  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.177  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 76 - Length ~ 372  
+Nov 05 22:20:01.180  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.190  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.200  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 77 - Length ~ 357  
+Nov 05 22:20:01.223  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 78 - Length ~ 365  
+Nov 05 22:20:01.226  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.247  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 79 - Length ~ 375  
+Nov 05 22:20:01.250  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.270  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 80 - Length ~ 374  
+Nov 05 22:20:01.273  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.292  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.293  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 81 - Length ~ 363  
+Nov 05 22:20:01.316  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 82 - Length ~ 362  
+Nov 05 22:20:01.319  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.331  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.340  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 83 - Length ~ 354  
+Nov 05 22:20:01.363  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 84 - Length ~ 361  
+Nov 05 22:20:01.367  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.386  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 85 - Length ~ 374  
+Nov 05 22:20:01.390  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.409  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 86 - Length ~ 360  
+Nov 05 22:20:01.413  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.425  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.433  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 87 - Length ~ 358  
+Nov 05 22:20:01.455  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 88 - Length ~ 361  
+Nov 05 22:20:01.458  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.479  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 89 - Length ~ 356  
+Nov 05 22:20:01.482  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.502  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 90 - Length ~ 359  
+Nov 05 22:20:01.505  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.525  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 91 - Length ~ 354  
+Nov 05 22:20:01.528  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.549  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 92 - Length ~ 367  
+Nov 05 22:20:01.551  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.566  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.572  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 93 - Length ~ 344  
+Nov 05 22:20:01.584  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.595  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 94 - Length ~ 364  
+Nov 05 22:20:01.618  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 95 - Length ~ 368  
+Nov 05 22:20:01.621  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.642  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 96 - Length ~ 364  
+Nov 05 22:20:01.644  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.665  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 97 - Length ~ 374  
+Nov 05 22:20:01.668  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.688  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 98 - Length ~ 365  
+Nov 05 22:20:01.691  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.711  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 99 - Length ~ 358  
+Nov 05 22:20:01.714  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.734  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 100 - Length ~ 353  
+Nov 05 22:20:01.738  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.758  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 101 - Length ~ 354  
+Nov 05 22:20:01.761  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.781  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 102 - Length ~ 347  
+Nov 05 22:20:01.784  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.804  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 103 - Length ~ 366  
+Nov 05 22:20:01.808  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.827  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 104 - Length ~ 348  
+Nov 05 22:20:01.830  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.850  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 105 - Length ~ 362  
+Nov 05 22:20:01.853  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.874  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 106 - Length ~ 354  
+Nov 05 22:20:01.876  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.897  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 107 - Length ~ 362  
+Nov 05 22:20:01.901  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.920  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 108 - Length ~ 356  
+Nov 05 22:20:01.923  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.943  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 109 - Length ~ 350  
+Nov 05 22:20:01.946  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.967  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 110 - Length ~ 372  
+Nov 05 22:20:01.969  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:01.990  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 111 - Length ~ 375  
+Nov 05 22:20:01.993  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.013  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 112 - Length ~ 366  
+Nov 05 22:20:02.016  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.036  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 113 - Length ~ 354  
+Nov 05 22:20:02.039  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.059  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 114 - Length ~ 364  
+Nov 05 22:20:02.062  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.082  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 115 - Length ~ 367  
+Nov 05 22:20:02.086  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.106  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 116 - Length ~ 367  
+Nov 05 22:20:02.109  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.129  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 117 - Length ~ 358  
+Nov 05 22:20:02.132  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.152  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 118 - Length ~ 351  
+Nov 05 22:20:02.155  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.175  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 119 - Length ~ 353  
+Nov 05 22:20:02.185  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.185  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.199  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 120 - Length ~ 370  
+Nov 05 22:20:02.222  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 121 - Length ~ 347  
+Nov 05 22:20:02.225  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.245  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 122 - Length ~ 365  
+Nov 05 22:20:02.248  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.267  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.268  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 123 - Length ~ 371  
+Nov 05 22:20:02.292  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 124 - Length ~ 347  
+Nov 05 22:20:02.294  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.315  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 125 - Length ~ 353  
+Nov 05 22:20:02.318  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.338  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 126 - Length ~ 356  
+Nov 05 22:20:02.341  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.361  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 127 - Length ~ 367  
+Nov 05 22:20:02.364  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.385  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 128 - Length ~ 348  
+Nov 05 22:20:02.388  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.401  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.408  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 129 - Length ~ 368  
+Nov 05 22:20:02.424  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.431  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 130 - Length ~ 370  
+Nov 05 22:20:02.454  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 131 - Length ~ 374  
+Nov 05 22:20:02.457  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.478  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 132 - Length ~ 349  
+Nov 05 22:20:02.481  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:02.497  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.501  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 133 - Length ~ 372  
+Nov 05 22:20:02.524  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 134 - Length ~ 347  
+Nov 05 22:20:02.527  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.547  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 135 - Length ~ 362  
+Nov 05 22:20:02.550  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.561  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.568  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:02.570  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 136 - Length ~ 368  
+Nov 05 22:20:02.580  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.580  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:02.594  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 137 - Length ~ 351  
+Nov 05 22:20:02.617  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 138 - Length ~ 350  
+Nov 05 22:20:02.620  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.640  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 139 - Length ~ 360  
+Nov 05 22:20:02.643  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.664  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 140 - Length ~ 362  
+Nov 05 22:20:02.666  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.675  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.687  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 141 - Length ~ 369  
+Nov 05 22:20:02.710  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 142 - Length ~ 370  
+Nov 05 22:20:02.713  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.733  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 143 - Length ~ 346  
+Nov 05 22:20:02.736  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.745  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.756  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 144 - Length ~ 348  
+Nov 05 22:20:02.779  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 145 - Length ~ 345  
+Nov 05 22:20:02.782  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.802  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 146 - Length ~ 369  
+Nov 05 22:20:02.806  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.826  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 147 - Length ~ 354  
+Nov 05 22:20:02.829  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.849  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 148 - Length ~ 379  
+Nov 05 22:20:02.852  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.872  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 149 - Length ~ 364  
+Nov 05 22:20:02.874  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.895  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 150 - Length ~ 349  
+Nov 05 22:20:02.898  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.918  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 151 - Length ~ 363  
+Nov 05 22:20:02.921  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.942  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 152 - Length ~ 359  
+Nov 05 22:20:02.943  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.965  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 153 - Length ~ 361  
+Nov 05 22:20:02.968  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.981  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:02.988  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 154 - Length ~ 366  
+Nov 05 22:20:03.010  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.012  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 155 - Length ~ 376  
+Nov 05 22:20:03.035  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 156 - Length ~ 365  
+Nov 05 22:20:03.038  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.058  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 157 - Length ~ 350  
+Nov 05 22:20:03.061  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.081  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 158 - Length ~ 347  
+Nov 05 22:20:03.084  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.104  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 159 - Length ~ 362  
+Nov 05 22:20:03.107  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.128  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 160 - Length ~ 371  
+Nov 05 22:20:03.131  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.151  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 161 - Length ~ 352  
+Nov 05 22:20:03.154  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.174  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 162 - Length ~ 368  
+Nov 05 22:20:03.177  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.197  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 163 - Length ~ 363  
+Nov 05 22:20:03.201  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.220  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 164 - Length ~ 362  
+Nov 05 22:20:03.224  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.237  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.244  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 165 - Length ~ 344  
+Nov 05 22:20:03.267  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 166 - Length ~ 364  
+Nov 05 22:20:03.271  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.290  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 167 - Length ~ 349  
+Nov 05 22:20:03.294  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.313  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 168 - Length ~ 345  
+Nov 05 22:20:03.317  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.337  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 169 - Length ~ 357  
+Nov 05 22:20:03.341  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.360  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 170 - Length ~ 361  
+Nov 05 22:20:03.363  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.383  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 171 - Length ~ 350  
+Nov 05 22:20:03.386  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.406  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 172 - Length ~ 377  
+Nov 05 22:20:03.409  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.421  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.430  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 173 - Length ~ 360  
+Nov 05 22:20:03.453  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 174 - Length ~ 362  
+Nov 05 22:20:03.455  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.476  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 175 - Length ~ 359  
+Nov 05 22:20:03.479  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.499  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 176 - Length ~ 358  
+Nov 05 22:20:03.503  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.522  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 177 - Length ~ 371  
+Nov 05 22:20:03.527  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.546  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 178 - Length ~ 377  
+Nov 05 22:20:03.549  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.569  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 179 - Length ~ 368  
+Nov 05 22:20:03.573  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.592  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 180 - Length ~ 372  
+Nov 05 22:20:03.596  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.615  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 181 - Length ~ 361  
+Nov 05 22:20:03.619  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.638  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 182 - Length ~ 345  
+Nov 05 22:20:03.642  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.662  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 183 - Length ~ 345  
+Nov 05 22:20:03.663  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.685  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 184 - Length ~ 356  
+Nov 05 22:20:03.688  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.708  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 185 - Length ~ 346  
+Nov 05 22:20:03.711  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.731  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 186 - Length ~ 353  
+Nov 05 22:20:03.734  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.755  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 187 - Length ~ 352  
+Nov 05 22:20:03.757  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.778  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 188 - Length ~ 367  
+Nov 05 22:20:03.781  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.801  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 189 - Length ~ 344  
+Nov 05 22:20:03.805  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.824  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 190 - Length ~ 366  
+Nov 05 22:20:03.828  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.848  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 191 - Length ~ 351  
+Nov 05 22:20:03.852  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.871  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 192 - Length ~ 351  
+Nov 05 22:20:03.875  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.894  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 193 - Length ~ 355  
+Nov 05 22:20:03.898  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.917  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 194 - Length ~ 368  
+Nov 05 22:20:03.921  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.935  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.940  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 195 - Length ~ 362  
+Nov 05 22:20:03.964  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 196 - Length ~ 373  
+Nov 05 22:20:03.967  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:03.987  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 197 - Length ~ 363  
+Nov 05 22:20:03.990  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.010  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 198 - Length ~ 357  
+Nov 05 22:20:04.013  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.033  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 199 - Length ~ 361  
+Nov 05 22:20:04.037  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.056  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 200 - Length ~ 379  
+Nov 05 22:20:04.059  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.080  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 201 - Length ~ 351  
+Nov 05 22:20:04.083  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.103  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 202 - Length ~ 360  
+Nov 05 22:20:04.104  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.126  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 203 - Length ~ 358  
+Nov 05 22:20:04.130  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.149  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 204 - Length ~ 346  
+Nov 05 22:20:04.153  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.172  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 205 - Length ~ 376  
+Nov 05 22:20:04.176  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.193  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.196  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 206 - Length ~ 345  
+Nov 05 22:20:04.215  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.219  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 207 - Length ~ 379  
+Nov 05 22:20:04.242  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 208 - Length ~ 344  
+Nov 05 22:20:04.246  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.265  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 209 - Length ~ 365  
+Nov 05 22:20:04.269  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.289  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 210 - Length ~ 345  
+Nov 05 22:20:04.293  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.305  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.312  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 211 - Length ~ 359  
+Nov 05 22:20:04.335  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 212 - Length ~ 359  
+Nov 05 22:20:04.339  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.358  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 213 - Length ~ 360  
+Nov 05 22:20:04.362  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.381  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 214 - Length ~ 366  
+Nov 05 22:20:04.384  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.405  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 215 - Length ~ 359  
+Nov 05 22:20:04.409  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.425  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.428  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 216 - Length ~ 369  
+Nov 05 22:20:04.451  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 217 - Length ~ 32  
+Nov 05 22:20:04.454  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.472  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.474  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 218 - Length ~ 32  
+Nov 05 22:20:04.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:04.497  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 219 - Length ~ 32  
+Nov 05 22:20:04.498  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.520  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 220 - Length ~ 32  
+Nov 05 22:20:04.524  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.535  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.544  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 221 - Length ~ 32  
+Nov 05 22:20:04.567  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 222 - Length ~ 32  
+Nov 05 22:20:04.569  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:04.569  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.581  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.581  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:04.590  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 223 - Length ~ 32  
+Nov 05 22:20:04.613  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 224 - Length ~ 32  
+Nov 05 22:20:04.617  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.636  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 225 - Length ~ 32  
+Nov 05 22:20:04.639  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.660  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 226 - Length ~ 32  
+Nov 05 22:20:04.664  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.683  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 227 - Length ~ 32  
+Nov 05 22:20:04.686  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.706  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 228 - Length ~ 32  
+Nov 05 22:20:04.709  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.729  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 229 - Length ~ 32  
+Nov 05 22:20:04.733  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.753  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 230 - Length ~ 365  
+Nov 05 22:20:04.757  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.776  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 231 - Length ~ 351  
+Nov 05 22:20:04.779  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.799  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 232 - Length ~ 351  
+Nov 05 22:20:04.803  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.823  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 233 - Length ~ 354  
+Nov 05 22:20:04.826  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.846  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 234 - Length ~ 365  
+Nov 05 22:20:04.849  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.869  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 235 - Length ~ 352  
+Nov 05 22:20:04.873  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.892  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 236 - Length ~ 359  
+Nov 05 22:20:04.895  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.911  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.916  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 237 - Length ~ 365  
+Nov 05 22:20:04.939  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 238 - Length ~ 378  
+Nov 05 22:20:04.943  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.962  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 239 - Length ~ 348  
+Nov 05 22:20:04.967  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:04.985  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 240 - Length ~ 378  
+Nov 05 22:20:04.989  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.003  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.009  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 241 - Length ~ 349  
+Nov 05 22:20:05.032  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 242 - Length ~ 347  
+Nov 05 22:20:05.035  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.055  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 243 - Length ~ 359  
+Nov 05 22:20:05.058  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.078  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 244 - Length ~ 355  
+Nov 05 22:20:05.081  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.101  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 245 - Length ~ 359  
+Nov 05 22:20:05.105  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.124  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 246 - Length ~ 350  
+Nov 05 22:20:05.128  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.148  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 247 - Length ~ 358  
+Nov 05 22:20:05.150  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.171  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 248 - Length ~ 347  
+Nov 05 22:20:05.174  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.194  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 249 - Length ~ 377  
+Nov 05 22:20:05.197  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.217  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 250 - Length ~ 362  
+Nov 05 22:20:05.220  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.241  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 251 - Length ~ 353  
+Nov 05 22:20:05.243  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.264  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 252 - Length ~ 370  
+Nov 05 22:20:05.267  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.287  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 253 - Length ~ 361  
+Nov 05 22:20:05.290  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.300  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.310  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 254 - Length ~ 362  
+Nov 05 22:20:05.333  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 255 - Length ~ 352  
+Nov 05 22:20:05.336  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.357  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 256 - Length ~ 354  
+Nov 05 22:20:05.360  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.380  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 257 - Length ~ 367  
+Nov 05 22:20:05.383  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.403  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 258 - Length ~ 365  
+Nov 05 22:20:05.407  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.424  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.426  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 259 - Length ~ 370  
+Nov 05 22:20:05.450  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 260 - Length ~ 380  
+Nov 05 22:20:05.452  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.473  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 261 - Length ~ 364  
+Nov 05 22:20:05.476  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.496  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 262 - Length ~ 355  
+Nov 05 22:20:05.500  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.519  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 263 - Length ~ 355  
+Nov 05 22:20:05.522  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.542  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 264 - Length ~ 366  
+Nov 05 22:20:05.545  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.566  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 265 - Length ~ 365  
+Nov 05 22:20:05.589  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 266 - Length ~ 353  
+Nov 05 22:20:05.591  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.591  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.612  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 267 - Length ~ 347  
+Nov 05 22:20:05.635  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 268 - Length ~ 367  
+Nov 05 22:20:05.638  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.647  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.647  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.659  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 269 - Length ~ 350  
+Nov 05 22:20:05.682  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 270 - Length ~ 354  
+Nov 05 22:20:05.684  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.705  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 271 - Length ~ 350  
+Nov 05 22:20:05.728  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 272 - Length ~ 354  
+Nov 05 22:20:05.744  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.744  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.751  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 273 - Length ~ 347  
+Nov 05 22:20:05.754  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.775  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 274 - Length ~ 363  
+Nov 05 22:20:05.798  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 275 - Length ~ 361  
+Nov 05 22:20:05.816  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.816  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.821  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 276 - Length ~ 353  
+Nov 05 22:20:05.824  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.844  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 277 - Length ~ 344  
+Nov 05 22:20:05.867  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 278 - Length ~ 352  
+Nov 05 22:20:05.870  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.891  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 279 - Length ~ 371  
+Nov 05 22:20:05.894  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.903  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.903  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.914  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 280 - Length ~ 375  
+Nov 05 22:20:05.937  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 281 - Length ~ 360  
+Nov 05 22:20:05.940  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.960  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 282 - Length ~ 366  
+Nov 05 22:20:05.963  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:05.984  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 283 - Length ~ 377  
+Nov 05 22:20:05.988  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.007  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 284 - Length ~ 362  
+Nov 05 22:20:06.010  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.030  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 285 - Length ~ 357  
+Nov 05 22:20:06.033  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.053  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 286 - Length ~ 352  
+Nov 05 22:20:06.057  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.076  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 287 - Length ~ 355  
+Nov 05 22:20:06.080  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.100  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 288 - Length ~ 353  
+Nov 05 22:20:06.103  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.123  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 289 - Length ~ 373  
+Nov 05 22:20:06.126  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.139  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.146  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 290 - Length ~ 370  
+Nov 05 22:20:06.169  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 291 - Length ~ 354  
+Nov 05 22:20:06.173  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.193  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 292 - Length ~ 357  
+Nov 05 22:20:06.195  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.216  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 293 - Length ~ 349  
+Nov 05 22:20:06.220  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.239  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 294 - Length ~ 373  
+Nov 05 22:20:06.242  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.262  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 295 - Length ~ 358  
+Nov 05 22:20:06.263  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.286  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 296 - Length ~ 367  
+Nov 05 22:20:06.288  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.309  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 297 - Length ~ 360  
+Nov 05 22:20:06.313  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.332  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 298 - Length ~ 351  
+Nov 05 22:20:06.336  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.355  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 299 - Length ~ 373  
+Nov 05 22:20:06.359  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.378  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 300 - Length ~ 353  
+Nov 05 22:20:06.382  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.402  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 301 - Length ~ 350  
+Nov 05 22:20:06.407  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.418  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.425  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 302 - Length ~ 348  
+Nov 05 22:20:06.448  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 303 - Length ~ 363  
+Nov 05 22:20:06.452  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.471  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 304 - Length ~ 378  
+Nov 05 22:20:06.474  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:06.495  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 305 - Length ~ 353  
+Nov 05 22:20:06.497  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.518  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 306 - Length ~ 362  
+Nov 05 22:20:06.521  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.533  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.541  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 307 - Length ~ 364  
+Nov 05 22:20:06.564  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 308 - Length ~ 350  
+Nov 05 22:20:06.566  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.568  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:06.583  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:06.583  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.587  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 309 - Length ~ 379  
+Nov 05 22:20:06.611  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 310 - Length ~ 358  
+Nov 05 22:20:06.614  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.634  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 311 - Length ~ 358  
+Nov 05 22:20:06.638  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.657  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 312 - Length ~ 365  
+Nov 05 22:20:06.660  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.680  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 313 - Length ~ 354  
+Nov 05 22:20:06.684  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.703  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 314 - Length ~ 355  
+Nov 05 22:20:06.707  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.727  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 315 - Length ~ 362  
+Nov 05 22:20:06.731  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.750  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 316 - Length ~ 347  
+Nov 05 22:20:06.753  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.773  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 317 - Length ~ 354  
+Nov 05 22:20:06.777  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.796  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 318 - Length ~ 381  
+Nov 05 22:20:06.800  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.820  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 319 - Length ~ 370  
+Nov 05 22:20:06.823  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.843  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 320 - Length ~ 350  
+Nov 05 22:20:06.846  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.866  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 321 - Length ~ 349  
+Nov 05 22:20:06.870  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.889  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 322 - Length ~ 360  
+Nov 05 22:20:06.893  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.912  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 323 - Length ~ 357  
+Nov 05 22:20:06.916  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.936  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 324 - Length ~ 345  
+Nov 05 22:20:06.939  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.959  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 325 - Length ~ 364  
+Nov 05 22:20:06.962  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:06.982  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 326 - Length ~ 347  
+Nov 05 22:20:06.986  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.005  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 327 - Length ~ 347  
+Nov 05 22:20:07.009  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.024  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.028  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 328 - Length ~ 374  
+Nov 05 22:20:07.052  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 329 - Length ~ 363  
+Nov 05 22:20:07.055  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.075  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 330 - Length ~ 352  
+Nov 05 22:20:07.078  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.098  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 331 - Length ~ 367  
+Nov 05 22:20:07.102  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.120  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.121  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 332 - Length ~ 348  
+Nov 05 22:20:07.138  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.145  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 333 - Length ~ 361  
+Nov 05 22:20:07.168  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 334 - Length ~ 345  
+Nov 05 22:20:07.171  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.191  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 335 - Length ~ 355  
+Nov 05 22:20:07.195  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.213  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.214  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 336 - Length ~ 367  
+Nov 05 22:20:07.238  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 337 - Length ~ 381  
+Nov 05 22:20:07.241  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.261  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 338 - Length ~ 353  
+Nov 05 22:20:07.264  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.284  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 339 - Length ~ 357  
+Nov 05 22:20:07.288  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.307  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 340 - Length ~ 358  
+Nov 05 22:20:07.311  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.330  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 341 - Length ~ 355  
+Nov 05 22:20:07.332  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.354  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 342 - Length ~ 354  
+Nov 05 22:20:07.358  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.377  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 343 - Length ~ 366  
+Nov 05 22:20:07.380  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.397  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.400  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 344 - Length ~ 351  
+Nov 05 22:20:07.423  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 345 - Length ~ 361  
+Nov 05 22:20:07.426  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.447  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 346 - Length ~ 375  
+Nov 05 22:20:07.450  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.470  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 347 - Length ~ 352  
+Nov 05 22:20:07.472  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.493  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 348 - Length ~ 350  
+Nov 05 22:20:07.494  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.510  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.516  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 349 - Length ~ 361  
+Nov 05 22:20:07.539  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 350 - Length ~ 363  
+Nov 05 22:20:07.543  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.563  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 351 - Length ~ 350  
+Nov 05 22:20:07.567  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.586  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 352 - Length ~ 372  
+Nov 05 22:20:07.586  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.606  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.609  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 353 - Length ~ 348  
+Nov 05 22:20:07.633  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 354 - Length ~ 357  
+Nov 05 22:20:07.636  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.656  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 355 - Length ~ 359  
+Nov 05 22:20:07.659  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.679  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 356 - Length ~ 358  
+Nov 05 22:20:07.681  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.702  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 357 - Length ~ 374  
+Nov 05 22:20:07.706  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.725  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 358 - Length ~ 361  
+Nov 05 22:20:07.729  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.748  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 359 - Length ~ 368  
+Nov 05 22:20:07.752  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.772  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 360 - Length ~ 346  
+Nov 05 22:20:07.776  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.795  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 361 - Length ~ 362  
+Nov 05 22:20:07.798  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.818  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.818  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 362 - Length ~ 368  
+Nov 05 22:20:07.841  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 363 - Length ~ 365  
+Nov 05 22:20:07.845  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.864  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 364 - Length ~ 368  
+Nov 05 22:20:07.867  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.886  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.888  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 365 - Length ~ 380  
+Nov 05 22:20:07.911  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 366 - Length ~ 361  
+Nov 05 22:20:07.915  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.934  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 367 - Length ~ 359  
+Nov 05 22:20:07.938  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.957  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 368 - Length ~ 359  
+Nov 05 22:20:07.961  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:07.980  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 369 - Length ~ 348  
+Nov 05 22:20:07.983  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.004  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 370 - Length ~ 346  
+Nov 05 22:20:08.008  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.027  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 371 - Length ~ 357  
+Nov 05 22:20:08.031  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.050  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 372 - Length ~ 359  
+Nov 05 22:20:08.053  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.066  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.073  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 373 - Length ~ 352  
+Nov 05 22:20:08.097  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 374 - Length ~ 365  
+Nov 05 22:20:08.101  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.120  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 375 - Length ~ 375  
+Nov 05 22:20:08.123  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.143  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 376 - Length ~ 346  
+Nov 05 22:20:08.146  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.164  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.166  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 377 - Length ~ 380  
+Nov 05 22:20:08.190  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 378 - Length ~ 356  
+Nov 05 22:20:08.193  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.213  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 379 - Length ~ 369  
+Nov 05 22:20:08.216  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.236  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 380 - Length ~ 360  
+Nov 05 22:20:08.239  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.259  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 381 - Length ~ 359  
+Nov 05 22:20:08.263  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.282  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 382 - Length ~ 362  
+Nov 05 22:20:08.283  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.306  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 383 - Length ~ 364  
+Nov 05 22:20:08.310  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.320  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.329  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 384 - Length ~ 348  
+Nov 05 22:20:08.352  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 385 - Length ~ 345  
+Nov 05 22:20:08.355  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.375  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 386 - Length ~ 375  
+Nov 05 22:20:08.375  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.399  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 387 - Length ~ 371  
+Nov 05 22:20:08.401  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.422  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 388 - Length ~ 359  
+Nov 05 22:20:08.425  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.445  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 389 - Length ~ 368  
+Nov 05 22:20:08.448  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.468  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 390 - Length ~ 360  
+Nov 05 22:20:08.472  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.491  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 391 - Length ~ 353  
+Nov 05 22:20:08.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:08.493  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.510  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.515  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 392 - Length ~ 352  
+Nov 05 22:20:08.538  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 393 - Length ~ 354  
+Nov 05 22:20:08.542  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.561  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 394 - Length ~ 378  
+Nov 05 22:20:08.565  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.569  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:08.580  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.580  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:08.584  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 395 - Length ~ 356  
+Nov 05 22:20:08.603  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.608  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 396 - Length ~ 353  
+Nov 05 22:20:08.631  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 397 - Length ~ 368  
+Nov 05 22:20:08.635  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.654  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 398 - Length ~ 362  
+Nov 05 22:20:08.658  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.677  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 399 - Length ~ 368  
+Nov 05 22:20:08.681  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.698  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.700  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 400 - Length ~ 350  
+Nov 05 22:20:08.718  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.724  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 401 - Length ~ 353  
+Nov 05 22:20:08.747  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 402 - Length ~ 357  
+Nov 05 22:20:08.750  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.770  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 403 - Length ~ 358  
+Nov 05 22:20:08.773  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.787  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.793  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 404 - Length ~ 351  
+Nov 05 22:20:08.817  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 405 - Length ~ 370  
+Nov 05 22:20:08.820  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.838  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.840  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 406 - Length ~ 358  
+Nov 05 22:20:08.863  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 407 - Length ~ 368  
+Nov 05 22:20:08.866  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.876  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.886  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 408 - Length ~ 32  
+Nov 05 22:20:08.909  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 409 - Length ~ 32  
+Nov 05 22:20:08.913  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.932  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 410 - Length ~ 32  
+Nov 05 22:20:08.936  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.955  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 411 - Length ~ 32  
+Nov 05 22:20:08.959  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.966  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:08.979  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 412 - Length ~ 32  
+Nov 05 22:20:09.002  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 413 - Length ~ 32  
+Nov 05 22:20:09.006  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.025  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 414 - Length ~ 32  
+Nov 05 22:20:09.029  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.048  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 415 - Length ~ 32  
+Nov 05 22:20:09.052  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.071  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 416 - Length ~ 32  
+Nov 05 22:20:09.075  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.095  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 417 - Length ~ 348  
+Nov 05 22:20:09.099  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.118  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 418 - Length ~ 364  
+Nov 05 22:20:09.118  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.136  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.141  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 419 - Length ~ 358  
+Nov 05 22:20:09.165  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 420 - Length ~ 366  
+Nov 05 22:20:09.183  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.187  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.188  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 421 - Length ~ 350  
+Nov 05 22:20:09.204  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.211  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 422 - Length ~ 354  
+Nov 05 22:20:09.227  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.234  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 423 - Length ~ 378  
+Nov 05 22:20:09.246  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.258  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 424 - Length ~ 377  
+Nov 05 22:20:09.281  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 425 - Length ~ 344  
+Nov 05 22:20:09.285  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.304  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 426 - Length ~ 359  
+Nov 05 22:20:09.307  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.327  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 427 - Length ~ 353  
+Nov 05 22:20:09.330  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.351  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 428 - Length ~ 372  
+Nov 05 22:20:09.353  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.374  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 429 - Length ~ 345  
+Nov 05 22:20:09.377  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.397  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 430 - Length ~ 362  
+Nov 05 22:20:09.400  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.420  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 431 - Length ~ 345  
+Nov 05 22:20:09.423  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.443  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 432 - Length ~ 344  
+Nov 05 22:20:09.447  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.467  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 433 - Length ~ 359  
+Nov 05 22:20:09.478  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.479  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.490  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 434 - Length ~ 355  
+Nov 05 22:20:09.513  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 435 - Length ~ 360  
+Nov 05 22:20:09.516  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.536  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 436 - Length ~ 368  
+Nov 05 22:20:09.540  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.560  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 437 - Length ~ 362  
+Nov 05 22:20:09.563  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.583  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 438 - Length ~ 362  
+Nov 05 22:20:09.585  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.600  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.606  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 439 - Length ~ 349  
+Nov 05 22:20:09.629  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 440 - Length ~ 361  
+Nov 05 22:20:09.633  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.652  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 441 - Length ~ 368  
+Nov 05 22:20:09.656  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.676  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 442 - Length ~ 346  
+Nov 05 22:20:09.679  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.699  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 443 - Length ~ 356  
+Nov 05 22:20:09.703  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.722  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 444 - Length ~ 369  
+Nov 05 22:20:09.725  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.745  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 445 - Length ~ 352  
+Nov 05 22:20:09.749  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.769  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 446 - Length ~ 366  
+Nov 05 22:20:09.772  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.792  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 447 - Length ~ 369  
+Nov 05 22:20:09.796  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.815  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 448 - Length ~ 346  
+Nov 05 22:20:09.819  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.838  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 449 - Length ~ 346  
+Nov 05 22:20:09.842  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.861  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 450 - Length ~ 353  
+Nov 05 22:20:09.864  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.877  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.885  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 451 - Length ~ 345  
+Nov 05 22:20:09.900  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.908  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 452 - Length ~ 360  
+Nov 05 22:20:09.931  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 453 - Length ~ 364  
+Nov 05 22:20:09.935  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.954  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 454 - Length ~ 354  
+Nov 05 22:20:09.958  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:09.977  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 455 - Length ~ 363  
+Nov 05 22:20:09.981  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.001  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 456 - Length ~ 362  
+Nov 05 22:20:10.004  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.024  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 457 - Length ~ 363  
+Nov 05 22:20:10.028  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.047  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 458 - Length ~ 372  
+Nov 05 22:20:10.051  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.070  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 459 - Length ~ 359  
+Nov 05 22:20:10.074  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.094  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 460 - Length ~ 367  
+Nov 05 22:20:10.098  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.117  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 461 - Length ~ 347  
+Nov 05 22:20:10.121  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.140  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 462 - Length ~ 353  
+Nov 05 22:20:10.144  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.157  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.163  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 463 - Length ~ 366  
+Nov 05 22:20:10.183  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.186  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 464 - Length ~ 346  
+Nov 05 22:20:10.210  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 465 - Length ~ 355  
+Nov 05 22:20:10.213  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.233  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 466 - Length ~ 370  
+Nov 05 22:20:10.236  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.256  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 467 - Length ~ 369  
+Nov 05 22:20:10.260  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.279  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 468 - Length ~ 369  
+Nov 05 22:20:10.283  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.303  HCI Command      0x0023  G300_C75B          Read Clock - Connection Handle: 0x0023  
+Nov 05 22:20:10.303  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 469 - Length ~ 350  
+Nov 05 22:20:10.306  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.306  HCI Event        0x0023  G300_C75B          Command Complete [1407] - Read Clock  
+Nov 05 22:20:10.326  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 470 - Length ~ 379  
+Nov 05 22:20:10.329  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.349  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 471 - Length ~ 381  
+Nov 05 22:20:10.353  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.372  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 472 - Length ~ 365  
+Nov 05 22:20:10.376  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.395  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 473 - Length ~ 347  
+Nov 05 22:20:10.399  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.419  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 474 - Length ~ 347  
+Nov 05 22:20:10.423  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.429  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.442  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 475 - Length ~ 363  
+Nov 05 22:20:10.465  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 476 - Length ~ 368  
+Nov 05 22:20:10.468  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.486  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.488  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 477 - Length ~ 353  
+Nov 05 22:20:10.493  ATT Send         0x0056  G300_C75B          Write Command - Handle:0x008E - Value: BC48 0200 8111 0202  
+Nov 05 22:20:10.512  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 478 - Length ~ 352  
+Nov 05 22:20:10.516  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.535  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 479 - Length ~ 347  
+Nov 05 22:20:10.538  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.558  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 480 - Length ~ 350  
+Nov 05 22:20:10.562  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.569  ATT Receive      0x0056  G300_C75B          Handle Value Notification - Handle:0x0090 - Value: BC48 0200 8111 0202  
+Nov 05 22:20:10.581  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 481 - Length ~ 354  
+Nov 05 22:20:10.585  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.591  HCI Event        0x0056  G300_C75B          Number Of Completed Packets - Handle: 0x0056 - Packets: 0x0001    
+Nov 05 22:20:10.591  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.604  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 482 - Length ~ 345  
+Nov 05 22:20:10.628  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 483 - Length ~ 362  
+Nov 05 22:20:10.631  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.651  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 484 - Length ~ 368  
+Nov 05 22:20:10.655  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.674  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 485 - Length ~ 364  
+Nov 05 22:20:10.678  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.697  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 486 - Length ~ 354  
+Nov 05 22:20:10.701  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.721  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 487 - Length ~ 363  
+Nov 05 22:20:10.724  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.744  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 488 - Length ~ 363  
+Nov 05 22:20:10.746  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.767  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 489 - Length ~ 344  
+Nov 05 22:20:10.778  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.778  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.790  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 490 - Length ~ 351  
+Nov 05 22:20:10.807  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.813  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 491 - Length ~ 354  
+Nov 05 22:20:10.837  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 492 - Length ~ 348  
+Nov 05 22:20:10.839  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.860  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 493 - Length ~ 352  
+Nov 05 22:20:10.863  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.883  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 494 - Length ~ 352  
+Nov 05 22:20:10.886  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.906  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 495 - Length ~ 353  
+Nov 05 22:20:10.910  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.929  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 496 - Length ~ 360  
+Nov 05 22:20:10.933  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.953  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 497 - Length ~ 370  
+Nov 05 22:20:10.956  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.976  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 498 - Length ~ 346  
+Nov 05 22:20:10.979  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:10.999  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 499 - Length ~ 349  
+Nov 05 22:20:11.003  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.022  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 500 - Length ~ 347  
+Nov 05 22:20:11.026  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.046  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 501 - Length ~ 361  
+Nov 05 22:20:11.049  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.061  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.069  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 502 - Length ~ 354  
+Nov 05 22:20:11.080  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.092  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 503 - Length ~ 360  
+Nov 05 22:20:11.115  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 504 - Length ~ 377  
+Nov 05 22:20:11.119  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.138  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 505 - Length ~ 369  
+Nov 05 22:20:11.142  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.162  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 506 - Length ~ 344  
+Nov 05 22:20:11.166  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.185  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 507 - Length ~ 360  
+Nov 05 22:20:11.189  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.208  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 508 - Length ~ 359  
+Nov 05 22:20:11.212  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.231  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 509 - Length ~ 360  
+Nov 05 22:20:11.235  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.255  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 510 - Length ~ 368  
+Nov 05 22:20:11.258  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.278  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 511 - Length ~ 350  
+Nov 05 22:20:11.281  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.301  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 512 - Length ~ 358  
+Nov 05 22:20:11.305  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.324  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 513 - Length ~ 363  
+Nov 05 22:20:11.328  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.347  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 514 - Length ~ 352  
+Nov 05 22:20:11.351  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.364  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.371  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 515 - Length ~ 362  
+Nov 05 22:20:11.394  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 516 - Length ~ 351  
+Nov 05 22:20:11.398  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.417  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 517 - Length ~ 345  
+Nov 05 22:20:11.421  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.440  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 518 - Length ~ 355  
+Nov 05 22:20:11.444  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.464  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 519 - Length ~ 363  
+Nov 05 22:20:11.466  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.487  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 520 - Length ~ 352  
+Nov 05 22:20:11.491  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.510  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 521 - Length ~ 381  
+Nov 05 22:20:11.514  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.533  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 522 - Length ~ 358  
+Nov 05 22:20:11.537  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.556  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 523 - Length ~ 368  
+Nov 05 22:20:11.560  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.580  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 524 - Length ~ 372  
+Nov 05 22:20:11.583  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.603  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 525 - Length ~ 356  
+Nov 05 22:20:11.606  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.626  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 526 - Length ~ 347  
+Nov 05 22:20:11.630  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.649  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 527 - Length ~ 350  
+Nov 05 22:20:11.652  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.673  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 528 - Length ~ 366  
+Nov 05 22:20:11.676  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.696  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 529 - Length ~ 358  
+Nov 05 22:20:11.699  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    
+Nov 05 22:20:11.719  A2DP Audio Send  0x0023  G300_C75B          AAC (Payload Not Logged) - Sequence 530 - Length ~ 346  
+Nov 05 22:20:11.723  HCI Event        0x0023  G300_C75B          Number Of Completed Packets - Handle: 0x0023 - Packets: 0x0001    

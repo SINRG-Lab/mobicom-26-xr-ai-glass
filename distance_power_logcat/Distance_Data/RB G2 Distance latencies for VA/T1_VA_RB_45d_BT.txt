@@ -1,0 +1,415 @@
+Nov 07 23:06:18.830  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:18.830  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:19.615  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:19.615  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:19.615  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:19.615  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:21.902  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 1C EC 2C 8F B8 81 51 16 07 D4 B0 FA F2 2D ... ]  
+Nov 07 23:06:21.904  ATT Receive      0x004A  RB Meta 02QJ       Handle Value Notification - Handle:0x002A - Value: 00  
+Nov 07 23:06:21.922  HCI Command      0x004A  RB Meta 02QJ       Read RSSI - Connection Handle: 0x004A  
+Nov 07 23:06:21.925  HCI Event        0x004A  RB Meta 02QJ       Command Complete [1405] - Read RSSI - RSSI: -78 dBm  
+Nov 07 23:06:21.933  HCI Event        0x004A  RB Meta 02QJ       LE - Remote Connection Parameter Request  
+Nov 07 23:06:21.933  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x01CB (459) [ C9 01 37 90 45 CA E5 21 19 CD 1B D3 0D 99 D2 92 ... ] - Packets: 2  
+Nov 07 23:06:21.933  HCI Command      0x004A  RB Meta 02QJ       LE Remote Connection Parameter Request Reply - Connection Handle: 0x004A  
+Nov 07 23:06:21.934  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x002B (43) [ 29 00 F6 4E 1A CE EA 5B 3E 29 01 DD 76 71 B0 67 ... ]  
+Nov 07 23:06:21.937  HCI Event        0x004A  RB Meta 02QJ       Command Complete [2020] - LE Remote Connection Parameter Request Reply  
+Nov 07 23:06:21.941  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 2B 42 6D 4E EF 44 C2 13 00 2A A2 FD 9A 42 ... ]  
+Nov 07 23:06:21.942  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 48 CC D9 0F 68 6B 71 2D 00 F3 91 31 8B AE ... ]  
+Nov 07 23:06:21.956  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x006B (107) [ 69 00 32 58 38 F1 7E 8C E8 F1 05 C9 42 8F AB AB ... ]  
+Nov 07 23:06:22.054  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x031B (795) [ 19 03 99 38 FE 1A 54 E8 46 1D 30 2F 65 8E F4 64 ... ] - Packets: 4  
+Nov 07 23:06:22.054  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:22.054  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:22.068  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 D3 06 C8 9B 38 1C 63 AE 00 E9 A8 2B D9 CA ... ]  
+Nov 07 23:06:22.116  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.116  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.116  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.116  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.142  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 63 A9 57 22 C0 E4 EE 96 00 23 09 EB 42 69 ... ]  
+Nov 07 23:06:22.158  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 91 0F 4E FA 4D 52 DE 5B 00 BD 2C 4D BB E6 ... ]  
+Nov 07 23:06:22.165  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 D4 44 E8 B1 C9 14 9B 92 00 D7 3E 47 B6 32 ... ]  
+Nov 07 23:06:22.202  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x00EB (235) [ E9 00 BC 34 B2 40 45 5F 9A D7 0D E9 5B 6C 6C 5B ... ]  
+Nov 07 23:06:22.232  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x038B (907) [ 89 03 4D 52 D0 D2 50 0D 01 06 37 DD AD 64 EA 2E ... ] - Packets: 4  
+Nov 07 23:06:22.235  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:22.235  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:22.238  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x017B (379) [ 79 01 F8 43 9F 7A 35 1C E1 33 16 B3 1A 51 FA D3 ... ] - Packets: 2  
+Nov 07 23:06:22.241  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 CB A5 60 AC 66 9E 54 76 00 6C A5 73 55 59 ... ]  
+Nov 07 23:06:22.263  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 67 F4 88 B3 18 2A E0 82 04 F3 1D CC E3 01 ... ]  
+Nov 07 23:06:22.264  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x032B (811) [ 29 03 F3 67 9B 55 EE 32 5F 08 31 F8 B4 7D 49 6A ... ] - Packets: 4  
+Nov 07 23:06:22.322  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 20 85 0C 68 A1 96 F8 74 07 EF BC 77 FB AA ... ]  
+Nov 07 23:06:22.322  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 6B 24 CB CC E0 FC BD D5 03 72 5D CE EC 07 ... ]  
+Nov 07 23:06:22.322  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 11 D7 D1 AC 61 E7 04 96 07 36 A9 AD 86 BD ... ]  
+Nov 07 23:06:22.335  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.335  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.335  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.335  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.351  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 64 3E 98 7E D5 50 0D 62 04 FD 44 C9 99 7F ... ]  
+Nov 07 23:06:22.352  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 43 77 EE A5 98 7C D7 F6 04 01 2B CD 2F F7 ... ]  
+Nov 07 23:06:22.354  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x01AB (427) [ A9 01 AD 93 88 85 27 9F 92 05 19 93 5B 03 95 26 ... ] - Packets: 2  
+Nov 07 23:06:22.356  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x009B (155) [ 99 00 DE EA 50 13 AE D9 A7 78 08 C0 08 B7 B8 11 ... ]  
+Nov 07 23:06:22.356  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x00DB (219) [ D9 00 63 74 96 06 86 16 86 4F 0C 8E 76 88 92 5C ... ]  
+Nov 07 23:06:22.383  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x009B (155) [ 99 00 96 04 3F 0F 35 FF DE 76 08 A2 BC E2 36 DD ... ]  
+Nov 07 23:06:22.383  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 A3 1B 9C CA 2A CC B9 AD 04 93 5C 1D 51 9C ... ]  
+Nov 07 23:06:22.384  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 1E 3B 9C B2 A2 E7 4D C3 04 02 10 C1 7B 04 ... ]  
+Nov 07 23:06:22.384  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 86 2E 8A 3B 40 86 1A 26 03 B2 89 55 A7 37 ... ]  
+Nov 07 23:06:22.385  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 56 A1 C9 C3 4F 5D FF 09 04 C6 98 9B 02 97 ... ]  
+Nov 07 23:06:22.385  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 26 FB C1 C4 C5 C8 D5 F6 06 C3 96 48 AC BB ... ]  
+Nov 07 23:06:22.387  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 2B 7F B5 94 D4 24 03 10 04 40 E2 7D BB 60 ... ]  
+Nov 07 23:06:22.389  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 D8 40 0D 9F 34 D9 41 5A 00 C1 0D F4 33 B3 ... ]  
+Nov 07 23:06:22.391  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:22.412  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 5B 3D 37 CE E8 24 81 78 03 C2 58 E6 32 11 ... ]  
+Nov 07 23:06:22.412  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 63 E0 B3 D9 38 2A 8E 6D 00 8E 2B 6F 96 B7 ... ]  
+Nov 07 23:06:22.412  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 7E FB A5 06 03 7B 17 E7 00 3A CA C0 3C 12 ... ]  
+Nov 07 23:06:22.414  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 07 B5 D8 CE 25 6D 45 37 03 A9 41 15 8D 62 ... ]  
+Nov 07 23:06:22.442  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 03 86 EC 8E BB 7E A7 34 03 5F FE 2C F7 29 ... ]  
+Nov 07 23:06:22.442  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 09 F0 15 B4 37 70 12 8D 00 A1 6C B6 48 5E ... ]  
+Nov 07 23:06:22.443  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 E9 AC 5E 2A F7 27 44 D8 07 DA DE F1 42 44 ... ]  
+Nov 07 23:06:22.444  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 06 42 2D E2 E6 65 E8 48 04 4F 13 04 EB 4B ... ]  
+Nov 07 23:06:22.444  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 DF ED 0A 53 BC 1F B6 A7 03 FD 75 61 0B C1 ... ]  
+Nov 07 23:06:22.473  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:22.473  HCI Event        0x004A  RB Meta 02QJ       LE - Connection Update Complete - Interval: 30 ms - Latency: 0 ms - Supervision Timeout: 5000 ms  
+Nov 07 23:06:22.497  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 B8 5D F0 01 8D 62 79 58 00 D5 2E F7 74 B1 ... ]  
+Nov 07 23:06:22.532  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 1F 7D BB A2 1D 0C 3D 1F 04 4D 7B CF 0E D9 ... ]  
+Nov 07 23:06:22.534  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 94 6D 80 B8 05 DE 4F 62 04 ED F4 CA 42 DC ... ]  
+Nov 07 23:06:22.534  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 32 E1 D8 D9 C8 54 C1 EA 03 DF 1F 58 48 3F ... ]  
+Nov 07 23:06:22.551  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.551  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.551  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.551  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.562  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 B3 D3 D7 C1 3A 53 1B 27 03 A9 48 60 A9 5C ... ]  
+Nov 07 23:06:22.593  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 C6 E8 36 2D 26 C2 83 C4 06 75 C4 E4 33 AE ... ]  
+Nov 07 23:06:22.595  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 65 FE 5F 90 18 C1 64 39 04 AC E0 5B 2A FB ... ]  
+Nov 07 23:06:22.595  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 05 30 3B 24 F4 92 81 AE 04 31 67 A5 C8 F2 ... ]  
+Nov 07 23:06:22.595  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 C7 25 02 45 93 B4 94 57 00 CD 80 27 76 C4 ... ]  
+Nov 07 23:06:22.596  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 07 6C C4 FD 64 6C 52 B0 00 DB 99 8C 40 93 ... ]  
+Nov 07 23:06:22.597  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 22 A0 E5 19 56 98 6A A2 03 7D 45 F1 17 01 ... ]  
+Nov 07 23:06:22.597  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x005B (91) [ 59 00 3D CF 65 9B B3 3C 6D E9 04 70 2F C5 D3 AD ... ]  
+Nov 07 23:06:22.598  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:22.652  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 10 08 BE 62 F0 F7 84 4D 07 B0 2B A5 0E 13 ... ]  
+Nov 07 23:06:22.653  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 75 31 48 9C B8 78 6B 6A 07 F6 B7 F3 A7 B0 ... ]  
+Nov 07 23:06:22.682  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 62 33 AF B0 99 ED 32 9D 07 E4 B4 5D EA 22 ... ]  
+Nov 07 23:06:22.683  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 A3 9C 62 07 6F 5D 85 92 07 8A 55 06 4A BA ... ]  
+Nov 07 23:06:22.684  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 93 4F 43 C3 49 84 29 C1 00 38 AF 17 D1 74 ... ]  
+Nov 07 23:06:22.713  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 09 F8 A0 C6 CF D1 A1 9A 07 F2 4A 9B B0 CA ... ]  
+Nov 07 23:06:22.723  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 FC E1 86 49 7A 3E FE A6 00 2A B8 6E B6 F9 ... ]  
+Nov 07 23:06:22.726  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:22.773  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 28 23 DB EB AD 10 9C 3C 07 D9 A0 49 6C 6F ... ]  
+Nov 07 23:06:22.773  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 C7 1F 66 E1 47 BE D9 95 00 F1 20 3E 9B C4 ... ]  
+Nov 07 23:06:22.779  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.779  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.779  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:22.779  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:22.803  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 8A C8 3E 38 6F 45 45 ED 06 07 B9 46 45 20 ... ]  
+Nov 07 23:06:22.862  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 3E FE F8 E1 0F D7 3F D2 06 E2 25 3D 1A 0A ... ]  
+Nov 07 23:06:22.892  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 49 0B 60 1E 16 C3 70 3B 06 0D 16 9A CF 04 ... ]  
+Nov 07 23:06:22.893  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:22.952  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 CB 52 AF 34 4B D4 13 11 07 BB 7E 7D E4 C0 ... ]  
+Nov 07 23:06:22.954  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 6E 5F 18 8D 29 1C 37 3A 06 D6 28 AB 91 BD ... ]  
+Nov 07 23:06:22.954  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 CF 8B 7E 63 F0 8E 5D 4E 00 96 9F EC FC 62 ... ]  
+Nov 07 23:06:22.983  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 AD 90 4D 58 B0 8D DE 53 03 08 D8 A7 A6 3F ... ]  
+Nov 07 23:06:23.006  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.006  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.006  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.006  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.042  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 69 44 4E D5 4E BE 72 AC 03 57 37 13 D6 3C ... ]  
+Nov 07 23:06:23.044  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 DD A4 8D F7 45 CA 82 6B 06 BA BF 1F 58 2F ... ]  
+Nov 07 23:06:23.044  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x009B (155) [ 99 00 15 73 05 16 86 81 8D BF 08 AD 10 94 91 B9 ... ]  
+Nov 07 23:06:23.045  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x007B (123) [ 79 00 28 81 70 8D C0 59 60 7D 06 EA 4C ED FA 47 ... ]  
+Nov 07 23:06:23.046  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x002B (43) [ 29 00 94 13 3F 41 B6 D2 3D 3A 01 25 FB C2 AB 0F ... ]  
+Nov 07 23:06:23.048  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 23 3C 95 58 F4 C3 BA C0 00 EB 10 E9 A7 3A ... ]  
+Nov 07 23:06:23.050  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 98 64 64 DF FF 26 72 D6 00 E1 08 B9 A7 C0 ... ]  
+Nov 07 23:06:23.054  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 C1 48 06 9C 62 08 F7 C7 00 9D FA 9B 00 9C ... ]  
+Nov 07 23:06:23.074  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x006B (107) [ 69 00 BB A3 49 85 CF BE 65 FA 05 70 B4 76 E5 94 ... ]  
+Nov 07 23:06:23.074  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:23.074  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:23.132  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 83 FF DC 68 F2 64 C6 B9 00 05 69 E7 5A 14 ... ]  
+Nov 07 23:06:23.133  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x006B (107) [ 69 00 28 BC FC A0 AC 44 7E 8A 05 CB 98 E4 5A E7 ... ]  
+Nov 07 23:06:23.162  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x006B (107) [ 69 00 59 C3 59 ED 51 DA 3D 71 05 D3 CD 90 3C AF ... ]  
+Nov 07 23:06:23.193  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x009B (155) [ 99 00 89 66 C0 B8 CB B2 15 19 08 0F 60 0B B0 55 ... ]  
+Nov 07 23:06:23.194  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 F1 8A 15 64 75 A6 09 D9 03 61 8D 9A 3F 8E ... ]  
+Nov 07 23:06:23.194  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x003B (59) [ 39 00 FC 0A 32 75 C3 8B 22 6B 02 B5 12 52 84 46 ... ]  
+Nov 07 23:06:23.208  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 22 94 9C 80 A4 67 DB F5 00 D5 6C EE EF 17 ... ]  
+Nov 07 23:06:23.259  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.259  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.259  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.259  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.283  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x009B (155) [ 99 00 60 28 0B 1B B5 5E 02 48 08 49 3C A3 69 DF ... ]  
+Nov 07 23:06:23.284  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 C2 1D 1E 7F ED F1 C9 52 03 29 25 0A 42 2C ... ]  
+Nov 07 23:06:23.284  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x004B (75) [ 49 00 49 D3 DF 16 7D C4 52 59 03 E1 75 90 EF B8 ... ]  
+Nov 07 23:06:23.284  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 51 2A 58 2C 52 85 5F 19 00 CD 15 6E 31 72 ... ]  
+Nov 07 23:06:23.289  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 16 F3 32 D3 50 22 F9 C9 00 FD DB E9 C8 63 ... ]  
+Nov 07 23:06:23.308  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 6C 63 DE 4A 0C 7E E6 4E 00 C9 61 55 16 89 ... ]  
+Nov 07 23:06:23.343  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 69 5A B9 2D BE 05 89 56 00 1A 70 DC F7 F4 ... ]  
+Nov 07 23:06:23.343  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:23.343  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:23.344  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 7B D6 C0 C4 18 A6 4C 28 65 C1 F4 A7 16 46 ... ] - Packets: 5  
+Nov 07 23:06:23.374  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x018A (394) [ 88 01 B8 3A 30 15 71 EC 4C 7E FF BB D3 DD 60 F9 ... ] - Packets: 2  
+Nov 07 23:06:23.404  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 C1 E8 12 8B C1 D9 52 EB 00 32 6A 3A 72 54 ... ]  
+Nov 07 23:06:23.405  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 40 B5 B5 86 21 FA 8B A8 00 4D A1 F6 43 59 ... ]  
+Nov 07 23:06:23.503  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.503  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.503  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.503  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.514  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 E9 27 79 09 43 E9 E2 9E 00 67 D0 AD 6D CE ... ]  
+Nov 07 23:06:23.516  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:23.553  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 86 87 8C 05 50 EF 50 7A 00 CF 03 AD B0 E1 ... ]  
+Nov 07 23:06:23.732  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x008B (139) [ 89 00 E9 A2 B9 B8 32 64 35 C4 07 A0 BF 79 58 71 ... ]  
+Nov 07 23:06:23.751  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.751  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.751  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.751  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.760  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:23.763  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 29 89 E2 C8 6A 92 42 0A 00 E6 02 70 55 A5 ... ]  
+Nov 07 23:06:23.777  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 62 AF 94 C0 35 17 6A AF 00 3C 3B 67 5C 72 ... ]  
+Nov 07 23:06:23.793  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 F4 1B 06 5E B9 F4 48 77 00 03 30 54 F9 10 ... ]  
+Nov 07 23:06:23.824  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 A9 77 BA 1E B0 67 83 02 C0 11 94 65 C7 C8 ... ] - Packets: 5  
+Nov 07 23:06:23.877  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 7F F4 2A 05 98 B2 D8 62 00 7C 2D 00 53 2B ... ]  
+Nov 07 23:06:23.881  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:23.918  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 E7 2A 89 A0 F2 D9 60 48 6A 66 98 AE F1 3C ... ] - Packets: 5  
+Nov 07 23:06:23.998  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.998  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:23.998  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:23.998  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.040  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x0259 (601) [ 57 02 03 64 D5 94 D5 FA 9D 56 90 2A C1 F5 74 51 ... ] - Packets: 3  
+Nov 07 23:06:24.067  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x041B (1051) [ 19 04 9B 16 AB 86 77 36 74 4E 40 9E 20 08 1F 2C ... ] - Packets: 5  
+Nov 07 23:06:24.097  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 F2 7D 5D 0B 61 62 74 55 C0 E5 86 E9 28 CC ... ] - Packets: 5  
+Nov 07 23:06:24.125  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:24.127  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 40 51 03 3F 1E 76 0D 2F 80 3E 11 5A 80 8B ... ] - Packets: 5  
+Nov 07 23:06:24.145  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x004B (75) [ 49 00 BE AF E9 85 14 E7 79 B7 03 ED FA B1 A4 FD ... ]  
+Nov 07 23:06:24.183  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x0259 (601) [ 57 02 46 56 32 02 FD 30 4C 0F 6E 88 EA 6D 14 B2 ... ] - Packets: 3  
+Nov 07 23:06:24.186  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x041B (1051) [ 19 04 92 50 6E 52 C4 E1 D6 DF 40 11 07 7C DF F4 ... ] - Packets: 5  
+Nov 07 23:06:24.246  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.246  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.246  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.246  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.257  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 A4 E2 C2 60 8D 9E 2D FD 00 4D 32 CE 72 7E ... ]  
+Nov 07 23:06:24.263  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:24.306  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 02 00 A7 F8 7F 27 5D 8A FF 4A 49 38 0D E4 ... ] - Packets: 5  
+Nov 07 23:06:24.337  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 00 A4 46 C6 B7 AF BC FA 09 36 E0 AB 46 86 ... ] - Packets: 5  
+Nov 07 23:06:24.397  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 B0 45 7D A5 FB 99 35 6F 7A 5F 90 4A 3F 62 ... ] - Packets: 5  
+Nov 07 23:06:24.428  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x0168 (360) [ 66 01 AA 8C 25 EE DF 55 0A 62 97 83 D8 44 04 8A ... ] - Packets: 2  
+Nov 07 23:06:24.441  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 3A F6 77 06 9D DC DA B0 23 70 EB B6 16 10 ... ]  
+Nov 07 23:06:24.441  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ F5 A4 CC 40 3F D8 F9 87 69 31 5A ]  
+Nov 07 23:06:24.441  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 FE 2F 9C 89 72 47 A6 C5 13 86 8A 3C 1C 46 ... ]  
+Nov 07 23:06:24.441  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ 77 51 C5 70 F2 03 48 EF 4F A7 58 ]  
+Nov 07 23:06:24.442  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x004B (75) [ 49 00 47 28 30 FF 15 ED F2 D5 CA 66 AD BB F5 AB ... ]  
+Nov 07 23:06:24.443  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:24.455  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 4C 9F 3F BA 96 98 58 25 00 D5 4C 4D EC 28 ... ]  
+Nov 07 23:06:24.485  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 98 D3 4A E6 0D 10 82 17 FF 49 4E 70 4C 99 ... ] - Packets: 5  
+Nov 07 23:06:24.485  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 98 D3 4A E6 0D 10 82 17 FF 49 4E 70 4C 99 ... ] - Packets: 5  
+Nov 07 23:06:24.486  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.486  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.486  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.486  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.487  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.487  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.487  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.487  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.519  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 28 50 88 1E D2 D3 CD 92 A9 DB 15 5E 14 9A ... ] - Packets: 5  
+Nov 07 23:06:24.541  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 A6 80 91 71 BE 66 5E C2 00 C0 DD 35 42 72 ... ]  
+Nov 07 23:06:24.574  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 E4 5A E1 6E 74 B7 0B E4 7B CE 1B 97 56 3A ... ] - Packets: 5  
+Nov 07 23:06:24.607  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x0168 (360) [ 66 01 B0 94 06 E9 E6 52 EE 08 B6 E8 B8 C4 E6 77 ... ] - Packets: 2  
+Nov 07 23:06:24.608  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 E9 A1 A7 D2 32 1B 42 B1 00 78 6E 4C 04 69 ... ]  
+Nov 07 23:06:24.620  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00AB (171) [ A9 00 7E FD 9B 32 FE 22 58 A5 09 97 88 09 43 79 ... ]  
+Nov 07 23:06:24.621  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 CF 95 F3 9A BC 6A 5E D6 08 81 67 5E 1D 2E ... ]  
+Nov 07 23:06:24.622  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 2A 5B 03 4F 8B 16 67 65 08 66 84 72 59 9D ... ]  
+Nov 07 23:06:24.622  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ 4A D5 E7 88 FF C8 D7 BA 7D 6B 9A ]  
+Nov 07 23:06:24.622  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00CD (205) [ CB 00 EF 33 62 B3 A3 38 54 6B 34 2D 32 D1 22 AC ... ]  
+Nov 07 23:06:24.623  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:24.634  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 69 2A 93 F6 4D 43 72 EB FF B9 6A F6 73 A7 ... ] - Packets: 5  
+Nov 07 23:06:24.637  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:24.637  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.678  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x005B (91) [ 59 00 70 14 DD 21 80 AC 22 79 04 CB 08 40 DC 75 ... ]  
+Nov 07 23:06:24.681  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.725  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.725  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.725  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.725  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.736  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 F4 D3 0C 6F 51 63 84 A9 00 77 75 71 98 8D ... ]  
+Nov 07 23:06:24.742  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 60 A6 89 C3 27 09 D5 79 08 A8 37 8A E8 16 ... ]  
+Nov 07 23:06:24.746  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 3E AA 7F 26 36 DB 5D B0 08 D0 98 88 EB D3 ... ]  
+Nov 07 23:06:24.746  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ 4D E3 21 9C 07 DD 21 F6 68 32 56 ]  
+Nov 07 23:06:24.748  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 34 30 68 2C 3D 57 CB 17 F8 9D 90 84 19 ED ... ]  
+Nov 07 23:06:24.748  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ C7 43 0F 23 49 38 61 BB 5E 5D DB ]  
+Nov 07 23:06:24.749  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 45 85 C8 BC 68 B6 BB CE 20 CD 85 8B 65 E9 ... ]  
+Nov 07 23:06:24.749  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ A3 39 49 25 1C 8F 56 3E 75 38 A7 ]  
+Nov 07 23:06:24.750  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 24 EA 80 96 C5 08 A5 2D 1F 6F 84 E8 0B 33 ... ]  
+Nov 07 23:06:24.750  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ 2F 41 B0 E1 50 35 59 D4 C7 0C D9 ]  
+Nov 07 23:06:24.750  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 00 01 D0 8C EE 87 85 78 66 98 F2 70 40 53 93 CD ... ]  
+Nov 07 23:06:24.750  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000B (11) [ 69 F6 39 72 54 EE AC 6A 03 32 0F ]  
+Nov 07 23:06:24.750  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0063 (99) [ 61 00 2C 9E 73 18 28 84 8C 36 4B F4 52 7B F4 F6 ... ]  
+Nov 07 23:06:24.817  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 D4 AF EC 69 CD 5F E2 44 0B 0B 6A 41 A0 7B ... ] - Packets: 5  
+Nov 07 23:06:24.844  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.845  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 37 06 57 79 F0 51 90 C9 00 CB A5 13 5A 89 ... ]  
+Nov 07 23:06:24.845  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.879  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 1F 62 93 10 72 94 87 91 65 2B 22 91 5A 22 ... ] - Packets: 5  
+Nov 07 23:06:24.904  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.904  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:24.963  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.963  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:24.963  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:24.963  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.027  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.027  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.027  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x0168 (360) [ 66 01 44 8D C7 2F B0 56 34 D1 CC E2 21 02 8C 22 ... ] - Packets: 2  
+Nov 07 23:06:25.027  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 AF B2 94 5C E4 39 1C EF 08 65 20 7C 4A 62 ... ]  
+Nov 07 23:06:25.030  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 8D 2E D3 9B D1 A3 37 25 08 57 4F C9 EB 92 ... ]  
+Nov 07 23:06:25.031  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 04 AC 33 3C 31 44 9B 11 08 B5 6D 63 63 38 ... ]  
+Nov 07 23:06:25.032  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0069 (105) [ 67 00 D5 C0 13 23 23 7D 9C F3 08 D6 97 B8 32 EE ... ]  
+Nov 07 23:06:25.033  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0034 (52) [ 32 00 2C 5D 2F E3 41 41 9B 92 9D 50 FD 49 0F 87 ... ]  
+Nov 07 23:06:25.034  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 07 86 D9 1D 40 DD 43 FC 08 DF 89 45 0A 3E ... ]  
+Nov 07 23:06:25.036  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 10 E7 13 21 71 6E 51 8D 08 AF 6D 60 09 B4 ... ]  
+Nov 07 23:06:25.036  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 52 B3 5D B9 78 74 2E F3 08 B2 64 5E C1 23 ... ]  
+Nov 07 23:06:25.037  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0069 (105) [ 67 00 03 F4 0B 89 76 ED BF 76 08 0C 73 D0 5C 32 ... ]  
+Nov 07 23:06:25.037  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00CD (205) [ CB 00 5E F2 A7 CE AE F3 3D 8E 49 56 5F CB 1D 8D ... ]  
+Nov 07 23:06:25.038  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 5F A0 9B 7A FD 04 04 A5 08 7F A0 BD AF AA ... ]  
+Nov 07 23:06:25.082  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 8D EB 91 59 25 15 0E 7A 00 E7 41 4D 9D 0B ... ]  
+Nov 07 23:06:25.085  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 32 38 4A 97 1D EB 64 6F 80 7D 9C 1F 95 C0 ... ] - Packets: 5  
+Nov 07 23:06:25.085  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.085  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x009B (155) [ 99 00 CA 9A E3 86 93 8C 3C B2 08 89 CF 27 CA 35 ... ]  
+Nov 07 23:06:25.085  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.085  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ C5 07 88 7F 90 CB DF 10 AD 64 08 22 64 F1 24 B9 ... ]  
+Nov 07 23:06:25.085  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 33 21 53 8B 24 4D F8 5B 78 04 CA 33 E9 D2 45 C9 ... ]  
+Nov 07 23:06:25.147  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.147  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ E5 23 49 10 09 A5 18 E2 09 F4 B0 84 83 3C 30 0F ... ]  
+Nov 07 23:06:25.147  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 42 AC EA E3 DA 7D 76 9D 40 A7 1C 04 F7 7F 77 C8 ... ]  
+Nov 07 23:06:25.147  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.147  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 38 87 8C 46 60 0E F0 04 EF EE 3A 2D C5 54 91 03 ... ]  
+Nov 07 23:06:25.147  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ CD FF BD FB 4B C9 9F 68 54 A6 BC 77 D7 2F 1C A9 ... ]  
+Nov 07 23:06:25.149  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 EE DA ED 66 4E 52 E8 98 2D E7 AA B5 DB 73 ... ] - Packets: 4  
+Nov 07 23:06:25.234  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.234  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 20 60 69 7C E1 48 F3 C6 41 43 5A C9 F8 B4 82 91 ... ]  
+Nov 07 23:06:25.234  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.234  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 3B 0B 00 F2 47 67 AC 36 78 46 C0 0E 46 BD FA 80 ... ]  
+Nov 07 23:06:25.234  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x000F (15) [ C6 82 42 4F CF 10 20 CE 68 09 01 DF 44 45 FD ]  
+Nov 07 23:06:25.237  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 ED 5E A2 D5 C0 91 12 F6 80 A6 CA 10 5D 52 ... ] - Packets: 5  
+Nov 07 23:06:25.274  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.274  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.274  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.274  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.379  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.379  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x001B (27) [ 19 00 66 0B BC 62 52 B2 68 66 00 82 E2 2B DF B6 ... ]  
+Nov 07 23:06:25.379  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.380  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A 1A 3B BE B3 22 D7 C7 3F 08 06 D7 39 E2 AA ... ]  
+Nov 07 23:06:25.380  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 31 B3 42 97 33 1C 5D 71 C2 C8 84 DC 2C 5C 0B 23 ... ]  
+Nov 07 23:06:25.414  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.414  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ C8 1D EB 77 53 01 59 34 1A 0F B5 1A 5E 53 4F 23 ... ]  
+Nov 07 23:06:25.414  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 98 90 08 BB 50 A3 E8 61 40 74 8D 3F FF E2 A4 45 ... ]  
+Nov 07 23:06:25.414  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.414  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ E1 B9 9F 90 CD 95 EE 31 C5 79 F0 55 9E 6F C9 0E ... ]  
+Nov 07 23:06:25.414  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ D0 04 EB 63 EE 90 11 12 D1 08 B7 CB B9 C9 08 9D ... ]  
+Nov 07 23:06:25.414  ATT Receive      0x004A  RB Meta 02QJ       Handle Value Notification - Handle:0x002A - Value: 00  
+Nov 07 23:06:25.416  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 FA B4 C5 95 FD 6C 81 4B 7B 17 69 C5 0C AA ... ] - Packets: 4  
+Nov 07 23:06:25.555  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.555  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.555  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.555  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.569  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.569  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 8D 50 B8 2C 08 47 11 55 B9 E0 47 34 80 2C 29 51 ... ]  
+Nov 07 23:06:25.569  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.569  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 8D 50 B8 2C 08 47 11 55 B9 E0 47 34 80 2C 29 51 ... ]  
+Nov 07 23:06:25.569  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 3E AA B8 B1 18 37 DF 90 50 6B 9F 7B 8E A1 09 45 ... ]  
+Nov 07 23:06:25.597  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 55 5C EC DC D3 BE D8 B2 80 04 9E E1 73 7E ... ] - Packets: 5  
+Nov 07 23:06:25.597  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.597  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 14 1B 17 2A 26 42 6B 49 AE 7F 99 AE 50 DF ED 7E ... ]  
+Nov 07 23:06:25.597  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.597  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 91 E1 DF 15 17 0E 37 48 9B 43 A2 30 01 70 77 9D ... ]  
+Nov 07 23:06:25.597  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0066 (102) [ BF 03 D7 2B C4 C8 1D 52 CD 97 8D 23 CD 07 96 09 ... ]  
+Nov 07 23:06:25.683  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.683  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A 14 6C B0 7B 23 84 95 6A 6D ED 7F 18 D4 7F ... ]  
+Nov 07 23:06:25.684  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 13 DF 31 FE 57 85 A0 91 E6 27 A9 D4 7F F5 DF BD ... ]  
+Nov 07 23:06:25.684  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.684  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 7E 1F 34 6A 01 C2 00 B8 9E 84 79 6C D0 54 9F DA ... ]  
+Nov 07 23:06:25.684  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 5D 0A 48 FE 63 1C 5A C0 A4 41 C7 2A 46 1D BE 71 ... ]  
+Nov 07 23:06:25.686  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 FC 76 9E 8A 92 F7 4C BA BB D2 D7 1D 1A 94 ... ] - Packets: 4  
+Nov 07 23:06:25.747  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.747  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 20 53 E2 B9 9A 7A 98 34 F3 3A 75 D3 FA F4 DE 28 ... ]  
+Nov 07 23:06:25.747  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 06 F4 0A 92 E4 B4 F2 70 A2 79 3E 84 72 E4 04 9E ... ]  
+Nov 07 23:06:25.747  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.747  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ FB 99 02 CC 29 4A FB 4C 0C E8 5F AD 1B A7 7B C5 ... ]  
+Nov 07 23:06:25.747  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ CA B3 FF E8 44 E1 BD 7A 4A 17 96 C7 78 00 ED 82 ... ]  
+Nov 07 23:06:25.749  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 F7 26 2F D3 8C 18 E2 5E 80 68 29 05 74 82 ... ] - Packets: 5  
+Nov 07 23:06:25.808  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.808  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.808  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.808  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ EF 72 77 FD 25 5F 93 F8 0C 61 5D F9 6B 9D 9B D5 ... ]  
+Nov 07 23:06:25.808  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.808  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ E6 60 C4 19 57 3E E5 B0 CF 68 CD CB 28 AA A6 A6 ... ]  
+Nov 07 23:06:25.808  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:25.808  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:25.808  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:25.808  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ EF 72 77 FD 25 5F 93 F8 0C 61 5D F9 6B 9D 9B D5 ... ]  
+Nov 07 23:06:25.808  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.808  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ E6 60 C4 19 57 3E E5 B0 CF 68 CD CB 28 AA A6 A6 ... ]  
+Nov 07 23:06:25.809  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0066 (102) [ 8B A2 3F B6 D6 B7 D1 79 74 1A EE 20 E4 09 F2 40 ... ]  
+Nov 07 23:06:25.809  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0066 (102) [ 8B A2 3F B6 D6 B7 D1 79 74 1A EE 20 E4 09 F2 40 ... ]  
+Nov 07 23:06:25.838  ACL Receive      0x004A  RB Meta 02QJ       Data [Handle: 0x004A, Packet Boundary Flags: 0x1, Length: 0x00FB (251)] - Incomplete L2CAP  
+Nov 07 23:06:25.866  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 36 60 BC A6 98 4C 96 7F 6D 33 1C E5 D5 3F ... ] - Packets: 4  
+Nov 07 23:06:25.869  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.869  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A A9 60 A4 E2 91 F3 B9 E5 98 1E FE 1F B5 2F ... ]  
+Nov 07 23:06:25.869  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ B9 24 89 08 CC 04 0B 5C F8 03 16 7B B1 6F A8 33 ... ]  
+Nov 07 23:06:25.869  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.869  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ E3 F5 EF E7 9F 69 0C 3C 3E 95 65 B4 D1 4F 0E 88 ... ]  
+Nov 07 23:06:25.869  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 2C 95 60 90 EF C0 FE D6 10 3A 5E 9E 15 9E 60 23 ... ]  
+Nov 07 23:06:25.899  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 57 CB BC E0 2F F9 E5 47 80 7D 94 84 87 B0 ... ] - Packets: 5  
+Nov 07 23:06:25.925  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.925  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 9F 9D 10 15 87 75 A2 6D 34 87 2E A1 05 A7 E2 6E ... ]  
+Nov 07 23:06:25.925  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0F FF 2C 8F 16 89 B8 1A 3D EA 6A 6A BE 38 A3 03 ... ]  
+Nov 07 23:06:25.925  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:25.925  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 45 91 50 B5 F8 D3 2B 4D D2 4A 7B 92 D2 17 8D BD ... ]  
+Nov 07 23:06:25.925  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 34 75 51 A9 B2 1F 58 A6 04 9B 20 D4 B3 F3 D1 22 ... ]  
+Nov 07 23:06:25.927  HCI Event        0x004A  RB Meta 02QJ       LE - Remote Connection Parameter Request  
+Nov 07 23:06:25.927  HCI Command      0x004A  RB Meta 02QJ       LE Remote Connection Parameter Request Reply - Connection Handle: 0x004A  
+Nov 07 23:06:25.930  HCI Event        0x004A  RB Meta 02QJ       Command Complete [2020] - LE Remote Connection Parameter Request Reply  
+Nov 07 23:06:26.009  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.009  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ B4 39 FA DB E3 C6 94 52 1D 29 DA 1F F5 C1 79 55 ... ]  
+Nov 07 23:06:26.009  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ C8 A5 6A D1 9B 8C 4C 87 C4 30 5A A1 91 A3 2D FC ... ]  
+Nov 07 23:06:26.009  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0001    
+Nov 07 23:06:26.009  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0066 (102) [ 0F 05 74 68 FB 47 5D 54 F1 67 90 02 2E D0 21 B5 ... ]  
+Nov 07 23:06:26.044  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 A4 54 EA 3B 31 39 C2 1A F7 B3 4D 51 5A 11 ... ] - Packets: 4  
+Nov 07 23:06:26.064  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:26.064  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:26.065  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:26.065  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:26.075  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A 38 A4 9F BF 67 BF CA D8 22 F8 86 12 60 42 ... ]  
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 91 E2 47 19 21 A8 A4 A8 7B 32 E5 5B C5 51 75 04 ... ]  
+Nov 07 23:06:26.075  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 1A 1D 80 B1 B1 B2 C0 D0 FE E4 62 82 31 B8 B2 BF ... ]  
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 47 0F 6C 7A FE CB B8 16 56 F8 F9 DC 7F DC 10 47 ... ]  
+Nov 07 23:06:26.075  ACL Receive      0x004A  RB Meta 02QJ       Data [Handle: 0x004A, Packet Boundary Flags: 0x1, Length: 0x00FB (251)] - Incomplete L2CAP  
+Nov 07 23:06:26.075  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A 38 A4 9F BF 67 BF CA D8 22 F8 86 12 60 42 ... ]  
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 91 E2 47 19 21 A8 A4 A8 7B 32 E5 5B C5 51 75 04 ... ]  
+Nov 07 23:06:26.075  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 1A 1D 80 B1 B1 B2 C0 D0 FE E4 62 82 31 B8 B2 BF ... ]  
+Nov 07 23:06:26.075  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 47 0F 6C 7A FE CB B8 16 56 F8 F9 DC 7F DC 10 47 ... ]  
+Nov 07 23:06:26.076  ACL Receive      0x004A  RB Meta 02QJ       Data [Handle: 0x004A, Packet Boundary Flags: 0x1, Length: 0x004D (77)] - Incomplete L2CAP  
+Nov 07 23:06:26.105  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 3B A0 00 6F 64 FD 33 3B 80 8B 0A 21 E6 15 ... ] - Incomplete L2CAP  
+Nov 07 23:06:26.168  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.168  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 19 EA 6A 91 DD 17 A0 47 6B F6 0C 38 0C B3 49 42 ... ]  
+Nov 07 23:06:26.168  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 72 77 A6 C6 65 A1 6B 89 AA 95 CD DB 70 CF 43 81 ... ]  
+Nov 07 23:06:26.168  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.168  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 84 2E 4D FA 12 04 69 AA D7 68 A2 18 CF 12 F2 4B ... ]  
+Nov 07 23:06:26.168  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 87 34 A8 E7 8F CE 07 26 69 16 6B AE 9B 78 30 68 ... ]  
+Nov 07 23:06:26.226  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x033A (826) [ 38 03 9D 12 50 BD B5 29 3C EC A9 38 BB B1 CD B7 ... ] - Incomplete L2CAP  
+Nov 07 23:06:26.226  HCI Event        0x004A  RB Meta 02QJ       LE - Connection Update Complete - Interval: 30 ms - Latency: 270 ms - Supervision Timeout: 5000 ms  
+Nov 07 23:06:26.229  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.229  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ A4 85 7A 60 95 93 91 6E A5 E3 37 2C FD 08 4C 58 ... ]  
+Nov 07 23:06:26.229  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ BF 32 91 51 13 B3 E7 8B 0D A7 06 39 51 A9 11 99 ... ]  
+Nov 07 23:06:26.282  HCI Event        0x004A  RB Meta 02QJ       LE - Remote Connection Parameter Request  
+Nov 07 23:06:26.282  HCI Command      0x004A  RB Meta 02QJ       LE Remote Connection Parameter Request Reply - Connection Handle: 0x004A  
+Nov 07 23:06:26.285  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.286  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x0066 (102) [ 11 CB 39 95 17 56 B2 EB D3 59 4F 0A AB AC CF 74 ... ]  
+Nov 07 23:06:26.286  HCI Event        0x004A  RB Meta 02QJ       Command Complete [2020] - LE Remote Connection Parameter Request Reply  
+Nov 07 23:06:26.286  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 0A 0A 14 1F 60 5C FB 7A DC 3C 48 BF 53 31 A6 89 ... ]  
+Nov 07 23:06:26.314  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x001B (27) [ 19 00 F0 23 BB 23 88 7E 9B F7 00 FE 19 C3 9E 19 ... ]  
+Nov 07 23:06:26.331  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:26.331  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:26.331  Config           0x000C  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0xC - RB Meta 02QJ - Central - Codec: mSBC - PID/VID 0x0102/0x01AB - Ver 0x1436  
+Nov 07 23:06:26.331  Config           0x004A  RB Meta 02QJ       Connected: 98:59:49:EF:B7:98 - Handle: 0x4A - RB Meta 02QJ - 86265FFC-8B17-B70F-35A4-871F42F15702  
+Nov 07 23:06:26.342  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 91 49 C0 F1 AD 97 A4 26 FF F4 D7 3A 44 FE ... ] - Incomplete L2CAP  
+Nov 07 23:06:26.342  L2CAP Receive    0x004A  RB Meta 02QJ       Channel ID: 0x004A  Length: 0x04E3 (1251) [ E1 04 91 49 C0 F1 AD 97 A4 26 FF F4 D7 3A 44 FE ... ] - Incomplete L2CAP  
+Nov 07 23:06:26.345  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.345  HCI Event        0x004A  RB Meta 02QJ       Number Of Completed Packets - Handle: 0x004A - Packets: 0x0002    
+Nov 07 23:06:26.345  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ BA 30 F1 E9 7A 9D 1F 3A D4 B6 30 EE 0A EC C3 36 ... ]  
+Nov 07 23:06:26.346  L2CAP Send       0x004A  RB Meta 02QJ       Channel ID: 0x0044  Length: 0x00F7 (247) [ 71 2A 1C 48 76 13 AF 53 3E 56 32 AA 3A C1 5D 68 ... ]  

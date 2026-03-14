@@ -1,0 +1,6 @@
+﻿Test,Latency G2S,Latenct S2C,Letency End-End
+Insta Live /n RB-Meta /n BT-Classic,4570.714286,10297.42857,14868.14286
+Insta Live /n RB-Meta /n Wifi-Direct,2670.714286,8625.571429,11296.28571
+Insta Live /n Phone,-,-,8588.571429
+Messenger /n RB-Meta /n BT-Classic,174.4285714,58.14285714,232.5714286
+Messenger /n Phone ,-,-,58.14285714

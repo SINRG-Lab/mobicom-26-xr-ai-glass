@@ -1,0 +1,13 @@
+# IP address of your device (the client)
+ip1: '10.215.173.1'
+
+# IP address of the server you are analyzing
+ip2: '157.240.245.23'
+
+# List of all the test files you want to analyze
+text_files:
+  - 'Test1_instagram_0md_Rayban_wifi-w-and.csv'
+  - 'Test2_instagram_0md_Rayban_wifi-w-and.csv'
+  - 'Test3_instagram_0md_Rayban_wifi-w-and.csv'
+  - 'Test4_instagram_0md_Rayban_wifi-w-and.csv'
+  - 'Test5_instagram_0md_Rayban_wifi-w-and.csv'
