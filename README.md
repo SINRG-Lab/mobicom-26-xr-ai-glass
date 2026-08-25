@@ -1,4 +1,4 @@
-# A First Look at Multimodal Mobile Application Performance on XR and AI Glasses
+# A First Look at Multimodal Mobile Application Performance on XR and AI Smart Glasses
 
 <p align="center">
   <img src="generic_diagram.png" alt="Communication pipeline of smart glasses" width="700"/>
@@ -10,37 +10,30 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains the official implementation and supplementary materials for our paper:
 
-> **"A First Look at Multimodal Mobile Application Performance on XR and AI Glasses"**  
-> *Anonymous Authors*  
+> **"A First Look at Multimodal Mobile Application Performance on XR and AI Smart Glasses"**  
+> Majd Khalaf, Mathew Garcia, Mayank Chadha, Mallesham Dasari  
+> Northeastern University, Boston, Massachusetts, USA  
 > MobiCom '26
 
-We present the first in-depth measurement study across several smart glasses and core XR and AI applications. Our study dissects the end-to-end pipeline spanning the glass, companion device, and the cloud — revealing how emerging AI and video streaming applications reshape network traffic patterns, companion-device workloads, and quality of experience (QoE).
+We present the first in-depth measurement study across several smart glasses and core XR and AI applications. Our study dissects the end-to-end pipeline spanning the glass, companion device, and the cloud, revealing how emerging AI and video streaming applications reshape network traffic patterns, companion-device workloads, and quality of experience (QoE).
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
-- **Smartphones transcode glass video before upload:** Live streaming from RB-Meta G1 triggers a costly decode–upscale–re-encode pipeline on the companion phone, driving 2–3× higher latency than phone-native streaming. The phone's transcoding — not the G2P wireless link — is the dominant bottleneck.
+- **Smartphones transcode glass video before upload:** Live streaming from RB-Meta G1 triggers a costly decode–upscale–re-encode pipeline on the companion phone, driving 2–3× higher latency than phone-native streaming. The phone's transcoding, not the G2P wireless link, is the dominant bottleneck.
 - **Video conferencing reveals a fundamental upstream/downstream asymmetry:** The companion phone aggressively downscales incoming video for the glass display (600×600, ~20° FoV) while relaying the upstream feed without transcoding.
-- **Live AI sacrifices video fidelity for continuous interaction:** Meta Live AI streams at ~300 kbps uplink — an order of magnitude lower than regular live streaming — to sustain always-on multimodal reasoning.
+- **Live AI sacrifices video fidelity for continuous interaction:** Meta Live AI streams at ~300 kbps uplink, an order of magnitude lower than regular live streaming, to sustain always-on multimodal reasoning.
 - **No glass meets the real-time AI interaction bar:** All glasses exhibit >1 s end-to-end latency across all five applications, far exceeding the sub-300 ms threshold for real-time interaction.
 - **Glass design choices drive a 10× latency disparity:** RB-Meta G1 achieves ~1 s median voice AI latency while Cyan exceeds ~10 s.
 
 ---
 
-## 🏗️ System Architecture
-
-<p align="center">
-  <img src="workflow.png" alt="System Architecture Overview" width="800"/>
-</p>
-
-<p align="center">
-  <em>System architecture showing communication protocols between Smart Glasses, Companion Device, and Server across different operational modes.</em>
-</p>
+## System Architecture
 
 ### Glass Platforms
 
@@ -86,7 +79,7 @@ We present the first in-depth measurement study across several smart glasses and
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── ai_voice_image_interaction/             # Audio & image AI interaction latency/throughput notebooks, CSVs, and plots
@@ -96,7 +89,6 @@ We present the first in-depth measurement study across several smart glasses and
 ├── power_tests/                            # Additional power test data and scripts
 ├── transmission_power_algorithm_Data/      # Adaptive transmission power algorithm data and notebook
 ├── dragon/                                 # Proprietary application framework for Dragon smart glasses
-├── workflow.png                            # System architecture diagram
 ├── generic_diagram.pdf                     # Generic communication pipeline diagram
 ├── Measure_liveStreaming.png               # Live streaming measurement setup diagram
 ├── Measured_VC_Diagram.pdf                 # Video conferencing measurement setup diagram
@@ -110,7 +102,7 @@ Each analysis folder typically contains Jupyter notebooks and a `Plots/` subfold
 
 ---
 
-## 🚀 Quick Start — Regenerate Plots
+## Quick Start: Regenerate Plots
 
 ### Prerequisites
 
@@ -135,39 +127,26 @@ Generated figures are saved to the folder's `Plots/` directory. Inspect the firs
 
 ---
 
-## 📈 Reproducibility
+## Reproducibility
 
 To reproduce all figures and tables, run the notebooks in each analysis folder. Notebooks load local CSV/Excel/PCAP inputs from the same directory or a `data/` subfolder. We performed cross-platform validation (Meta on iOS vs. Android, Cyan vs. Dragon) to ensure consistency across OS, workloads, and measurement tools.
 
-All data, scripts, and application code are available at: [anonymous link](https://anonymous.4open.science/r/mobicom-26-xr-ai-glass-C362)
+All data, scripts, and application code are available at: [github.com/SINRG-Lab/mobicom-26-xr-ai-glass](https://github.com/SINRG-Lab/mobicom-26-xr-ai-glass)
 
 ---
 
-## 📝 Citation
+## License
 
-```bibtex
-@inproceedings{anonymous2026firstlook,
-  title={A First Look at Multimodal Mobile Application Performance on XR and AI Glasses},
-  author={Anonymous},
-  booktitle={Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom)},
-  year={2026}
-}
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📄 License
+## Acknowledgments
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-We thank the anonymous reviewers for their valuable feedback. This work was supported by [Institution/Grant details to be added after review].
+We thank the reviewers for their valuable feedback.
 
 ---
 
-## 📧 Contact
+## Contact
 
-For questions or issues, please open a GitHub issue or contact the authors (contact information will be provided after the anonymous review process).
+For questions or issues, please open a GitHub issue or contact Majd Khalaf at khalaf.m@northeastern.edu.
