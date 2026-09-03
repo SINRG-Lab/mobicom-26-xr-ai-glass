@@ -21,9 +21,10 @@ distance_power_logcat/
 
 ## Notebooks (examples)
 
-- `Distance_Data/Distance_Latency_plots.ipynb` — generates perceived-latency plots and CDFs using `Percieved Latency Data.csv` and device subfolders
-- `Power-Resolution_Data/Power_Plots_Notebook.ipynb` — generates power and battery plots from `battery_data_elapsed.csv` and logcat exports
-- `Power-Resolution_Data/Resolutions_Plots_Notebook.ipynb` — generates plots showing power vs. display resolution and related comparisons
+- `Distance_Data/Distance_Latency_plots.ipynb` — latency vs. glass-to-phone distance, using `Percieved Latency Data.csv` and device subfolders (supports Section 5.1; no numbered figure)
+- `Retransmissions_Data/Retransmissions_plot.ipynb` — **Figure 18**, TCP retransmissions at 50 m G-UL → `Plots/retransmissions.png`
+- `Power-Resolution_Data/Power_Plots_Notebook.ipynb` — **Figure 19** (power consumption across applications) → `Plots/Volt_Battery_Bar_insta_RB.png`, `Plots/Full_time_Battery_insta_RB_original.png`; and **Figure 20** (battery drain during a Messenger call) → `Plots/RB_Display_battery_utilization.png`
+- `Power-Resolution_Data/Resolutions_Plots_Notebook.ipynb` — **Figure 22** (Appendix C), G-UL vs. P-UL live-streaming resolution levels; writes all four configuration panels to `Plots/{BT,WD}_{insta,FB}_Live_cdf.png` (resolution IDs are mapped in Table 3 of the paper)
 
 Each notebook includes data loading cells and plotting cells; inspect the first cells for any path adjustments.
 
@@ -61,3 +62,8 @@ jupyter nbconvert --to notebook --execute Distance_Latency_plots.ipynb --output 
 ```
 
 After execution the plots will be displayed inline and any explicit `plt.savefig(...)` calls will write files to the notebook directory (or `Plots/` subfolder).
+
+---
+
+Figure numbers refer to the submitted paper. The full figure map is in the
+[top-level README](../README.md#figure-map).

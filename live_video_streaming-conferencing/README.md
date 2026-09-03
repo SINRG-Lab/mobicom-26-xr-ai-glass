@@ -17,31 +17,31 @@ live_video_streaming-conferencing/
 Generated plots live in the `Plots/` directory:
 
 ### Live Streaming & Conferencing
-- **CDF_Throughput_RB.png** - RayBan throughput CDF (Figure 10)
-- **Cross_Platforms_Live_Stream_throughput.png** - Cross-platform live streaming throughput (Figure 11)
-- **Latency_RB_insta_FB_live.png** - RayBan latency for Instagram & Facebook live streaming (Figure 14)
-- **insta_live_codecs_cpu_utilization.png** - CPU utilization for Instagram live streaming (Figure 12)
+- **CDF_Throughput_RB.png** - RayBan throughput CDF (Figure 3)
+- **Cross_Platforms_Live_Stream_throughput.png** - Cross-platform live streaming throughput (Figure 4)
+- **Latency_RB_insta_FB_live.png** - RayBan latency for Instagram & Facebook live streaming (Figure 7)
+- **insta_live_codecs_cpu_utilization.png** - CPU utilization for Instagram live streaming (Figure 5)
 
 ### Video Conferencing (Meta Display)
-- **Meta_Display_Messenger_Throughput_CDF.png** - Messenger throughput CDF (Figure 17a)
-- **Meta_Display_WhatsApp_Throughput_CDF.png** - WhatsApp throughput CDF (Figure 17b)
-- **Latency_RB_Video_Calls.png** - RayBan video call latency (Figure 16b)
+- **Meta_Display_Messenger_Throughput_CDF.png** - Messenger throughput CDF (Figure 10a)
+- **Meta_Display_WhatsApp_Throughput_CDF.png** - WhatsApp throughput CDF (Figure 10b)
+- **Latency_RB_Video_Calls.png** - RayBan video call latency (Figure 9a)
 
 ## Notebooks
 
 ### Meta Display (Video Conferencing)
 
 - `Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Throughput_Plot_Notebook.ipynb` — generates Messenger and WhatsApp throughput CDFs (Figures 17a, 17b)
-- `Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Latency_Plot_Notebook.ipynb` — generates video call latency plots (Figure 16b)
+- `Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Latency_Plot_Notebook.ipynb` — generates video call latency plots (Figure 9b)
 
 ### Live Streaming & Cross-Platform
 
-- `Throughput-Latency_Data/Throughput-Bar_Data/Cross-platforms-bar-plot_Notebook.ipynb` — generates cross-platform throughput bar plots (Figure 11)
-- `Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Latency-Live-Streaming_Data/Latency_Percieved_Plot.ipynb` — generates latency plots for live streaming (Figure 14)
+- `Throughput-Latency_Data/Throughput-Bar_Data/Cross-platforms-bar-plot_Notebook.ipynb` — generates cross-platform throughput bar plots (Figure 4)
+- `Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Latency-Live-Streaming_Data/Latency_Percieved_Plot.ipynb` — generates latency plots for live streaming (Figure 7)
 
 ### CPU Utilization
 
-- `CPU_Utilization_Data/CPU_Plot_Notebook.ipynb` — generates CPU utilization plots from codec logs (Figure 12)
+- `CPU_Utilization_Data/CPU_Plot_Notebook.ipynb` — generates CPU utilization plots from codec logs (Figure 5)
 
 ## How to Generate the Plots
 
@@ -90,3 +90,8 @@ This directory contains many raw data files used by the notebooks. Representativ
 - Inspect the first code cells of each notebook to confirm data file paths and required Python imports.
 - If a notebook fails to find a data file, check whether the notebook expects data in a relative path; move or symlink the files as needed.
 - Ensure all raw data files are present in their respective subdirectories before running notebooks.
+
+---
+
+Figure numbers refer to the submitted paper. The full figure map is in the
+[top-level README](../README.md#figure-map).

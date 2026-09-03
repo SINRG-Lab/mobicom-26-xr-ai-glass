@@ -15,8 +15,8 @@ live_ai_interaction/
 
 Located in the `Plots/` directory:
 
-- **Combined_Throughput_Plot.png** - Visualization of bitrate/throughput data across different test conditions (Figure 15a)
-- **Meta_AI_Latency_CDF.png** - Cumulative Distribution Function plot of latency measurements (Figure 15b)
+- **Combined_Throughput_Plot.png** - Visualization of bitrate/throughput data across different test conditions (Figure 12a)
+- **Meta_AI_Latency_CDF.png** - Cumulative Distribution Function plot of latency measurements (Figure 12b)
 
 ## How to Generate the Plots
 
@@ -27,7 +27,7 @@ Ensure you have the following Python packages installed:
 pip install pandas matplotlib numpy openpyxl
 ```
 
-### Meta AI Bitrate Plot (Figure 15a)
+### Meta AI Bitrate Plot (Figure 12a)
 
 **Notebook:** `Meta_AI_Data/Meta_AI_Bitrate_Plot_Notebook.ipynb`
 
@@ -37,7 +37,7 @@ pip install pandas matplotlib numpy openpyxl
 3. Run all cells (Shift+Enter or click "Run All")
 4. Output plot: `Plots/Combined_Throughput_Plot.png`
 
-### Meta AI Latency CDF Plot (Figure 15b)
+### Meta AI Latency CDF Plot (Figure 12b)
 
 **Notebook:** `Meta_AI_Data/Meta_AI_Latency Plot_Notebook.ipynb`
 
@@ -76,3 +76,8 @@ jupyter notebook "Meta_AI_Latency Plot_Notebook.ipynb"
 - Ensure all data files are in the `Meta_AI_Data/` directory before running notebooks
 - Plots are automatically saved to the `Plots/` directory
 - Some notebooks may require adjustments to data file paths depending on your system configuration
+
+---
+
+Figure numbers refer to the submitted paper. The full figure map is in the
+[top-level README](../README.md#figure-map).

@@ -1,0 +1,10 @@
+# Extras for the data-COLLECTION scripts in power_tests/ only. Not needed for
+# any figure. These OCR a bench power monitor's display from recorded video, so
+# they also need that footage, an OPENAI_API_KEY, and YOLO weights (fetched on
+# first use).
+#
+#   pip install -r requirements.txt -r requirements-optional.txt
+opencv-python>=4.10
+easyocr>=1.7
+ultralytics>=8.3
+openai>=1.50

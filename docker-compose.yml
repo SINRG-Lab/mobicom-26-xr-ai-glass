@@ -1,0 +1,22 @@
+# One-command preconfigured environment for artifact evaluation.
+#
+#   docker compose up --build          # Jupyter Lab at http://127.0.0.1:8888/lab?token=mobicom26
+#   docker compose run --rm artifact ./run_all_notebooks.sh   # regenerate all figures, headless
+#
+# The port is published on 127.0.0.1 only, so the notebook server is not
+# exposed to the network.
+services:
+  artifact:
+    build:
+      context: .
+      args:
+        UID: "${UID:-1000}"
+        GID: "${GID:-1000}"
+    image: xr-ai-glass
+    ports:
+      - "127.0.0.1:8888:8888"
+    environment:
+      JUPYTER_TOKEN: "${JUPYTER_TOKEN:-mobicom26}"
+    volumes:
+      - .:/artifact
+    working_dir: /artifact

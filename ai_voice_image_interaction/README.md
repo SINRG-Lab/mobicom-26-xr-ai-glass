@@ -4,10 +4,10 @@ This folder contains scripts and CSV data used to analyze latency for audio/voic
 
 ## What's in this folder
 
-- `audio_breakdown_latency_test.py` — grouped/stacked bar plot of latency component medians (G2P, Network, VAD, STT, LLM, TTS)
-- `audio_llm_model_latency_test.py` — CDF comparison of LLM model total latencies (GPT-4o, GPT-4o-mini, Claude, Gemini, etc.)
-- `audio_total_latency_test.py` — CDF comparison across different smart-glass devices / configurations
-- `audio_tts_model_latency_test.py` — test for TTS model latency comparisons
+- `audio_total_latency_test.py` — **Figure 13**: CDF comparison across different smart-glass devices / configurations
+- `audio_breakdown_latency_test.py` — **Figure 14**: grouped/stacked bar plot of latency component medians (G2P, Network, VAD, STT, LLM, TTS)
+- `audio_llm_model_latency_test.py` — **Figure 14a**: CDF comparison of LLM model total latencies (GPT-4o, GPT-4o-mini, Claude, Gemini, etc.)
+- `audio_tts_model_latency_test.py` — STT/TTS model latency comparison
 - Multiple CSV files containing measured latency data for different models and devices, for example:
 	- `GPT-4o Total Latency Tests.csv`
 	- `GPT-4o-mini Total Latency Tests.csv`
@@ -56,4 +56,7 @@ By default these scripts call `plt.show()` and do not save PNG files. To save im
 python -c "import matplotlib; matplotlib.use('Agg'); import runpy; runpy.run_path('audio_llm_model_latency_test.py')"
 ```
 
+---
 
+Figure numbers refer to the submitted paper. The full figure map is in the
+[top-level README](../README.md#figure-map).
