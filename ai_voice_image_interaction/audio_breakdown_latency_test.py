@@ -14,7 +14,7 @@ print(np.mean(data['total tts latency (s)']))
 print(np.mean(data['stt latency (s)']) / np.mean(data['total latency (s)']))
 
 data = {
-    'G2P': data['G2P Latency (s)'],
+    'G-UL': data['G2P Latency (s)'],
     'Network': data['network latency (s)'],
     'VAD': data['P2S latency (s)'],
     'STT': data['stt latency (s)'],

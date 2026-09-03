@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>Communication pipeline of smart glasses: short-range G2P/P2G links to the companion device and P2S/S2P links to cloud servers.</em>
+  <em>Communication pipeline of smart glasses: short-range G-UL/G-DL links to the companion device and P-UL/P-DL links to cloud servers.</em>
 </p>
 
 ---
@@ -25,7 +25,7 @@ We present the first in-depth measurement study across several smart glasses and
 
 ## Key Findings
 
-- **Smartphones transcode glass video before upload:** Live streaming from RB-Meta G1 triggers a costly decode–upscale–re-encode pipeline on the companion phone, driving 2–3× higher latency than phone-native streaming. The phone's transcoding, not the G2P wireless link, is the dominant bottleneck.
+- **Smartphones transcode glass video before upload:** Live streaming from RB-Meta G1 triggers a costly decode–upscale–re-encode pipeline on the companion phone, driving 2–3× higher latency than phone-native streaming. The phone's transcoding, not the G-UL wireless link, is the dominant bottleneck.
 - **Video conferencing reveals a fundamental upstream/downstream asymmetry:** The companion phone aggressively downscales incoming video for the glass display (600×600, ~20° FoV) while relaying the upstream feed without transcoding.
 - **Live AI sacrifices video fidelity for continuous interaction:** Meta Live AI streams at ~300 kbps uplink, an order of magnitude lower than regular live streaming, to sustain always-on multimodal reasoning.
 - **No glass meets the real-time AI interaction bar:** All glasses exhibit >1 s end-to-end latency across all five applications, far exceeding the sub-300 ms threshold for real-time interaction.
