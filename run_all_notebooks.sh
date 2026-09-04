@@ -31,3 +31,6 @@ done < <(find . \
     -path './.*' -prune -o \
     -name '.ipynb_checkpoints' -prune -o \
     -name '*.ipynb' -print0 | sort -z)
+
+echo
+echo "Figures written to */Plots/; executed notebooks written to _executed/."

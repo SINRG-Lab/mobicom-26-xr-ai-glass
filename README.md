@@ -150,30 +150,53 @@ notebooks pass**, verified both natively on macOS and in the container. Compare
 regenerated figures visually; PNG bytes differ across operating systems because
 text rasterization does.
 
+### Where the output goes
+
+Figures are written next to the analysis that produces them:
+
+- `live_video_streaming-conferencing/Plots/`
+- `distance_power_logcat/Plots/`
+- `live_ai_interaction/Plots/`
+- `transmission_power_algorithm_Data/` (alongside the notebook)
+
+`run_all_notebooks.sh` additionally writes an executed copy of each notebook to
+`_executed/`, mirroring the repository layout. These copies carry the rendered
+figures inline, so opening one in Jupyter shows the results without re-running
+anything.
+
+The scripts in `ai_voice_image_interaction/` call `plt.show()` and save no
+files. Run them from a notebook cell to see their figures.
+
 ### Figure map
 
 Figure numbers refer to the submitted paper. Figures 1, 2, 6, 8, 11 and 15 are
 static diagrams in the repository root.
 
-| Figure | Notebook / script |
-|---|---|
-| 3 — Uplink throughput, Instagram Live | `.../Throughput-Live-Streaming_Data/CDF_Throughput_Notebook.ipynb` |
-| 4 — G-UL vs. P-UL across platforms | `.../Throughput-Bar_Data/Cross-platforms-bar-plot_Notebook.ipynb` |
-| 5 — CPU utilization | `CPU_Utilization_Data/CPU_Plot_Notebook.ipynb` |
-| 7 — Live-streaming latency | `.../Latency-Live-Streaming_Data/Latency_Percieved_Plot.ipynb` |
-| 9a, 9b — Video-conferencing latency | `.../Latency_Percieved_Plot.ipynb`, `.../Meta_Display_Latency_Plot_Notebook.ipynb` |
-| 10a, 10b — Video-conferencing throughput CDFs | `.../Meta_Display_Data/Meta_Display_Throughput_Plot_Notebook.ipynb` |
-| 12a, 12b — Live AI throughput, latency CDF | `Meta_AI_Data/Meta_AI_Bitrate_Plot_Notebook.ipynb`, `Meta_AI_Data/Meta_AI_Latency Plot_Notebook.ipynb` |
-| 13 — AI voice latency across glasses | `ai_voice_image_interaction/audio_total_latency_test.py` |
-| 14 — AI voice bottleneck breakdown | `ai_voice_image_interaction/audio_breakdown_latency_test.py` |
-| 14a — LLM model comparison | `ai_voice_image_interaction/audio_llm_model_latency_test.py` |
-| 18 — TCP retransmissions at 50 m | `Retransmissions_Data/Retransmissions_plot.ipynb` |
-| 19, 20 — Power and battery | `Power-Resolution_Data/Power_Plots_Notebook.ipynb` |
-| 22 — Resolution levels (Appendix C) | `Power-Resolution_Data/Resolutions_Plots_Notebook.ipynb` |
+| Figure | Output file | Produced by |
+|---|---|---|
+| 3 | `live_video_streaming-conferencing/Plots/CDF_Throughput_RB.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Throughput-Live-Streaming_Data/CDF_Throughput_Notebook.ipynb` |
+| 4 | `live_video_streaming-conferencing/Plots/Cross_Platforms_Live_Stream_throughput.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Throughput-Bar_Data/Cross-platforms-bar-plot_Notebook.ipynb` |
+| 5 | `live_video_streaming-conferencing/Plots/insta_live_codecs_cpu_utilization.png` | `live_video_streaming-conferencing/CPU_Utilization_Data/CPU_Plot_Notebook.ipynb` |
+| 7 | `live_video_streaming-conferencing/Plots/Latency_RB_insta_FB_live.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Latency-Live-Streaming_Data/Latency_Percieved_Plot.ipynb` |
+| 9a | `live_video_streaming-conferencing/Plots/Latency_RB_Video_Calls.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Latency-Live-Streaming_Data/Latency_Percieved_Plot.ipynb` |
+| 9b | `live_video_streaming-conferencing/Plots/Latency_Comparison_Messenger_WhatsApp.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Latency_Plot_Notebook.ipynb` |
+| 10a | `live_video_streaming-conferencing/Plots/Meta_Display_Messenger_Throughput_CDF.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Throughput_Plot_Notebook.ipynb` |
+| 10b | `live_video_streaming-conferencing/Plots/Meta_Display_WhatsApp_Throughput_CDF.png` | `live_video_streaming-conferencing/Throughput-Latency_Data/Meta_Display_Data/Meta_Display_Throughput_Plot_Notebook.ipynb` |
+| 12a | `live_ai_interaction/Plots/Combined_Throughput_Plot.png` | `live_ai_interaction/Meta_AI_Data/Meta_AI_Bitrate_Plot_Notebook.ipynb` |
+| 12b | `live_ai_interaction/Plots/Meta_AI_Latency_CDF.png` | `live_ai_interaction/Meta_AI_Data/Meta_AI_Latency Plot_Notebook.ipynb` |
+| 13 | displayed, not saved | `ai_voice_image_interaction/audio_total_latency_test.py` |
+| 14 | displayed, not saved | `ai_voice_image_interaction/audio_breakdown_latency_test.py` |
+| 14a | displayed, not saved | `ai_voice_image_interaction/audio_llm_model_latency_test.py` |
+| 18 | `distance_power_logcat/Plots/retransmissions.png` | `distance_power_logcat/Retransmissions_Data/Retransmissions_plot.ipynb` |
+| 19 | `distance_power_logcat/Plots/Volt_Battery_Bar_insta_RB.png`, `distance_power_logcat/Plots/Full_time_Battery_insta_RB_original.png` | `distance_power_logcat/Power-Resolution_Data/Power_Plots_Notebook.ipynb` |
+| 20 | `distance_power_logcat/Plots/RB_Display_battery_utilization.png` | `distance_power_logcat/Power-Resolution_Data/Power_Plots_Notebook.ipynb` |
+| 22 | `distance_power_logcat/Plots/BT_insta_Live_cdf.png`, `distance_power_logcat/Plots/WD_insta_Live_cdf.png`, `distance_power_logcat/Plots/BT_FB_Live_cdf.png`, `distance_power_logcat/Plots/WD_FB_Live_cdf.png` | `distance_power_logcat/Power-Resolution_Data/Resolutions_Plots_Notebook.ipynb` |
 
-Supporting analyses without a numbered figure: `transmission_power_algorithm_Data/TX_ML_Algo.ipynb`
-(adaptive TX-power classifier), `Distance_Data/Distance_Latency_plots.ipynb`
-(Section 5.1), `.../Heatmap_TX.ipynb`.
+Supporting analyses without a numbered figure:
+`transmission_power_algorithm_Data/TX_ML_Algo.ipynb` (adaptive TX-power
+classifier, writes `transmission_power_algorithm_Data/feature_importance.png`
+and `transmission_power_algorithm_Data/optimization_analysis.png`), `distance_power_logcat/Distance_Data/Distance_Latency_plots.ipynb` (Section 5.1),
+`live_video_streaming-conferencing/Throughput-Latency_Data/Throughput-Latency-Live-Streaming_Data/Throughput-Live-Streaming_Data/Heatmap_TX.ipynb`.
 
 Hardware-bound and not reproducible without the glasses: new measurements,
 `dragon/` (needs the ESP32 prototype), and `power_tests/` (needs the power

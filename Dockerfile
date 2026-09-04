@@ -9,8 +9,7 @@ FROM python:3.12-slim
 # compiler is needed.
 ENV PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    MPLBACKEND=Agg
+    PIP_DISABLE_PIP_VERSION_CHECK=1
 
 # libgomp1 is required by scikit-learn's OpenMP-backed estimators.
 RUN apt-get update \
